@@ -1,0 +1,137 @@
+{% extends "body.html" %}
+
+{% block content %}
+<!-- Slider Area Start Here -->
+<section class="slider-layout2 overlay-icon-layout6">
+  <img src="{{ url_for('static', filename=background_filename) }}" class="img-fluid" alt="banner">
+  <div class="comingsoon-inner">
+    <div class="container">
+      <div class="comingsoon-content">
+        <p class="text-underline">PyCon SK 2024</p>
+        <ul class="upcoming-event-info">
+          <li>Spring 2024</li>
+          <li>{{ _('Bratislava, Slovakia') }}</li>
+        </ul>
+        <div class="row">
+          <div class="col-12 text-center d-none d-md-block mt-4">
+            <a href="#newsletter" title="Newsletter" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Newsletter') }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Slider Area End Here -->
+<!-- About Area Start Here -->
+<section class="section-space-default bg-common bg-accent bg-figure3">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _('About PyCon SK') }}</h2>
+    </div>
+    <div class="about-layout2">
+      <div class="media align-items-center media-none--md">
+        <div class="video-area overlay-primary60">
+          <img src="{{ url_for('static', filename='img/about/lecture.jpg') }}" alt="about" class="img-fluid width-100">
+          <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=rOlGoEaz-DA">
+            <img src="{{ url_for('static', filename='img/figure/play.svg') }}" alt="play" class="img-fluid">
+          </a>
+        </div>
+        <div class="media-body media-body-box">
+          <h3 class="title-bold color-primary size-lg margin-b-10">{{ _('2024') }}</h3>
+          <p>
+            {{ _('The PyCon SK 2024 conference, which will be held in Bratislava, is an annual gathering of the community using and developing the open-source Python programming language.') }}
+            {{ _('It is organized by volunteers from the SPy o.z., civic association dedicated to advancing and promoting Python and other Open Source technologies and ideas.') }}
+            {{ _('Through PyCon, the SPy o.z. advances its mission of growing the Slovak (and also international) community of Python programmers and Open Source supporters.') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <div class="about-layout2">
+      <div class="media align-items-center media-none--md">
+        <div class="media-body media-body-box">
+          <h3 class="title-bold color-primary size-lg margin-b-10">{{ _('Edu Summit') }}</h3>
+          <p>
+            {{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools.') }}
+            {{ _('We are now organising the fourth edition, a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators.') }}
+          </p>
+        </div>
+        <div class="video-area overlay-primary60">
+          <img src="{{ url_for('static', filename='img/about/edu_summit.jpg') }}" alt="about" class="img-fluid width-100">
+          <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=ioJjB5RUqTE">
+            <img src="{{ url_for('static', filename='img/figure/play.svg') }}" alt="play" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Area End Here -->
+<!-- Progress Area Start Here -->
+<section class="progress-section-space bg-common progress-bg-color"
+         style="background-image: url(img/figure/figure1.png);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>FIIT STU<br >Bratislava</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-microphone" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>50+<br />{{ _('Speakers') }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>550+<br />{{ _('Participants') }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Progress Area End Here -->
+
+
+
+
+<!-- Sponsonrs Area Start Here -->
+<!-- <section class="section-space-default bg-light">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _("Official Sponsors &amp; Partners") }}</h2>
+      <p>{{ _("We are looking for sponsors and partners. Please get in touch with us.") }}</p>
+      <p>{{ _("Check Who Makes This Event Possible!") }}</p>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="mailto:sponsors@pycon.sk" title="{{ _('Become a Sponsor') }}" class="btn-fill size-lg color-yellow border-radius-5 margin-t-30">
+            {{ _('Become a Sponsor') }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- Sponsonrs Area End Here -->
+{% endblock %}

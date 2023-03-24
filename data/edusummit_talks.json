@@ -1,0 +1,101 @@
+[
+ {
+    "speakers": [
+      "Zuzana Tkáčová"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Creative coding ako cesta k S.T.E.A.M. projektom",
+    "text": "Mnoho žiakov si ešte stále myslí, že programovanie je nudné a náročné. Programovanie  je pre „kockaté hlavy“. A nie hocijaké, ale také, ktoré vynikajú v matematike a žijú tajný binárny život so svojimi počítačmi. Aj keď je to čiastočne pravda, je tu – ako vždy – aj druhá strana mince, ktorú každý nevidí. Keď sa umenie a veda správne spoja, vytvoria niečo nečakané a osviežujúco nové. Programovanie môže byť ako umenie. Začína to nápadom, potom si vyberiete tie správne nástroje, vytvoríte svoj prvý návrh a budete ho zdokonaľovať, kým sa vám výsledok nebude páčiť. Svet kreatívneho programovania tak umožní žiakom stať sa umelcami v digitálnom svete, vdýchnuť umeniu život a experimentovať s ním. A niekedy na to stačí len pár riadkov kódu..."
+ },
+ {
+    "speakers": [
+      "Monika Balážová"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Aké pozície ponúka IT odvetvie",
+    "text": "IT pozície už nie sú iba o programovaní. Široká škála od grafiky, UI/UX dizajnu cez analýzu až po testovanie prináša IT odborníkom nové možnosti. Ktoré pozície momentálne dominujú, a aké technológie sú najviac požadované? Odovzdajte mladým talentom to, čo ich baví a s čím sa v budúcnosti nestratia. "
+ },
+ {
+    "speakers": [
+      "Michaela Gažová"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Internetová bezpečnosť: základy sebaobrany",
+    "text": "Od malwaru až po sociálne inžinierstvo - aké sú hrozby v dnešnom digitálnom svete a ako sa proti nim brániť?"
+ },
+ {
+    "speakers": [
+      "Peter Palát"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Internetová bezpečnosť: základy sebaobrany",
+    "text": "-"
+ },
+ {
+    "speakers": [
+      "Miroslav Biňas"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Ako sa dá s jazykom Python zvládnuť štvorročné štúdium na strednej škole",
+    "text": "Hovorí sa, že jazyk Python má strmú krivku učenia a preto je vhodný pre začiatočníkov. Tiež sa hovorí o tom, že je to univerzálny programovací jazyk, pomocou ktorého je možné vytvárať aplikácie rôzneho druhu. Ak je to tak, tak prečo sa snažíme študentom na stredných školách každý rok predstaviť preberanú problematiku v inom programovacom jazyku? Určite platí aj tu to ľudové, že čím viac čiar (programovacích jazykov), tým viac adidas (lepší programátor)?\n\nV tomto príspevku budeme hovoriť o tom, ako sa dá celá výučba na strednej škole zvládnuť len s jazykom Python. Ukážem vám príklady vhodných rámcov a knižníc, ktoré viete použiť a zdôvodním vám, prečo je takýto prístup dobrý."
+ },
+ {
+    "speakers": [
+      "Miroslav Biňas"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython",
+    "text": "Mikrokontrolér ESP32 je cenovo dostupné a namakané zariadenie vhodné pre oblasť IoT vybavené WiFi a Bluetooth LE. Čo je však úplne fantastické, má dostatok pamäte na to, aby ste do neho nahrali  firmvér s jazykom MicroPython. Na tomto workshope si spolu vytvoríme jednoduché IoT riešenie, na ktorom ukážeme silu mikrokontroléra ESP32 a jednoduchosť jeho programovania vďaka jazyku MicroPython.\n\nAk sa rozhodnete tohto workshopu zúčastniť, prineste si vlastný laptop a riaďte sa pokynmi v tomto dokumete: http://bit.ly/2P54h5O."
+ },
+ {
+    "speakers": [
+      "Miroslav Biňas"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Vytvor si vlastný Pokedex v rámci FastAPI ako webovú aplikáciu",
+    "text": "TBD"
+ },
+ {
+    "speakers": [
+      "Luboslav Lacko"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Čo sa s Microbitom naučíš, využiješ na reálnych IoT platformách",
+    "text": "U výučbovej platformy je na mieste položiť si otázku, ako zúročiť získané vedomosti a skúsenosti na reálnych platformách, napríklad v stredoškolských, či univerzitných projektoch, pri návrhu rôznych zariadení v rámci hobby, alebo pri návrhoch a ladení reálnych riešení, nielen v startupoch, ale aj etablovaných firmách. Odpoveď poskytujú niektoré klony Microbitu, ktoré sú kompatibilné na úrovni signálov zbernice. Jednodoskový mikropočítač Mbits využíva moderný mikrokontrolér  ESP32, ktorý podporuje nielen bluetooth, ale aj WiFi komunikáciu. Srdcom klonu s názvom Pico:ed je mikrokontrolér RP2040 navrhnutý v Raspberry Pi Foundation, ktorý bol prvý krát použitý vo vývojovej doske Raspberry Pi Pico a neskôr v  Arduino Nano RP2040 s podporou WiFi aj bluetooth komunikácie. \nInak povedané Mbits môže poslúžiť ako migračný medzistupeň z Micro:bitu na platformu ESP32 a Pico:ed vás nasmeruje k mikrokontroléru RP2040."
+ },
+ {
+    "speakers": [
+      "Sylvia Ličková"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Ako sa odprezentovať a zaujať životopisom",
+    "text": "Životopis Vás sprevádza celým kariérnym životom. Nepotrebujete ho len pri hľadaní novej práce. Často býva súčasťou prihlášky na kurz, školenie či rozvojové programy. Ak ho vypracujete správne, zvýšia sa Vaše šance na úspech. Zároveň sa naučíte ako odprezentovať seba a Vaše doterajšie skúsenosti a know-how. "
+ },
+    {
+    "speakers": [
+      "Jaroslav Výbošťok"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Programovací jazyk Robot Karel pre žiakov mladších i starších",
+    "text": "V mojom príspevku predstavím nové online prostredie a metodiku pre výučbu algoritmizácie prioritne pre druhý stupeň základných škôl. Využiteľné je ale aj na strednej škole. Prostredie a metodiku som vyvinul na základe mojich skúseností s vyučovaním na ZŠ a osemročnom gymnáziu. Založené je na známom koncepte programovania robota Karla, ktorý vykonáva aktivity v štvorcovej sieti. Spomeniem tiež praktické skúsenosti z výučby a reakcie žiakov pri programovaní Karla, ktoré mi pomohli pri ďalšom vývoji. Uvediem aj čo má táto prednáška spoločné s Pythonom a ako ma jazyk Python pri tvorbe inšpiroval."
+  },
+  {
+    "speakers": [
+      "Róbert Tomolya"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Programovanie dronov ",
+    "text": "Dron Tello Edu a DJI Robomaster TT je pôsobivý a programovateľný dron, ktorý je ako stvorený na vzdelávanie. Môžeme napísať aj program, ktorý prikáže viacerým jednotkám Tello EDU lietať v rojoch naraz. Ukážeme ako naprogramovať dron pomocou programovacieho jazyka Scratch a Python na hodinách informatiky."
+  }
+]

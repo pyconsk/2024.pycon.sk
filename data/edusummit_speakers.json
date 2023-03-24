@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Zuzana Tkáčová",
+    "bio": "Vyštudovala umelú inteligenciu na FEI TU v Košiciach. Učiteľka informatiky, t.č. pôsobí na Ústave informatiky PF UPJŠ, kde pripravuje a vedie kurzy pre učiteľov informatiky ZŠ a SŠ. Venuje sa didaktickým inováciám - aktivizujúcim a bádateľským metódam výučby informatiky, physical computingu, creative computingu, umelej inteligencii a prepájaniu informatiky a STE(A)M predmetov. Spolupracuje s občianskym združením Aj Ty v IT ako lektorka programátorských kurzov pre dievčatá a ženy.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/zuzana_tkacova.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Monika Balážová",
+    "bio": "Pracuje ako Senior Recruitment Consultant pre lídra v oblasti IT outsourcingu, v spoločnosti TITANS freelancers.\n\nDodáva IT špecialistov na projekty pre klientov na Slovensku a v zahraničí.\n\nOkrem recruitingu využíva znalosti a zručnosti z oblastí ako sú sociálne médiá, employer branding, marketing, copywriting, psychológia.\n\nJe jej blízka „človečina“ v biznise, práca s talentom každého človeka a jeho využitím v prospech spoločnosti. Spolu s kolegami vedie pravidelné workshopy na tému „Prvý krok za prácou snov“ určený študentom stredných škôl.\n\nBaví ju vzdelávať sa v oblasti psychológie, biznisu, osobnostného rozvoja, či koučingu.\n\nJe aktívnou účastníčkou sebarozvojového krúžku LEAF. Vo voľnom čase rada športuje, číta knihy, najradšej odbornú literatúru, diskutuje s ľuďmi, spolu s manželom rada cestuje, spoznáva nové miesta, nových ľudí.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/monika_balazova.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Michaela Gažová",
+    "bio": "Michaela vyštudovala Bezpečnosť informačných systémov aplikovanej informatiky na Fakulte elektrotechniky a informatiky Slovenskej Technickej Univerzity v Bratislave (FEI STU). Momentálne pracuje v technologickej divízii v Esete na vývoji rôznych produktov. V rámci dobrovoľníckych aktivít popri práci sa podieľa na školeniach Digital Skills pre učiteľov, kde školí digitálnu bezpečnosť.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/michaela_gazova.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Peter Palát",
+    "bio": "Softvérový Architekt v spoločnosti ESET s.r.o\n\n„Ajťák“, ktorý sa síce aktívne nevenuje programovaniu, ale dozoruje nad vývojom komplexných riešení. Vyštudoval Softvérove inžinierstvo na Fakulte Informatiky a Informačných Technológií Slovenskej Tehnickej Univerzity v Bratislave. Vo voľnom čase sa venuje dobrovoľníckemu programu DigiSkills, ktorý zastrešuje školenia učiteľov o programovaní a digitálnej bezpečnosti.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/peter_palat.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Miroslav Biňas",
+    "bio": "Odborný asistent na Katedre počítačov a informatiky, TUKE, kde učí “detiská” programovať najmä v jazyku C. Stále dúfa, že keď vyrastie, bude z neho Linuxák. Alebo Batman.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/miroslav_binas.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Luboslav Lacko",
+    "bio": "Špecialista na IT, vývoj softvéru, databázové technológie, IoT a zariadenia s mikrokontrolérmi. V súčasnosti  redaktor magazínu NEXTECH publicista, školiteľ a konzultant. Som autorom 12  knižných publikácií vo vydavateľstvách Computerpress a Albatrosmedia a technologických zborníkov a 9x som získal prestížne ocenenie Microsoft MVP ",
+    "country": "Slovakia",
+    "avatar": "img/speakers/luboslav_lacko.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Sylvia Ličková",
+    "bio": "Ukončila magisterské štúdium na Komenského univerzite v Bratislave. Absolvovala program MiniTech MBA for Women. Dlhé roky pôsobí v oblasti ľudských zdrojov a headhuntingu. Prečítala tisíce profilov uchádzačov o prácu a viedla stovky pracovných pohovorov. Posledných 9 rokov pôsobí ako Senior Recruitment Consultant v spoločnosti TITANS freelancers, ktorá ako líder v oblasti outsourcingu dodáva IT špecialistov na zaujímavé projekty na Slovensku aj v zahraničí. Spolu s kolegami vedie workshop Prvý krok za prácou snov určený študentom stredných škôl. Je aktívnou podporovateľkou programu Teach for Slovakia a Cesta von. Aktívne spolupracuje s neziskovou organizáciou hodiNOVÍ záŠKOLÁCI, ktorá prepája biznis ľudí so školákmi v online prostredí. ",
+    "country": "Slovakia",
+    "avatar": "img/speakers/sylvia_lickova.jpg",
+    "links": {
+    }
+  }
+]
