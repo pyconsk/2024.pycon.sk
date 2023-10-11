@@ -5,20 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta name="keywords" content="pycon sk, python, community, conference, bratislava, slovakia">
-  <meta name="description" content="{{ _('Official PyCon SK 2022 website') }}">
+  <meta name="description" content="{{ _('Official PyCon SK 2024 website') }}">
   <meta name="author" content="SPy o.z.">
 
   <meta property="og:type" content="website"/>
   <meta property="og:image"
         content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
   <meta property="og:url" content="{{ domain }}"/>
-  <meta property="og:title" content="{{ _('PyCon SK 2022, Bratislava') }}"/>
-  <meta property="og:site_name" content="2022.pycon.sk"/>
+  <meta property="og:title" content="{{ _('PyCon SK 2024, Bratislava') }}"/>
+  <meta property="og:site_name" content="2024.pycon.sk"/>
   <meta property="og:description"
         content="{{ _('PyCon SK is a community-organized conference for the Python programming language.') }}"/>
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="@pyconsk"/>
-  <meta name="twitter:title" content="{{ _('PyCon SK 2022, Bratislava') }}"/>
+  <meta name="twitter:title" content="{{ _('PyCon SK 2024, Bratislava') }}"/>
   <meta name="twitter:description"
         content="{{ _('PyCon SK is a community-organized conference for the Python programming language.') }}"/>
   <meta name="twitter:url" content="{{ domain }}"/>
@@ -112,6 +112,40 @@
                                     <div class="eventalk-main-menu">
                                         <nav class="d-none d-lg-block">
                                             <ul>
+{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
+{#                                                  <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>#}
+{#                                                </li>#}
+{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
+{#                                                  <a href="{{ url_for('chat', lang_code=lang_code) }}">{{ _('Chat') }}</a>#}
+{#                                                </li>#}
+                                                <li{% if li_sponsors %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
+                                                </li>
+                                                <li>
+                                                  <a target="_blank" href="https://python.sk/daruj/">{{ _('2%%') }}</a>
+                                                </li>
+                                                <li class="dropdown {% if li_aboutus or li_cfv or li_venue or li_coc %} current{% endif %}">
+                                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('About') }}
+<!--                                                    <i class="fa fa-angle-down"></i>-->
+                                                  </a>
+                                                  <ul class="rt-dropdown-menu" role="menu">
+<!--                                                    <li{% if li_faq %} class="menu-justify current"{% endif %}>-->
+<!--                                                      <a href="{{ url_for('faq', lang_code=lang_code) }}">{{ _('FAQ') }}</a>-->
+<!--                                                    </li>-->
+                                                    <li{% if li_aboutus %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('aboutus', lang_code=lang_code) }}">{{ _('About Us') }}</a>
+                                                    </li>
+                                                    <li{% if li_venue %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('venue', lang_code=lang_code) }}">{{ _('Venue') }}</a>
+                                                    </li>
+                                                    <li{% if li_cfv %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
+                                                    </li>
+                                                    <li{% if li_coc %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
+                                                    </li>
+                                                  </ul>
+                                                </li>
                                                 {% if lang_code == 'sk' %}
                                                 <li>
                                                   <a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to English"
@@ -129,18 +163,84 @@
                                                 {% endif %}
                                             </ul>
                                         </nav>
+                                        <!-- Mobile Menu start -->
+                                        <nav id="dropdown" class="d-md-none">
+                                          <ul>
+{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
+{#                                                  <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>#}
+{#                                                </li>#}
+{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
+{#                                                  <a href="{{ url_for('chat', lang_code=lang_code) }}">{{ _('Chat') }}</a>#}
+{#                                                </li>#}
+                                                <li{% if li_sponsors %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
+                                                </li>
+                                                <li>
+                                                  <a target="_blank" href="https://python.sk/daruj/">{{ _('2%%') }}</a>
+                                                </li>
+                                                <li>
+                                                  <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Buy Tickets') }}</a>
+                                                </li>
+                                                <li class="dropdown {% if li_aboutus or li_cfv or li_venue or li_coc %} current{% endif %}">
+                                                  <a href="#">{{ _('About') }}
+<!--                                                    <i class="fa fa-angle-down"></i>-->
+                                                  </a>
+                                                  <ul class="rt-dropdown-menu" role="menu">
+<!--                                                    <li{% if li_faq %} class="menu-justify current"{% endif %}>-->
+<!--                                                      <a href="{{ url_for('faq', lang_code=lang_code) }}">{{ _('FAQ') }}</a>-->
+<!--                                                    </li>-->
+                                                    <li{% if li_aboutus %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('aboutus', lang_code=lang_code) }}">{{ _('About Us') }}</a>
+                                                    </li>
+                                                    <li{% if li_venue %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('venue', lang_code=lang_code) }}">{{ _('Venue') }}</a>
+                                                    </li>
+                                                    <li{% if li_cfv %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
+                                                    </li>
+                                                    <li{% if li_coc %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
+                                                    </li>
+                                                  </ul>
+                                                </li>
+                                                {% if lang_code == 'sk' %}
+                                                <li>
+                                                  <a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to English"
+                                                     hreflang="en"><img
+                                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACJElEQVQokYWQW0jTYQDFv8ceehELCx96CoqlYaxSQYaZoWBCNTNl6JbLkKGV+RBZy3mp8Ia3LooammGY5TIyAzOHKVmRQ52xdIREMMlVkLKm///362HVk9B5OnA4F45oaB5m0LVE8a1xzGXjmMtGMdlGcHt8PMyx0Wu04vb4SLYMkJQ7SJzBTqbtOa1HzlDcNobouv8GHvcgJcwtLNNpn+NO3zxSAk3VUFuBlNDQMU1Nm5OJ15+RlZeQaoC6fifiZLmDoYlvcK8bHC8AuHrTBQCn8sBoAqCodorlzl78VVUAtPdMsVV7OxjQYfdgrXexMPwJpfQK/2AwQPqJIM/PA68X57yP+ORuCktfERJRj3B7fMG56yEtDVJT15WkhHezi4he02VovA5mM2RnQ0YG6PVBY0oKMjGRVZ2OQEwMfq2WlchIVjQaAscOUbEt9j8L4uJQ9kX/7QRAVVUUVWFNUZhweRG6rH6qWyfJzB1kxvUdfEsEcrKDlj1a1nZH/QlQ+XIgnpfNT9kS3oLe2IcItSD2H3/E3b7g6z9tVn5UVmIoGgdA0USwulMDUhKr6yIALLe04TUaKL3xHhFyGtH4ZBopVfzXLjA2Mse5EgcFJaNICao+ibWjCUhVJT13gLSsBzwb/Yiq/OKr8TCWwi7ExfYRmg7mkJDXSciuVjbuaGTD9jomZ71UhEdTHqbl7cwiIuw8YvNZRGg+m6Ks1Ax9IHFvAb8B0rMYCWdRNDQAAAAASUVORK5CYII="
+                                                      alt="english language"></a>
+                                                </li>
+                                                {% else %}
+                                                <li>
+                                                  <a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovečinu"
+                                                     hreflang="sk"><img
+                                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg=="
+                                                      alt="slovenský jazyk"></a>
+                                                </li>
+                                                {% endif %}
+                                            </ul>
+                                        </nav>
+                                        <!-- Mobile Menu End -->
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-md-3">
+                                <div class="col-lg-2 col-md-3 d-none d-lg-block">
                                     <ul class="header-action-items">
                                         <li>
-                                          <a href="#newsletter"
-                                             class="btn-fill size-xs color-yellow border-radius-5">Newsletter</a>
+                                          <a href="{{ url_for('tickets', lang_code=lang_code) }}"
+                                             class="btn-fill size-xs color-yellow border-radius-5">{{ _('Buy Tickets') }}</a>
                                         </li>
                                     </ul>
                                 </div>
 
+{#                                <div class="col-lg-2 col-md-3">#}
+{#                                    <ul class="header-action-items">#}
+{#                                        <li>#}
+{#                                          <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}"#}
+{#                                             class="btn-fill size-xs color-yellow border-radius-5">{{ _('Buy Tickets') }}</a>#}
+{#                                        </li>#}
+{#                                    </ul>#}
+{#                                </div>#}
                             </div>
                         </div>
                     </div>
@@ -165,7 +265,7 @@
                 <div class="footer-widget-body">
                   <h3 class="widgettitle">{{ _('Event Organiser') }}</h3>
                   <p>
-                    <a href="tel:+421948101676">+421 948 101 676</a>
+                    <a href="tel:+421904010424">+421 904 010 424</a>
                   </p>
                 </div>
               </div>
@@ -224,7 +324,7 @@
                     {{ _('The PyCon SK 2024 conference, which will be held in Bratislava, is the annual gathering for the community using and developing the open-source Python programming language.') }}
                     {% autoescape false %}
                     {{ _('PyCon SK is organized by volunteers from %(spy)s.',
-                    spy = '<a href="https://spy.python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
+                    spy = '<a href="https://python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
                     {% endautoescape %}
                   </p>
                 </div>
@@ -245,22 +345,12 @@
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </li>
-                    <li>
-                      <a href="https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJjOGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE" class="footer-widget-icon">
-                        <i class="fa fa-slack" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/pyconsk/" class="footer-widget-icon">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-12 col-md-12 col-sm-12" id="newsletter">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               {% include 'mailchimp.html' %}
             </div>
           </div>
@@ -274,15 +364,11 @@
         </p>
         {% autoescape false %}
         <p>{{ _('PyCon SK is organized by volunteers from %(spy)s.',
-                spy = '<a href="https://spy.python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
+                spy = '<a href="https://python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
         </p>
         <p>{{ _('%(pycontm)s is a trademark for worldwide conference activities claimed by the %(psf)s.',
                 pycontm = '<a href="https://www.python.org/psf/trademarks/pycon/" target="_blank" class="external">PyCon™</a>',
                 psf = '<a href="https://www.python.org/psf-landing/" target="_blank" class="external">%s</a>' % _('Python Software Foundation')) }}
-        </p>
-        <p><span class="oi oi-bug"></span>
-           {{ _('Found a bug? Missing some information? This is a community managed website, so feel free to contribute to our %(github)s repository.',
-                github = '<a href="https://github.com/pyconsk/2022.pycon.sk" target="_blank" class="external">GitHub</a>') }}
         </p>
         {% endautoescape %}
       </div>

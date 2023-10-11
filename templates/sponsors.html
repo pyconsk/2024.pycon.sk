@@ -1,0 +1,49 @@
+{% extends "body.html" %}
+{% block content %}
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Our sponsors') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2024</a>
+            </li>
+            <li>{{ _('Our sponsors') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# {% include 'includes/sponsors_list.html' %} #}
+
+
+
+<!-- Sponsonrs Area Start Here -->
+<section class="section-space-default bg-light">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _("Official Sponsors &amp; Partners") }}</h2>
+      <p>{{ _("We are looking for sponsors and partners. Please get in touch with us.") }}</p>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="mailto:sponsors@pycon.sk" title="{{ _('Become a Sponsor') }}" class="btn-fill size-lg color-yellow border-radius-5 margin-t-30">
+            {{ _('Become a Sponsor') }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Sponsonrs Area End Here -->
+
+
+
+<!-- Content Page Area End Here -->
+{% endblock %}
+
+{% block js %}
+{% endblock %}

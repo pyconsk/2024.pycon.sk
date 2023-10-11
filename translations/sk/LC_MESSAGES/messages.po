@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-08 23:23+0200\n"
+"POT-Creation-Date: 2023-10-11 11:48+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -19,23 +19,24 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: pycon.py:12
-msgid "PyCon SK 2022 | Bratislava, Slovakia"
+#, fuzzy
+msgid "PyCon SK 2024 | Bratislava, Slovakia"
 msgstr "PyCon SK 2022 | Bratislava"
 
-#: pycon.py:344 templates/body.html:126 templates/body.html:208
+#: pycon.py:351
 msgid "Friday"
 msgstr "Piatok"
 
-#: pycon.py:353 templates/body.html:129 templates/body.html:211
+#: pycon.py:360
 msgid "Saturday"
 msgstr "Sobota"
 
-#: pycon.py:360 templates/body.html:132 templates/body.html:214
+#: pycon.py:367
 msgid "Sunday"
 msgstr "Nedeľa"
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
-#: templates/aboutus.html:29 templates/body.html:163 templates/body.html:237
+#: templates/aboutus.html:29 templates/body.html:136 templates/body.html:193
 #: templates/cfv.html:14
 msgid "About Us"
 msgstr "O nás"
@@ -100,16 +101,18 @@ msgstr ""
 msgid "Or visit our website"
 msgstr "alebo navštívte našu web stránku"
 
-#: templates/aboutus.html:53 templates/body.html:169 templates/body.html:243
+#: templates/aboutus.html:53 templates/body.html:142 templates/body.html:199
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
 #: templates/body.html:8
-msgid "Official PyCon SK 2022 website"
+#, fuzzy
+msgid "Official PyCon SK 2024 website"
 msgstr "Oficiálna stránka PyCon SK 2022"
 
 #: templates/body.html:15 templates/body.html:21
-msgid "PyCon SK 2022, Bratislava"
+#, fuzzy
+msgid "PyCon SK 2024, Bratislava"
 msgstr "PyCon SK 2022, Bratislava"
 
 #: templates/body.html:18 templates/body.html:23
@@ -118,11 +121,11 @@ msgid ""
 "language."
 msgstr "PyCon SK je komunitná konferencia o programovacom jazyku Python."
 
-#: templates/body.html:68
+#: templates/body.html:69
 msgid "You are using an <strong>outdated</strong> browser."
 msgstr "Používate <strong>zastaraný</strong> prehliadač."
 
-#: templates/body.html:69
+#: templates/body.html:70
 msgid ""
 "Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to "
 "improve your experience."
@@ -130,106 +133,74 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:115 templates/body.html:197 templates/news.html:10
-#: templates/news.html:18
-msgid "Newsroom"
-msgstr "Novinky"
-
-#: templates/body.html:118 templates/body.html:200 templates/livestream.html:17
-#: templates/program.html:9 templates/program.html:14 templates/schedule.html:9
-#: templates/schedule.html:14
-msgid "Program"
-msgstr "Program"
-
-#: templates/body.html:123 templates/body.html:205 templates/cfp.html:14
-#: templates/cfp_form.html:14 templates/includes/program_table.html:4
-#: templates/index.html:97 templates/recording.html:14
-#: templates/speaker.html:14 templates/speaker_list.html:14
-#: templates/speaker_list2.html:14
-msgid "Speakers"
-msgstr "Rečníci a rečníčky"
-
-#: templates/body.html:135 templates/body.html:138 templates/livestream.html:20
-msgid "Livestream"
-msgstr "Živý prenos"
-
-#: templates/body.html:143 templates/body.html:220 templates/edusummit.html:10
-#: templates/edusummit.html:15
-msgid "EduSummit"
-msgstr "EduSummit"
-
-#: templates/body.html:146 templates/body.html:223
+#: templates/body.html:122 templates/body.html:176
 msgid "Sponsors"
 msgstr "Sponzori"
 
-#: templates/body.html:149 templates/body.html:226
-msgid "Job Offers"
-msgstr "Pracovné pozície"
-
-#: templates/body.html:152
+#: templates/body.html:125 templates/body.html:179
 #, python-format
 msgid "2%%"
 msgstr "2%%"
 
-#: templates/body.html:155 templates/body.html:229
+#: templates/body.html:128 templates/body.html:185
 msgid "About"
 msgstr "O nás"
 
-#: templates/body.html:160 templates/body.html:234
+#: templates/body.html:133 templates/body.html:190
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/body.html:166 templates/body.html:240 templates/tickets.html:49
+#: templates/body.html:139 templates/body.html:196 templates/tickets.html:47
 #: templates/venue.html:35 templates/venue.html:40
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:172 templates/body.html:246 templates/coc.html:10
+#: templates/body.html:145 templates/body.html:202 templates/coc.html:10
 #: templates/coc.html:15
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:273 templates/body.html:274 templates/index.html:20
+#: templates/body.html:182 templates/body.html:231 templates/index.html:20
 #: templates/index.html:208
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:300
+#: templates/body.html:266
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:314
+#: templates/body.html:280
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:328
+#: templates/body.html:294
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:342
+#: templates/body.html:308
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:358
+#: templates/body.html:324
 msgid ""
-"The PyCon SK 2022 conference, which will be held in Bratislava, is the "
+"The PyCon SK 2024 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
 "Python programming language."
 msgstr ""
-"Konferencia PyCon SK 2022, ktorá sa bude konať v Bratislave, je "
+"Konferencia PyCon SK 2024, ktorá sa bude konať v Bratislave, je "
 "každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
 "programovací jazyk Python."
 
-#: templates/body.html:360 templates/body.html:410 templates/countdown.html:98
+#: templates/body.html:326 templates/body.html:366 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi a dobrovoľníčkami z %(spy)s."
 
-#: templates/body.html:361 templates/body.html:411 templates/countdown.html:99
+#: templates/body.html:327 templates/body.html:367 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:413 templates/countdown.html:94
+#: templates/body.html:369 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -238,22 +209,20 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:415 templates/countdown.html:96
+#: templates/body.html:371 templates/countdown.html:96
 msgid "Python Software Foundation"
 msgstr "Python Software Foundation"
-
-#: templates/body.html:418 templates/countdown.html:102
-#, python-format
-msgid ""
-"Found a bug? Missing some information? This is a community managed "
-"website, so feel free to contribute to our %(github)s repository."
-msgstr ""
-"Našiel/našla si chybu? Chýba ti nejaká informácia? Toto je komunitou "
-"manažovaná webstránka, prispej na našom %(github)se."
 
 #: templates/cfp.html:9 templates/cfp.html:15
 msgid "Call for Proposals"
 msgstr "Prihlás svoj príspevok"
+
+#: templates/cfp.html:14 templates/cfp_form.html:14
+#: templates/includes/program_table.html:4 templates/index.html:97
+#: templates/recording.html:14 templates/speaker.html:14
+#: templates/speaker_list.html:14 templates/speaker_list2.html:14
+msgid "Speakers"
+msgstr "Rečníci a rečníčky"
 
 #: templates/cfp.html:40
 msgid "The Call for Proposals is closed!"
@@ -884,6 +853,19 @@ msgstr ""
 "Kliknutím na odber súhlasíš, že odošleme tvoje informácie na spracovanie "
 "do Mailchimpu."
 
+#: templates/countdown.html:102
+#, python-format
+msgid ""
+"Found a bug? Missing some information? This is a community managed "
+"website, so feel free to contribute to our %(github)s repository."
+msgstr ""
+"Našiel/našla si chybu? Chýba ti nejaká informácia? Toto je komunitou "
+"manažovaná webstránka, prispej na našom %(github)se."
+
+#: templates/edusummit.html:10 templates/edusummit.html:15
+msgid "EduSummit"
+msgstr "EduSummit"
+
 #: templates/edusummit.html:32
 msgid "Where Teachers meet Programmers"
 msgstr "Stretnutie učiteľov s programátormi"
@@ -996,7 +978,7 @@ msgstr ""
 "Dobrovoľníci hovoria po anglicky. Na slovensku je angličtina na školách "
 "povinným jazykom, takže väčšina účastníkov bude rozumieť po anglicky."
 
-#: templates/faq.html:77 templates/tickets.html:14 templates/tickets.html:19
+#: templates/faq.html:77 templates/tickets.html:13 templates/tickets.html:18
 msgid "Tickets"
 msgstr "Lístky"
 
@@ -1061,7 +1043,7 @@ msgstr ""
 "my vám pošleme adresu peňaženky. Po potvrdení platby vám pošleme "
 "lístkyemailom."
 
-#: templates/faq.html:117 templates/tickets.html:37
+#: templates/faq.html:117
 msgid ""
 "For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
 " target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
@@ -1189,63 +1171,49 @@ msgid "About PyCon SK"
 msgstr "O konferencii PyCon SK"
 
 #: templates/index.html:43
-msgid "2022"
+#, fuzzy
+msgid "2024"
 msgstr "2022"
 
 #: templates/index.html:45
 msgid ""
-"The PyCon SK 2022 conference, which will be held in Bratislava, is an "
-"annual gathering of the community using and developing the open-source "
-"Python programming language."
+"PyCon SK 2024 is the sixth annual meeting of the community using and "
+"developing the open source Python programming language."
 msgstr ""
-"Konferencia PyCon SK 2022, ktorá sa bude konať v Bratislave, je "
-"každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
-"programovací jazyk Python."
+"PyCon SK 2024 je šiesty ročník každoročného stretnutia komunity využívajúcej a vyvíjajúcej open sourcový programovací jazyk Python."
 
 #: templates/index.html:46
 msgid ""
-"It is organized by volunteers from the SPy o.z., civic association "
-"dedicated to advancing and promoting Python and other Open Source "
-"technologies and ideas."
+"The conference is organized by the civic association SPy, which focuses "
+"on the promotion and dissemination of the Python programming language and"
+" other open source technologies and ideas."
 msgstr ""
-"Je organizovaná dobrovoľníkmi a dobrovoľníčkami z občianskeho združenia "
-"SPy o.z. zameraného na šírenie jazyka Python a ďalších open sourcových "
-"technológií a myšlienok."
+"Konferenciu organizuje občianske združenie SPy, ktoré sa zameriava na propagáciu a šírenie programovacieho jazyka Python a iných open sourcových technológií a myšlienok."
 
 #: templates/index.html:47
 msgid ""
-"Through PyCon, the SPy o.z. advances its mission of growing the Slovak "
-"(and also international) community of Python programmers and Open Source "
-"supporters."
-msgstr ""
-"Prostredníctvom PyConu SPy o.z. napĺňa svoj cieľ rozširovať slovenskú (a "
-"aj medzinárodnú) komunitu Python programátorov a programátoriek a ľudí "
-"podporujúcich open source."
+"Also through this event, SPy tries to fulfill its goal - to expand the "
+"Slovak and international community of Python programmers and to create an"
+" opportunity for its connection and mutual inspiration."
+msgstr "Aj prostredníctvom tohto podujatia sa SPy. o.z. snaží napĺňať svoj cieľ  - rozširovať slovenskú i medzinárodnú komunitu Python programátorov a programátoriek a vytvárať príležitosť pre jej prepájanie a vzájomnú inšpiráciu."
 
 #: templates/index.html:56
-msgid "Edu Summit"
-msgstr "Edu Summit"
+msgid "Content"
+msgstr "Obsah"
 
 #: templates/index.html:58
 msgid ""
-"EduSummit is a special section of the conference focused on teaching "
-"programming at primary and secondary schools."
-msgstr ""
-"EduSummit je špecializovaná časť konferencie zameraná na vyučovanie "
-"programovania na základných a stredných školách."
+"PyCon SK is a three-day event full of lectures and workshops, which "
+"creates space for the exchange of information and stimulating "
+"discussions. The conference also includes activities supporting complete "
+"beginners in their introduction to the Python programming language."
+msgstr "PyCon SK je trojdňové podujatie plné prednášok a workshopov, ktoré vytvára priestor na výmenu informácií a podnetné diskusie. Súčasťou konferencie sú tiež aktivity podporujúce úplných začiatočníkov a začiatočníčky pri ich zoznamovaní sa s programovacím jazykom Python."
 
 #: templates/index.html:59
 msgid ""
-"We are now organising the fourth edition, a two day summit during which "
-"teachers will be introduced to innovative ways and methods of teaching "
-"programming, share their knowledge of useful tools and last but not least"
-" participate in numerous workshops given by experienced educators."
-msgstr ""
-"Už po štvrtý raz organizujeme tentokrát dvojdňový summit, počas ktorého "
-"učiteľkám a učiteľom predstavíme inovatívne spôsoby a metódy vyučovania "
-"programovania, podelíme sa o skúsenosti s užitočnými nástrojmi a taktiež "
-"sa spolu zúčastníme workshopov pod vedením skúsených mentorov a "
-"mentoriek."
+"We welcome anyone interested in learning something new within our diverse"
+" community."
+msgstr "V rámci našej pestrej komunity radi privítame každého, kto má záujem naučiť sa niečo nové."
 
 #: templates/index.html:109
 msgid "Participants"
@@ -1279,19 +1247,16 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:222
+#: templates/index.html:222 templates/sponsors.html:29
 msgid "Official Sponsors &amp; Partners"
 msgstr "Oficiálni sponzori a partneri"
 
-#: templates/index.html:223
+#: templates/index.html:223 templates/sponsors.html:30
 msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:224
-msgid "Check Who Makes This Event Possible!"
-msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
-
-#: templates/index.html:228 templates/index.html:229
+#: templates/index.html:227 templates/index.html:228 templates/sponsors.html:34
+#: templates/sponsors.html:35
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
@@ -1318,6 +1283,16 @@ msgstr "Všetky firmy"
 #: templates/jobs.html:43
 msgid "Displaying offers for"
 msgstr "Zobrazujem pracovné pozície pre"
+
+#: templates/livestream.html:17 templates/program.html:9
+#: templates/program.html:14 templates/schedule.html:9
+#: templates/schedule.html:14
+msgid "Program"
+msgstr "Program"
+
+#: templates/livestream.html:20
+msgid "Livestream"
+msgstr "Živý prenos"
 
 #: templates/mailchimp.html:6
 msgid "Subscribe to one of our newsletters"
@@ -1362,6 +1337,10 @@ msgid ""
 msgstr ""
 "Pre informácie o našich postupoch na ochranu súkromia navštív naše <a "
 "href=\"%(url)s\">Zásady ochrany súkromia</a>."
+
+#: templates/news.html:10 templates/news.html:18
+msgid "Newsroom"
+msgstr "Novinky"
 
 #: templates/news.html:22
 msgid "Category"
@@ -1708,15 +1687,19 @@ msgstr ""
 " webstránkach SPy o.z. alebo na ďalších web stránkach určených PSF "
 "(vrátane, ale nie nutne výlučne YouTube)."
 
-#: templates/speaker.html:59
+#: templates/speaker.html:61
+msgid "Cancelled"
+msgstr ""
+
+#: templates/speaker.html:67
 msgid "Slovak language"
 msgstr "Slovenský jazyk"
 
-#: templates/speaker.html:60
+#: templates/speaker.html:68
 msgid "English language"
 msgstr "Anglický jazyk"
 
-#: templates/speaker.html:61
+#: templates/speaker.html:69
 msgid "Czech language"
 msgstr "Český jazyk"
 
@@ -1728,10 +1711,6 @@ msgstr "Naši úžasní speakeri"
 msgid "Our sponsors"
 msgstr "Naši sponzori"
 
-#: templates/sponsors.html:24
-msgid "Poporovatelia komunity"
-msgstr ""
-
 #: templates/thanks.html:9
 msgid "Thank You"
 msgstr "Ďakujeme"
@@ -1740,24 +1719,24 @@ msgstr "Ďakujeme"
 msgid "We'll get in touch as soon as possible."
 msgstr "Ozveme sa čo najskôr"
 
-#: templates/tickets.html:34
+#: templates/tickets.html:33
 msgid ""
 "You can also buy tickets directly on the <a class=\"external\" "
-"href=\"https://ti.to/pyconsk/pyconsk-2022\"\n"
+"href=\"https://ti.to/pyconsk/2024\"\n"
 "                                                             "
-"target=\"_blank\">https://ti.to/pyconsk/pyconsk-2022</a>\n"
+"target=\"_blank\">https://ti.to/pyconsk/2024</a>\n"
 "          website in case the tito widget is not displayed correctly."
 msgstr ""
 "Lístky si môžeš kúpiť aj priamo na webstránke <a "
-"href=\"https://ti.to/pyconsk/pyconsk-2022\" "
-"target=\"_blank\">https://ti.to/pyconsk/pyconsk-2022</a>, ak sa ti tito "
+"href=\"https://ti.to/pyconsk/2024\" "
+"target=\"_blank\">https://ti.to/pyconsk/2024</a>, ak sa ti tito "
 "widget nezobrazuje správne."
 
-#: templates/tickets.html:42
+#: templates/tickets.html:40
 msgid "What am I paying for?"
 msgstr "Za čo platím?"
 
-#: templates/tickets.html:50
+#: templates/tickets.html:48
 msgid ""
 "The conference takes place at the Faculty of Informatics and Information "
 "Technologies (Slovak\n"
@@ -1766,7 +1745,7 @@ msgstr ""
 "Konferencia sa koná na Fakulte informatiky a informačných technológií "
 "(Slovenskej technickej univerzity)"
 
-#: templates/tickets.html:52
+#: templates/tickets.html:50
 msgid ""
 "Venue is in new building and have well equipped and pleasant auditoriums "
 "and lobbies. The\n"
@@ -1777,21 +1756,19 @@ msgstr ""
 "prednáškové miestnosti a príslušné priestory. Prvý PyCon SK bol jednou\n"
 "              z prvých konferencií v týchto priestoroch!"
 
-#: templates/tickets.html:73
+#: templates/tickets.html:71
 msgid "Speakers and Lecturers"
 msgstr "Rečníci a rečníčky"
 
-#: templates/tickets.html:74
+#: templates/tickets.html:72
 msgid ""
-"Our speakers are the best. And they do it for free! However, we have to "
-"pay for their conference ticket\n"
-"          and sometimes we cover the travel budget."
+"Our speakers are the best. And they do it for free! However, sometimes we"
+" have to cover their travel budget as well as ticket price."
 msgstr ""
-"Naši rečníci a rečníčky sú najlepší. A robia to zadarmo! Platíme im však "
-"vstupenky \n"
-" a niekedy im preplatíme cestovné náklady."
+"Naši rečníci a rečníčky sú najlepší. A robia to zadarmo! Niekedy im však"
+"preplácame cestovné náklady a cenu vstupenky."
 
-#: templates/tickets.html:76
+#: templates/tickets.html:73
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also\n"
@@ -1802,17 +1779,17 @@ msgstr ""
 "\n"
 "              a zverejnením všetkých príspevkov."
 
-#: templates/tickets.html:85
+#: templates/tickets.html:82
 msgid "Community & Inclusion"
 msgstr "Komunita a inklúzia"
 
-#: templates/tickets.html:86
+#: templates/tickets.html:83
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr "PyCon je špeciálna konferencia - je organizovaná komunitou pre komunitu"
 
-#: templates/tickets.html:88
+#: templates/tickets.html:85
 msgid ""
 "By attending, you have a chance to meet like minded people and hear a lot"
 " of interesting\n"
@@ -1826,17 +1803,17 @@ msgstr ""
 "kúpiť lístok na konferenciu, sme pripravili program na podporu\n"
 "              a máme pripravené určité množstvo lístkov zadarmo."
 
-#: templates/tickets.html:111
+#: templates/tickets.html:108
 msgid "Conference T-shirt and other swag"
 msgstr "Tričko z konferencie a ďalšie drobnosti"
 
-#: templates/tickets.html:112
+#: templates/tickets.html:109
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr "Čo by to bolo za konferenciu bez konferenčného trička?"
 
-#: templates/tickets.html:113
+#: templates/tickets.html:110
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle-->\n"
@@ -1847,11 +1824,11 @@ msgstr ""
 " Možno aj fľašu na vodu -->\n"
 "<!--          s našim skvelým PyCon SK logom. Privítame aj tvoje návrhy..."
 
-#: templates/tickets.html:128
+#: templates/tickets.html:125
 msgid "Refreshments"
 msgstr "Občerstvenie"
 
-#: templates/tickets.html:129
+#: templates/tickets.html:126
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back "
 "with our all-you-can-drink coffee, tea\n"
@@ -1860,7 +1837,7 @@ msgstr ""
 "Obávaš sa, že zaspíš počas prednášky? Už nemusíš, máme všetko - \n"
 "              kávu, čaj či vodu."
 
-#: templates/tickets.html:131
+#: templates/tickets.html:128
 msgid ""
 "We will have two professional baristas serving fresh coffee and tea all "
 "day long. Water\n"
@@ -1871,19 +1848,19 @@ msgstr ""
 "dispozícii\n"
 "na viacerých miestach rovnomerne v celej lobby."
 
-#: templates/tickets.html:140
+#: templates/tickets.html:137
 msgid "Lunch"
 msgstr "Obed"
 
-#: templates/tickets.html:141
+#: templates/tickets.html:138
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr "Počas všetkých troch dní sa budú na obed servírovať rôzne teplé jedlá"
 
-#: templates/tickets.html:142
+#: templates/tickets.html:139
 msgid "Meat and vegetarian alternatives will be available."
 msgstr "K dispozícii budú mäsité aj vegetariánske alternatívy"
 
-#: templates/tickets.html:143
+#: templates/tickets.html:140
 msgid ""
 "We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat\n"
@@ -1895,11 +1872,11 @@ msgstr ""
 "              a pitnú vodu poskytujeme z recyklovateľných plastových "
 "fliaš."
 
-#: templates/tickets.html:164
+#: templates/tickets.html:161
 msgid "Real Conference Ticket Price"
 msgstr "Skutočná cena vstupenky"
 
-#: templates/tickets.html:165
+#: templates/tickets.html:162
 msgid ""
 "The <b>real price</b> of one conference ticket would be much higher had "
 "it not been for our sponsors and\n"
@@ -1909,19 +1886,65 @@ msgstr ""
 "nás nepodporovali naši\n"
 "sponzori a partneri, vďaka ktorým môžeme lístky predávať oveľa lacnejšie."
 
-#: templates/tickets.html:168
+#: templates/tickets.html:165
 msgid ""
-"Without sponsors and partners all tickets would cost over 90&euro; "
-"(including student and teacher\n"
-"          tickets) and this price still does not include the enormous "
-"amount of volunteer work, which is done by the\n"
+"Without sponsors and partners all tickets would be less affordable and "
+"this price still does not include the enormous amount of volunteer work, "
+"which is done by the\n"
 "          Python commnity before and during each PyCon."
 msgstr ""
-"Bez sponzoringu a partnerov by lístky stáli vyše 90&euro; (vrátane "
-"študentských a učiteľských\n"
-"              lístkov) a táto cena stále nezahŕňa obrovské množstvo "
-"dobrovoľníckej práce, ktorú robí Python komunita pred\n"
-"              a počas každého PyConu."
+"Bez sponzoringu a partnerov by lístky stáli oveľa viac a táto cena stále nezahŕňa obrovské množstvo "
+"dobrovoľníckej práce, ktorú robí Python komunita pred a počas každého PyConu."
+
+#: templates/tickets.html:176
+msgid "Sustainability"
+msgstr "Udržateľnosť"
+
+#: templates/tickets.html:177
+msgid ""
+"PyCon is going as green as possible. This is why we decided to avoid "
+"distributing physical swag bags with items that are not really needed or "
+"wanted."
+msgstr "PyCon chce byť čo najzelenší. To je dôvod, prečo sme sa rozhodli vyhnúť sa distribúcii fyzických sponzorských darčekov v taškách, ktoré mnohí z nás nepotrebujú alebo nechcú a ľahko skončia v košoch."
+
+#: templates/tickets.html:178
+msgid ""
+"Popular PyCon t-shirts will only be available for purchase as part of the"
+" Community Supporter ticket to ensure they only reach those who really "
+"want them."
+msgstr "Populárne tričká PyCon budú k dispozícii iba v rámci vstupenky Community Supporter, aby sa zabezpečilo, že sa dostanú len k tým, ktorí ich naozaj chcú."
+
+#: templates/tickets.html:179
+msgid ""
+"Thanks to the higher price of t-shirts, we will be able to choose better "
+"quality material that will last longer and won’t end as another "
+"unnecessary waste."
+msgstr "Vďaka vyššej cene tričiek si budeme môcť vybrať kvalitnejší materiál, ktorý dlhšie vydrží a neskončí ako ďalší zbytočný odpad."
+
+#: templates/tickets.html:180
+msgid ""
+"Overall, our goal is to be as zero-waste as possible. Help us in our "
+"initiative and bring your reusable water bottles and coffee cups!"
+msgstr "Naším cieľom je byť čo najviac zero-waste. Pomôžte nám v našej iniciatíve a prineste si svoje znovu použiteľné fľaše na vodu a šálky na kávu!"
+
+#: templates/tickets.html:200
+msgid "Beginners track"
+msgstr ""
+
+#: templates/tickets.html:201
+msgid ""
+"PyCon is not just for experienced programmers, our aim is to spread "
+"knowledge, promote the Python programming language and create a diverse, "
+"supportive community where all members can learn from each other and "
+"develop together."
+msgstr "PyCon nie je iba pre skúsených programátorov, našou snahou je šíriť vedomosti, propagovať programovací jazyk Python a vytvárať pestrú, podporujúcu sa komunitu, kde sa môžu všetci členovia vzájomne učiť a spoločne rozvíjať."
+
+#: templates/tickets.html:202
+msgid ""
+"That's why we offer those interested in programming who have no previous "
+"experience the opportunity to attend lectures and workshops where they "
+"learn the basics of Python."
+msgstr "Preto ponúkame záujemcom o programovanie, ktorí nemajú žiadne predchádzajúce skúsenosti, možnosť absolvovať prednášky a workshopy, kde si osvoja základy Pythonu."
 
 #: templates/venue.html:52
 msgid "Map and POIs"
@@ -1981,23 +2004,19 @@ msgid ""
 "If you travel via Vienna airport, there are direct and cheap bus "
 "connections from early morning till midnight. One way ticket costs about "
 "8 EUR and if you buy in advance, the ticket may be considerably cheaper. "
-"There are three airport shuttle buses between Vienna airport and "
-"Bratislava: SlovakLines (red buses), Blaguss (silver buses) and RegioJet "
-"(Yellow busses)."
+"There are airport shuttle buses between Vienna airport and Bratislava."
 msgstr ""
 "Ak letíš do Viedne, medzi viedenským letiskom a Bratislavou premáva "
 "priame a cenovo dostupné autobusové spojenie každú hodinu od skorého rána"
 " až do neskorej noci - jednosmerná jazda stojí okolo 8 EUR, ak si zakúpiš"
-" lístok v predstihu môže byť výrazne lacnejší. Autobusovú prepravu "
-"prevádzkujú tri spoločnosti: SlovakLines (červené autobusy), Blaguss "
-"(strieborné autobusy), RegioJet (žlté autobusy). Týmito autobusmi sa "
+" lístok v predstihu môže byť výrazne lacnejší. Týmito autobusmi sa "
 "dostaneš na hlavnú autobusovú stanicu Mlynské Nivy."
 
-#: templates/venue.html:84
+#: templates/venue.html:83
 msgid "By car"
 msgstr "Autom"
 
-#: templates/venue.html:87
+#: templates/venue.html:86
 msgid ""
 "Arriving from Vienna, choose the direction Schwechat on A4 highway, then "
 "turn to highway A6 leading to Bratislava.\n"
@@ -2018,7 +2037,7 @@ msgstr ""
 "Slovenskej televízie. Hneď za nadjazdom odboč doľava a následne doprava "
 "smerom do kopca k univerzitnému kampusu."
 
-#: templates/venue.html:92
+#: templates/venue.html:91
 msgid ""
 "From Budapest, take the highway M1 heading to Gyor, follow this route "
 "until you see signs for highway M15 heading to Slovakia and Bratislava.\n"
@@ -2029,7 +2048,7 @@ msgstr ""
 "smerom na Slovensko, do Bratislavy. Po prejazde hraníc pokračujte smerom "
 "na Brno podľa inštrukcií vyššie."
 
-#: templates/venue.html:94
+#: templates/venue.html:93
 msgid ""
 "If you drive from Prague, take the highway D1 to Brno, once in Brno take "
 "the highway D2 heading to Slovakia and Bratislava.\n"
@@ -2044,7 +2063,7 @@ msgstr ""
 "Karlova Ves), ktorý sa nachádza za tunelom. Pozor, výjazd začína hneď za "
 "tunelom, preraď sa včas."
 
-#: templates/venue.html:97
+#: templates/venue.html:96
 msgid ""
 "From eastern and southern Poland choose your way to Katowice. From there "
 "follow the road to Cadca, Slovakia.\n"
@@ -2060,11 +2079,11 @@ msgstr ""
 " Prahu/Brno podľa vyššie uvedených inštrukcií (mal/a by si dvakrát "
 "prekročiť Dunaj)."
 
-#: templates/venue.html:104
+#: templates/venue.html:103
 msgid "By bus"
 msgstr "Autobusom"
 
-#: templates/venue.html:106
+#: templates/venue.html:105
 msgid ""
 "All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kyiv"
 " have direct bus connections."
@@ -2072,38 +2091,25 @@ msgstr ""
 "Všetky okolité hlavné mestá - Viedeň, Praha, Budapešť, Varšava aj Kyjev -"
 " majú priame autobusové spojenie do Bratislavy."
 
-#: templates/venue.html:109
+#: templates/venue.html:108
 msgid ""
 "Most of the buses will bring you to the main bus station - Mlynske Nivy. "
-"It is currently located in temporary location, so don't\n"
-"            worry and keep calm if you arrive feeling like on "
-"construction site. Leave the area towards the blue oval building VUB\n"
+"Leave the area towards the blue oval building VUB\n"
 "            (next to the building with BMW logo) where you find the "
 "station of city bus lines."
 msgstr ""
-"Väčšina autobusov ťa dovezie na hlavnú autobusovú stanici - Mlynské Nivy."
-" Momentálne sa nachádza v dočasnej lokalite, takže sa nezľakni, ak to tam"
-" bude vyzerať ako na stavenisku. Vyjdi zo stanice smerom k oválnej modrej"
-" budove VÚB (vedľa budovy s logom BMW), kde nájdeš stanicu mestskej "
-"dopravy."
+"Väčšina autobusov ťa dovezie na hlavnú"
+" autobusovú stanici - Mlynské Nivy. "
+"Vyjdi zo stanice smerom k oválnej "
+"modrej budove VÚB (vedľa budovy s "
+"logom BMW), kde nájdeš stanicu mestskej"
+" dopravy."
 
-#: templates/venue.html:111
-msgid "Public transport is currently very limited due to the constructions."
-msgstr "Verejná doprava je mmentálne veľmi obmedzená kvôli výstavbe v lokalite."
-
-#: templates/venue.html:112
-msgid ""
-"Even it is not shortest, we do recommend trolley bus to the main train "
-"station (and follow the instructions for train)."
-msgstr ""
-"Hoci to nie je najkratšia cesta, odporúčame trolejbus na hlavnú vlakovú "
-"stanicu (a ďalej pokračovať podľa inštrukcií pre cestu vlakom)."
-
-#: templates/venue.html:116
+#: templates/venue.html:113
 msgid "By train"
 msgstr "Vlakom"
 
-#: templates/venue.html:118
+#: templates/venue.html:115
 msgid ""
 "All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kyiv "
 "have direct train connections."
@@ -2111,7 +2117,7 @@ msgstr ""
 "Všetky okolité hlavné mestá Viedeň, Praha, Budapešť, Varšava a Kyjev majú"
 " priame vlakové spojenie."
 
-#: templates/venue.html:121
+#: templates/venue.html:118
 msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
 "stanica), leave the station through the main entrance.\n"
@@ -2131,11 +2137,11 @@ msgstr ""
 "Bratislava - English\" target=\"_blank\" class=\"external\">imhd.sk</a> "
 "pre viac informácií o cenách."
 
-#: templates/venue.html:130
+#: templates/venue.html:127
 msgid "Accommodation"
 msgstr "Ubytovanie"
 
-#: templates/venue.html:132
+#: templates/venue.html:129
 msgid ""
 "There are plenty of opportunities for accommodation in Bratislava. From "
 "coach surfing, Airbnb to hostels and five star hotels. Even though it is "
@@ -2147,11 +2153,11 @@ msgstr ""
 "mimo hlavnej turistickej sezóny, určite odporúčame zabezpečiť si "
 "ubytovanie v predstihu."
 
-#: templates/venue.html:135
+#: templates/venue.html:132
 msgid "Guide"
 msgstr "Sprievodca"
 
-#: templates/venue.html:137
+#: templates/venue.html:134
 msgid ""
 "Bratislava offers much more than just PyCon. If you decide to stay in "
 "Bratislava a few days longer, have a look at <a "
@@ -2169,7 +2175,7 @@ msgstr ""
 "miest obyvateľov Bratislavy s ich autentickými odporúčaniami a "
 "subjektívnymi názormi."
 
-#: templates/venue.html:140
+#: templates/venue.html:137
 msgid ""
 "Or you can review the <a href=\"http://www.visitbratislava.com/\" "
 "title=\"city pages for visitors\" target=\"_blank\" "
@@ -2241,4 +2247,108 @@ msgstr "Partneri"
 
 #~ msgid "Talks and Workshops"
 #~ msgstr "Prednášky a workshopy"
+
+#~ msgid "Job Offers"
+#~ msgstr "Pracovné pozície"
+
+#~ msgid ""
+#~ "The PyCon SK 2022 conference, which "
+#~ "will be held in Bratislava, is an"
+#~ " annual gathering of the community "
+#~ "using and developing the open-source "
+#~ "Python programming language."
+#~ msgstr ""
+#~ "Konferencia PyCon SK 2022, ktorá sa "
+#~ "bude konať v Bratislave, je každoročné"
+#~ " stretnutie komunity využívajúcej a "
+#~ "vyvíjajúcej open sourcový programovací jazyk"
+#~ " Python."
+
+#~ msgid ""
+#~ "Through PyCon, the SPy o.z. advances "
+#~ "its mission of growing the Slovak "
+#~ "(and also international) community of "
+#~ "Python programmers and Open Source "
+#~ "supporters."
+#~ msgstr ""
+#~ "Prostredníctvom PyConu SPy o.z. napĺňa "
+#~ "svoj cieľ rozširovať slovenskú (a aj "
+#~ "medzinárodnú) komunitu Python programátorov a"
+#~ " programátoriek a ľudí podporujúcich open"
+#~ " source."
+
+#~ msgid "Edu Summit"
+#~ msgstr "Edu Summit"
+
+#~ msgid ""
+#~ "EduSummit is a special section of "
+#~ "the conference focused on teaching "
+#~ "programming at primary and secondary "
+#~ "schools."
+#~ msgstr ""
+#~ "EduSummit je špecializovaná časť konferencie"
+#~ " zameraná na vyučovanie programovania na"
+#~ " základných a stredných školách."
+
+#~ msgid ""
+#~ "We are now organising the fourth "
+#~ "edition, a two day summit during "
+#~ "which teachers will be introduced to "
+#~ "innovative ways and methods of teaching"
+#~ " programming, share their knowledge of "
+#~ "useful tools and last but not "
+#~ "least participate in numerous workshops "
+#~ "given by experienced educators."
+#~ msgstr ""
+#~ "Už po štvrtý raz organizujeme tentokrát"
+#~ " dvojdňový summit, počas ktorého učiteľkám"
+#~ " a učiteľom predstavíme inovatívne spôsoby"
+#~ " a metódy vyučovania programovania, "
+#~ "podelíme sa o skúsenosti s užitočnými"
+#~ " nástrojmi a taktiež sa spolu "
+#~ "zúčastníme workshopov pod vedením skúsených"
+#~ " mentorov a mentoriek."
+
+#~ msgid "Check Who Makes This Event Possible!"
+#~ msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
+
+#~ msgid "Poporovatelia komunity"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Most of the buses will bring you"
+#~ " to the main bus station - "
+#~ "Mlynske Nivy. It is currently located"
+#~ " in temporary location, so don't\n"
+#~ "            worry and keep calm if "
+#~ "you arrive feeling like on construction"
+#~ " site. Leave the area towards the "
+#~ "blue oval building VUB\n"
+#~ "            (next to the building with"
+#~ " BMW logo) where you find the "
+#~ "station of city bus lines."
+#~ msgstr ""
+#~ "Väčšina autobusov ťa dovezie na hlavnú"
+#~ " autobusovú stanici - Mlynské Nivy. "
+#~ "Momentálne sa nachádza v dočasnej "
+#~ "lokalite, takže sa nezľakni, ak to "
+#~ "tam bude vyzerať ako na stavenisku. "
+#~ "Vyjdi zo stanice smerom k oválnej "
+#~ "modrej budove VÚB (vedľa budovy s "
+#~ "logom BMW), kde nájdeš stanicu mestskej"
+#~ " dopravy."
+
+#~ msgid "Public transport is currently very limited due to the constructions."
+#~ msgstr "Verejná doprava je mmentálne veľmi obmedzená kvôli výstavbe v lokalite."
+
+#~ msgid ""
+#~ "Even it is not shortest, we do "
+#~ "recommend trolley bus to the main "
+#~ "train station (and follow the "
+#~ "instructions for train)."
+#~ msgstr ""
+#~ "Hoci to nie je najkratšia cesta, "
+#~ "odporúčame trolejbus na hlavnú vlakovú "
+#~ "stanicu (a ďalej pokračovať podľa "
+#~ "inštrukcií pre cestu vlakom)."
 
