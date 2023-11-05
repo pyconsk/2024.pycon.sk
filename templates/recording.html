@@ -9,7 +9,7 @@
           <h1>{{ _('PyCon SK Recording Release') }}</h1>
           <ul>
             <li>
-              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2024</a>
             </li>
             <li><a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a></li>
             <li>
@@ -36,9 +36,9 @@
           {{ _('By submitting your talk or workshop proposal, or by signing up to give a lightning talk, you agree to give permission to SPy o.z. to record, edit, and release the audio and/or video of your presentation.') }} {{ _('We might also perform interviews with poster presenters or attendees and require recording releases to publish them.') }}
         </p>
 
-        <p class="text-justify">
-          {{ _('By default, the recording release checkbox is checked when submitting a proposal. If you wish to opt-out, uncheck the release checkbox, note that no recordings or live stream of your talk will be made. You cannot opt out of recording for lightning talks.') }}
-        </p>
+<!--        <p class="text-justify">-->
+<!--          {{ _('By default, the recording release checkbox is checked when submitting a proposal. If you wish to opt-out, uncheck the release checkbox, note that no recordings or live stream of your talk will be made. You cannot opt out of recording for lightning talks.') }}-->
+<!--        </p>-->
 
         <p class="text-justify">
           {{ _('You agree to the following legalese, which certifies that you are the author of your presentation (or otherwise allowed to present it at PyCon), and which allows SPy o.z. 1) to perform the necessary audio and video editing needed to prepare your presentation, and 2) to distribute the recordings to other people, including on YouTube, or video sites. Released under the CC-BY license. It also allows other people to watch the recordings.') }}
@@ -46,7 +46,7 @@
 
         <h2>{{ _('Legalese') }}</h2>
         <p class="text-justify">
-          {{ _('I certify that I, the Submitter, am authorized to license this proposal and its associated presentation (the "User Submission") to SPy o.z. for use in association with PyCon SK 2022.') }}
+          {{ _('I certify that I, the Submitter, am authorized to license this proposal and its associated presentation (the "User Submission") to SPy o.z. for use in association with PyCon SK 2024.') }}
         </p>
         <p class="text-justify">
           {{ _('Specifically') }}:
@@ -58,7 +58,7 @@
         </p>
 
         <p class="text-center">
-          <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Submit your proposal') }}</a>
+          <a href="{{ url_for('cfp', lang_code=lang_code) }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Submit your proposal') }}</a>
         </p>
 
       </div>
