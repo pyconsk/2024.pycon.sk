@@ -1,5 +1,14 @@
 [
   {
+    "date": "2023-11-10",
+    "title_en": "Call for Proposals for PyConSK 2024 is open!",
+    "meta_en": "We are looking for speakers who can inspire, educate and engage our audience with talks and workshops covering a wide range of topics related to Python and its ecosystem. Whether you're an experienced Python developer, data scientist, web developer, or just a Python enthusiast, we'd love to hear from you.\n",
+    "title_sk": "Výzva na predkladanie príspevkov na PyConSK 2024 je spustená!",
+    "meta_sk": "Hľadáme rečníkov, ktorí dokážu inšpirovať, vzdelávať a zaujať naše publikum prednáškami a workshopmi pokrývajúcimi širokú škálu tém súvisiacich s Pythonom a jeho ekosystémom. Či už si skúsený vývojár alebo vývojárka Pythonu, dátový vedec alebo vedkyňa, webový vývojár či vývojárka alebo si len zanietený/á pre Python, radi si Ťa vypočujeme.\n",
+    "categories": ["speakers"],
+    "url": "/en/cfp.html"
+  },
+  {
     "date": "2023-10-05",
     "title_en": "Get your PyCon SK tickets now!",
     "meta_en": "Join us at the largest Python gathering in Slovakia.",

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-05 19:00+0100\n"
+"POT-Creation-Date: 2023-11-13 11:22+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -226,166 +226,192 @@ msgid "Speakers"
 msgstr "Rečníci a rečníčky"
 
 #: templates/cfp.html:28
+msgid "Call for Proposals for PyConSK 2024 is open!"
+msgstr "Výzva na predkladanie príspevkov na PyConSK 2024 je spustená!"
+
+#: templates/cfp.html:30
+msgid ""
+"We are looking for speakers who can inspire, educate and engage our "
+"audience with talks and workshops covering a wide range of topics related"
+" to Python and its ecosystem. Whether you're an experienced Python "
+"developer, data scientist, web developer, or just a Python enthusiast, "
+"we'd love to hear from you."
+msgstr ""
+"Hľadáme rečníkov, ktorí dokážu inšpirovať, vzdelávať a zaujať naše publikum prednáškami a workshopmi pokrývajúcimi širokú škálu tém súvisiacich s Pythonom a jeho ekosystémom. Či už si skúsený vývojár alebo vývojárka Pythonu, dátový vedec alebo vedkyňa, webový vývojár či vývojárka alebo si len zanietený/á pre Python, radi si Ťa vypočujeme."
+
+#: templates/cfp.html:33
 msgid "Anyone can be part of the conference."
-msgstr ""
-
-#: templates/cfp.html:30 templates/cfv.html:30
-msgid ""
-"PyCon SK is organized by the Python community and for the Python "
-"community."
-msgstr "PyCon SK organizuje Python komunita pre komunitu."
-
-#: templates/cfp.html:31
-msgid ""
-"You're coming to the event, and that makes you part of the community. If "
-"you've done something that you think other people might be interested in,"
-" or that you think they should know about, please do consider telling us "
-"about it. We don't just want to hear from experts or famous names - other"
-" perspectives are just as valuable, so don't let the idea that you're not"
-" an expert or famous enough stop you. This is your invitation to submit a"
-" talk proposal if you haven't spoken at the conference before. First-time"
-" speakers' talk proposals will be preferred."
-msgstr ""
-
-#: templates/cfp.html:35 templates/cfp.html:36 templates/cfp_form.html:18
-#: templates/recording.html:61
-msgid "Submit your proposal"
-msgstr "Odoslať návrh príspevku"
+msgstr "Každý môže byť súčasťou konferencie"
 
 #: templates/cfp.html:35
-msgid "(form in english)"
-msgstr ""
-
-#: templates/cfp.html:36
-msgid "(form in slovak)"
-msgstr ""
-
-#: templates/cfp.html:48
 msgid ""
-"We are trying to finalize the conference program as soon as possible; the"
-" earlier you submit your proposal the higher chance of acceptance it has."
-" <b>The deadline for submissions is 15 Jan 2023.</b>"
+"PyConSK is organized by the Python community for the community, and every"
+" conference participant is a part of it. If you feel that the results of "
+"your work or research could interest others, come and share your "
+"knowledge and observations. We don't want to hear lectures only from "
+"experts or well-known names, we value different perspectives and "
+"stimulating contributions from everyone who dares to speak in front of an"
+" audience."
 msgstr ""
+"PyConSK organizuje Python komunita pre komunitu a každý účastník konferencie je jej súčasťou. Ak máš pocit, že by výsledky tvojej práce alebo bádania mohli zaujať ostatných, príď sa podeliť o svoje vedomosti a postrehy. Nechceme počuť prednášky len od expertov či známych mien, ceníme si rôzne perspektívy a podnetné príspevky od každého, kto sa odváži vystúpiť pred publikom."
 
-#: templates/cfp.html:55
-msgid ""
-"Still not sure about the details your proposal? No worries :-) After "
-"submitting your proposal, you will receive a confirmation email with a "
-"link with which you can return to your proposal and make changes."
-msgstr ""
-
-#: templates/cfp.html:56
-msgid ""
-"You can reach out to us via email and we can discuss the topic you have "
-"chosen and also the abstract. If you need mentoring we'd love to help, "
-"just ask."
-msgstr ""
-
-#: templates/cfp.html:59
+#: templates/cfp.html:38
 msgid "Give us a tip"
-msgstr ""
+msgstr "Daj nám tip!"
 
-#: templates/cfp.html:62
+#: templates/cfp.html:41
 msgid ""
 "Do you know about a speaker that would be a good fit for our conference? "
 "<b>Let us know:</b>"
 msgstr ""
+"Vieš o niekom, kto má skvelé prednášky alebo workshopy a tematicky by na PyConSK  zapadol? Daj nám vedieť: "
 
-#: templates/cfp.html:65
-msgid "Guidelines for Proposal Submission"
+#: templates/cfp.html:45 templates/cfp.html:46 templates/cfp_form.html:18
+#: templates/recording.html:61
+msgid "Submit your proposal"
+msgstr "Odoslať návrh príspevku"
+
+#: templates/cfp.html:45
+msgid "(form in english)"
 msgstr ""
 
-#: templates/cfp.html:67
+#: templates/cfp.html:46
+msgid "(form in slovak)"
+msgstr ""
+
+#: templates/cfp.html:49
+msgid "Instructions for submitting Call for Proposals "
+msgstr "Pokyny na predkladanie návrhov na príspevky"
+
+#: templates/cfp.html:51
 msgid ""
-"There is no official restriction on the topic that you propose a talk "
-"session. Talks about Python or the Python community are most likely to "
-"line up with the interests of PyCon's audience, and a key consideration "
-"that the talk selection committee will be thinking about is your talk's "
-"ability to draw an audience. You may propose more than one, but the "
-"committee will ask you to choose only one talk if more than one of your "
-"proposals is accepted."
+"There is no official restriction on the topic of the lecture or workshop."
+" However, you will be most likely to engage PyCon attendees with topics "
+"related to Python and the Python community. The commission selecting "
+"contributions to the conference understands the ability to engage with "
+"the given topic as one of the key criteria. "
 msgstr ""
+"Neexistuje žiadne oficiálne obmedzenie pre tému prednášky alebo workshopu. Najvyššiu pravdepodobnosť zaujať účastníkov PyCon však budeš mať s témami týkajúcimi sa Pythonu a Python komunity. Komisia vyberajúca príspevky na konferenciu chápe schopnosť zaujať danou témou ako jedno z kľúčových kritérií. "
 
-#: templates/cfp.html:71
+#: templates/cfp.html:54
 msgid ""
-"If you have any questions, please contact us via email: info@pycon.sk or "
-"join our Slack channel"
+"You can also submit <b>several proposals for talks or workshops</b>. "
+"However, you must fill out the form separately for each proposal."
 msgstr ""
+"Môžeš predložiť aj <b>viacero návrhov na príspevky alebo workshopy</b>. Pre každý návrh však  musíte vyplniť formulár zvlášť (čo návrh na príspevok, to vyplnený formulár)."
 
-#: templates/cfp.html:75
-msgid "All selected speakers get a complimentary ticket to the conference."
+#: templates/cfp.html:57
+msgid ""
+"We also welcome <b>talks and workshop topics for complete beginners</b>, "
+"which could be included in the Beginner's Track - section for "
+"participants who have no experience with Python. "
 msgstr ""
+"Uvítame aj <b>témy prednášok a workshopov pre úplných začiatočníkov</b>, ktoré by mohli byť zaradené do tzv. Beginner’s Track - sekcie pre účastníkov, ktorí nemajú s Pythonom žiadne skúsenosti."
 
-#: templates/cfp.html:83
-#, fuzzy
+#: templates/cfp.html:60
+msgid ""
+"If you want to submit your proposal, fill out our CfP form and follow the"
+" instructions in it. "
+msgstr ""
+"Ak chceš odoslať svoj návrh, vyplň náš formulár CfP a postupuj podľa pokynov v ňom uvedených."
+
+#: templates/cfp.html:63
+msgid "The deadline for submitting proposals is 01.01.2024"
+msgstr "Deadline na predkladanie návrhov je 01.01.2024"
+
+#: templates/cfp.html:68
 msgid "Talks"
-msgstr "Prednáška"
+msgstr "Prednášky"
 
-#: templates/cfp.html:85
+#: templates/cfp.html:70
 msgid ""
-"Most talks are 30 minutes long, but we do offer a limited number of "
-"45-minute slots for important topics that promise to benefit from a more "
-"extensive treatment."
+"30 minutes are reserved for most talks. In the case of particularly "
+"interesting or important topics, we can also offer a limited number of "
+"45-minute time slots."
 msgstr ""
+"Pre väčšinu prednášok je vyhradených 30 minút. V prípade mimoriadne zaujímavých alebo dôležitých tém vieme ponúknuť aj obmedzené množstvo 45-minútových časových okien."
 
-#: templates/cfp.html:94
-#, fuzzy
+#: templates/cfp.html:77
 msgid "Workshops"
-msgstr "Workshop"
+msgstr "Workshopy"
 
-#: templates/cfp.html:96
+#: templates/cfp.html:79
 msgid ""
-"As with the talks, we are looking for tutorials that can grow this "
-"community at any level! We aim for tutorials that will advance Python, "
-"advance this community, and shape the future. As tutorials are longer "
-"than talks and are in an interactive classroom-like setting, they require"
-" much more preparation."
+"As with talks, we also want to offer workshops that can enrich "
+"participants at different user levels. Our goal is to improve the skills "
+"and knowledge of the Python community through hands-on demonstrations and"
+" assignments. Since the workshops require more time for both preparation "
+"and implementation, we have set time slots of varying length (1 hour, 2 "
+"hours or 3 hours)."
 msgstr ""
+"Rovnako ako pri prednáškach, chceme ponúknuť aj workshopy, ktoré môžu obohatiť účastníkov na rôznych užívateľských úrovniach. Naším cieľom je prostredníctvom praktických ukážok a zadaní zlepšovať zručnosti a prehlbovať vedomosti Python komunity. Nakoľko workshopy vyžadujú na prípravu a realizáciu viac času, vyčlenili sme pre ne tri rôzne dlhé časové bloky (1 hodina, 2 hodiny alebo 3 hodiny)."
 
-#: templates/cfp.html:105 templates/tickets.html:202
+#: templates/cfp.html:86 templates/tickets.html:202
 msgid "Beginner's track"
-msgstr ""
+msgstr "Sekcia pre začiatočníkov a začiatočníčky"
 
-#: templates/cfp.html:107 templates/tickets.html:203
+#: templates/cfp.html:88
 msgid ""
-"PyCon is not just for experienced programmers, our aim is to spread "
+"PyCon is not just for experienced programmers. Our effort is to spread "
 "knowledge, promote the Python programming language and create a diverse, "
 "supportive community where all members can learn from each other and "
-"develop together."
+"develop together. That is why we are preparing a section for beginners "
+"who have little or no experience with Python. Within this section, we "
+"want to offer participants talks and workshops that will introduce them "
+"to Python-related topics and motivate them to further develop their "
+"skills."
 msgstr ""
-"PyCon nie je iba pre skúsených programátorov, našou snahou je šíriť "
-"vedomosti, propagovať programovací jazyk Python a vytvárať pestrú, "
-"podporujúcu sa komunitu, kde sa môžu všetci členovia vzájomne učiť a "
-"spoločne rozvíjať."
+"PyCon nie je iba pre skúsených programátorov. Našou snahou je šíriť vedomosti, propagovať programovací jazyk Python a vytvárať pestrú, podporujúcu sa komunitu,kde sa môžu všetci členovia vzájomne učiť a spoločne rozvíjať. Preto pripravujeme sekciu určenú pre začiatočníkov, ktorí nemajú s Pythonom žiadne alebo len malé skúsenosti. V rámci tejto sekcie chceme účastníkom ponúknuť prednášky a workshopy, ktoré ich uvedú do tém súvisiacich s Pythonom a motivujú ich k ďalšiemu rozvíjaniu ich zručností."
 
-#: templates/cfp.html:115 templates/cfp_form.html:449
-msgid "Recording release"
+#: templates/cfp.html:94
+msgid "Benefits for speakers"
+msgstr "Benefity pre rečníkov a rečníčky"
+
+#: templates/cfp.html:97
+msgid "Opportunities for networking with other speakers and attendees."
+msgstr "Príležitosti na networking s ostatnými prednášajúcimi a účastníkmi."
+
+#: templates/cfp.html:98
+msgid "Entry to the social event and a PyConSK 2024 T-shirt."
+msgstr "Vstup na social event a tričko PyConSK 2024."
+
+#: templates/cfp.html:99
+msgid "An opportunity to share your expertise with the Python community."
+msgstr "Príležitosť podeliť sa o svoje odborné znalosti s Python komunitou."
+
+#: templates/cfp.html:103
+msgid "Contact Information"
+msgstr "Kontaktné informácie"
+
+#: templates/cfp.html:105
+msgid ""
+"If you have any questions or need additional information, contact us at "
+"info@pycon.sk  We look forward to all proposals!"
+msgstr ""
+"Ak máš akékoľvek otázky alebo potrebuješ ďalšie informácie, kontaktuj nás na info@pycon.sk Tešíme sa na všetky návrhy príspevkov!"
+
+#: templates/cfp.html:109
+msgid "Consent to the recording release"
 msgstr "Súhlas so zverejnením nahrávok"
 
-#: templates/cfp.html:117 templates/cfp_form.html:451
-#: templates/recording.html:32
+#: templates/cfp.html:111
 msgid ""
-"Part of the motivation for PyCon SK is to help with Python education and "
-"advocacy in Slovakia and around the world. Accordingly, we intend to "
-"record all PyCon SK presentations and live stream and release the "
-"recordings on the web."
+"One of the motivations for organizing PyCon is to help spread knowledge, "
+"educate in Python programming and support it in Slovakia and abroad. That"
+" is also why we plan to record all talks from the conference, stream them"
+" live and then publish them all on the web. "
 msgstr ""
-"Jednou z motivácií pre organizovanie PyConu je pomôcť so šírením "
-"vyučovania programovania v Pythone a jeho podporou na Slovensku i v "
-"zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie a"
-" naživo streamovať a následne všetky zverejniť na webe."
+"Jednou z motivácií pre organizovanie PyCon je pomôcť šíriť vedomosti, vzdelávať v  programovaní v Pythone a podporovať ho na Slovensku i v zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie, naživo ich streamovať a následne všetky zverejniť na webe."
 
-#: templates/cfp.html:120 templates/cfp_form.html:454
+#: templates/cfp.html:114
 msgid ""
-"By submitting your talk or workshop proposal, or by signing up to give a "
-"lightning talk, you agree to give permission to the SPy o.z. to record, "
-"edit, and release audio and/or video of your presentation."
+"By sending a proposal for a talk or workshop or signing up for a "
+"lightning talk, you give consent to SPy o.z. to record, edit and publish "
+"an audio and/or video recording of your presentation. "
 msgstr ""
-"Odoslaním návrhu na prednášku alebo workshop alebo zapísaním sa na "
-"lightning talk dávaš súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie "
-"audio a/alebo video záznamu z tvojej prezentácie."
+"Odoslaním návrhu na prednášku alebo workshop alebo zapísaním sa na lightning talk dávaš súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie audio a/alebo video záznamu z tvojej prezentácie."
 
-#: templates/cfp.html:123 templates/cfp_form.html:457
+#: templates/cfp.html:117 templates/cfp_form.html:457
 msgid "Full recording release statement"
 msgstr "Plné znenie súhlasu s nahrávaním"
 
@@ -720,9 +746,41 @@ msgstr "Potrebuješ ubytovanie?"
 msgid "Submit"
 msgstr "Odoslať"
 
+#: templates/cfp_form.html:449
+msgid "Recording release"
+msgstr "Súhlas so zverejnením nahrávok"
+
+#: templates/cfp_form.html:451 templates/recording.html:32
+msgid ""
+"Part of the motivation for PyCon SK is to help with Python education and "
+"advocacy in Slovakia and around the world. Accordingly, we intend to "
+"record all PyCon SK presentations and live stream and release the "
+"recordings on the web."
+msgstr ""
+"Jednou z motivácií pre organizovanie PyConu je pomôcť so šírením "
+"vyučovania programovania v Pythone a jeho podporou na Slovensku i v "
+"zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie a"
+" naživo streamovať a následne všetky zverejniť na webe."
+
+#: templates/cfp_form.html:454
+msgid ""
+"By submitting your talk or workshop proposal, or by signing up to give a "
+"lightning talk, you agree to give permission to the SPy o.z. to record, "
+"edit, and release audio and/or video of your presentation."
+msgstr ""
+"Odoslaním návrhu na prednášku alebo workshop alebo zapísaním sa na "
+"lightning talk dávaš súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie "
+"audio a/alebo video záznamu z tvojej prezentácie."
+
 #: templates/cfv.html:9 templates/cfv.html:15
 msgid "Call for Volunteers"
 msgstr "Pridaj sa k nám"
+
+#: templates/cfv.html:30
+msgid ""
+"PyCon SK is organized by the Python community and for the Python "
+"community."
+msgstr "PyCon SK organizuje Python komunita pre komunitu."
 
 #: templates/cfv.html:31
 msgid ""
@@ -2063,6 +2121,18 @@ msgstr ""
 "Naším cieľom je byť čo najviac zero-waste. Pomôžte nám v našej iniciatíve"
 " a prineste si svoje znovu použiteľné fľaše na vodu a šálky na kávu!"
 
+#: templates/tickets.html:203
+msgid ""
+"PyCon is not just for experienced programmers, our aim is to spread "
+"knowledge, promote the Python programming language and create a diverse, "
+"supportive community where all members can learn from each other and "
+"develop together."
+msgstr ""
+"PyCon nie je iba pre skúsených programátorov, našou snahou je šíriť "
+"vedomosti, propagovať programovací jazyk Python a vytvárať pestrú, "
+"podporujúcu sa komunitu, kde sa môžu všetci členovia vzájomne učiť a "
+"spoločne rozvíjať."
+
 #: templates/tickets.html:204
 msgid ""
 "That's why we offer those interested in programming who have no previous "
@@ -2492,5 +2562,109 @@ msgstr "Partneri"
 #~ "predstaví program konferencie."
 
 #~ msgid "Beginners track"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We are trying to finalize the "
+#~ "conference program as soon as possible;"
+#~ " the earlier you submit your proposal"
+#~ " the higher chance of acceptance it"
+#~ " has. <b>The deadline for submissions "
+#~ "is 15 Jan 2023.</b>"
+#~ msgstr ""
+
+#~ msgid "All selected speakers get a complimentary ticket to the conference."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You're coming to the event, and "
+#~ "that makes you part of the "
+#~ "community. If you've done something that"
+#~ " you think other people might be "
+#~ "interested in, or that you think "
+#~ "they should know about, please do "
+#~ "consider telling us about it. We "
+#~ "don't just want to hear from "
+#~ "experts or famous names - other "
+#~ "perspectives are just as valuable, so"
+#~ " don't let the idea that you're "
+#~ "not an expert or famous enough "
+#~ "stop you. This is your invitation "
+#~ "to submit a talk proposal if you"
+#~ " haven't spoken at the conference "
+#~ "before. First-time speakers' talk "
+#~ "proposals will be preferred."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We are trying to finalize the "
+#~ "conference program as soon as possible;"
+#~ " the earlier you submit your proposal"
+#~ " the higher chance of acceptance it"
+#~ " has. <b>The deadline for submissions "
+#~ "is 1 Jan 2024.</b>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Still not sure about the details "
+#~ "your proposal? No worries :-) After "
+#~ "submitting your proposal, you will "
+#~ "receive a confirmation email with a "
+#~ "link with which you can return to"
+#~ " your proposal and make changes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can reach out to us via "
+#~ "email and we can discuss the topic"
+#~ " you have chosen and also the "
+#~ "abstract. If you need mentoring we'd "
+#~ "love to help, just ask."
+#~ msgstr ""
+
+#~ msgid "Guidelines for Proposal Submission"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There is no official restriction on "
+#~ "the topic that you propose a talk"
+#~ " session. Talks about Python or the"
+#~ " Python community are most likely to"
+#~ " line up with the interests of "
+#~ "PyCon's audience, and a key "
+#~ "consideration that the talk selection "
+#~ "committee will be thinking about is "
+#~ "your talk's ability to draw an "
+#~ "audience. You may propose more than "
+#~ "one, but the committee will ask "
+#~ "you to choose only one talk if "
+#~ "more than one of your proposals is"
+#~ " accepted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you have any questions, please "
+#~ "contact us via email: info@pycon.sk or"
+#~ " join our Slack channel"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Most talks are 30 minutes long, "
+#~ "but we do offer a limited number"
+#~ " of 45-minute slots for important "
+#~ "topics that promise to benefit from "
+#~ "a more extensive treatment."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As with the talks, we are looking"
+#~ " for tutorials that can grow this "
+#~ "community at any level! We aim for"
+#~ " tutorials that will advance Python, "
+#~ "advance this community, and shape the"
+#~ " future. As tutorials are longer than"
+#~ " talks and are in an interactive "
+#~ "classroom-like setting, they require "
+#~ "much more preparation."
 #~ msgstr ""
 
