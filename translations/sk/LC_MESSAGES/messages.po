@@ -264,7 +264,7 @@ msgid ""
 "Do you know about a speaker that would be a good fit for our conference? "
 "<b>Let us know:</b>"
 msgstr ""
-"Vieš o niekom, kto má skvelé prednášky alebo workshopy a tematicky by na PyConSK  zapadol? Daj nám vedieť: "
+"Vieš o niekom, kto má skvelé prednášky alebo workshopy a tematicky by na PyConSK  zapadol? <b>Daj nám vedieť:</b> "
 
 #: templates/cfp.html:45 templates/cfp.html:46 templates/cfp_form.html:18
 #: templates/recording.html:61
@@ -298,7 +298,7 @@ msgid ""
 "You can also submit <b>several proposals for talks or workshops</b>. "
 "However, you must fill out the form separately for each proposal."
 msgstr ""
-"Môžeš predložiť aj <b>viacero návrhov na príspevky alebo workshopy</b>. Pre každý návrh však  musíte vyplniť formulár zvlášť (čo návrh na príspevok, to vyplnený formulár)."
+"Môžeš predložiť aj <b>viacero návrhov na príspevky alebo workshopy</b>. Pre každý návrh však musíš vyplniť formulár zvlášť (čo návrh na príspevok, to vyplnený formulár)."
 
 #: templates/cfp.html:57
 msgid ""
