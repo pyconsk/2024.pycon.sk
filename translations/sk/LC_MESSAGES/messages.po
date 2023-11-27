@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-13 11:22+0100\n"
+"POT-Creation-Date: 2023-11-27 12:21+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -237,7 +237,11 @@ msgid ""
 "developer, data scientist, web developer, or just a Python enthusiast, "
 "we'd love to hear from you."
 msgstr ""
-"Hľadáme rečníkov, ktorí dokážu inšpirovať, vzdelávať a zaujať naše publikum prednáškami a workshopmi pokrývajúcimi širokú škálu tém súvisiacich s Pythonom a jeho ekosystémom. Či už si skúsený vývojár alebo vývojárka Pythonu, dátový vedec alebo vedkyňa, webový vývojár či vývojárka alebo si len zanietený/á pre Python, radi si Ťa vypočujeme."
+"Hľadáme rečníkov, ktorí dokážu inšpirovať, vzdelávať a zaujať naše "
+"publikum prednáškami a workshopmi pokrývajúcimi širokú škálu tém "
+"súvisiacich s Pythonom a jeho ekosystémom. Či už si skúsený vývojár alebo"
+" vývojárka Pythonu, dátový vedec alebo vedkyňa, webový vývojár či "
+"vývojárka alebo si len zanietený/á pre Python, radi si Ťa vypočujeme."
 
 #: templates/cfp.html:33
 msgid "Anyone can be part of the conference."
@@ -253,7 +257,12 @@ msgid ""
 "stimulating contributions from everyone who dares to speak in front of an"
 " audience."
 msgstr ""
-"PyConSK organizuje Python komunita pre komunitu a každý účastník konferencie je jej súčasťou. Ak máš pocit, že by výsledky tvojej práce alebo bádania mohli zaujať ostatných, príď sa podeliť o svoje vedomosti a postrehy. Nechceme počuť prednášky len od expertov či známych mien, ceníme si rôzne perspektívy a podnetné príspevky od každého, kto sa odváži vystúpiť pred publikom."
+"PyConSK organizuje Python komunita pre komunitu a každý účastník "
+"konferencie je jej súčasťou. Ak máš pocit, že by výsledky tvojej práce "
+"alebo bádania mohli zaujať ostatných, príď sa podeliť o svoje vedomosti a"
+" postrehy. Nechceme počuť prednášky len od expertov či známych mien, "
+"ceníme si rôzne perspektívy a podnetné príspevky od každého, kto sa "
+"odváži vystúpiť pred publikom."
 
 #: templates/cfp.html:38
 msgid "Give us a tip"
@@ -264,7 +273,8 @@ msgid ""
 "Do you know about a speaker that would be a good fit for our conference? "
 "<b>Let us know:</b>"
 msgstr ""
-"Vieš o niekom, kto má skvelé prednášky alebo workshopy a tematicky by na PyConSK  zapadol? <b>Daj nám vedieť:</b> "
+"Vieš o niekom, kto má skvelé prednášky alebo workshopy a tematicky by na "
+"PyConSK  zapadol? <b>Daj nám vedieť:</b> "
 
 #: templates/cfp.html:45 templates/cfp.html:46 templates/cfp_form.html:18
 #: templates/recording.html:61
@@ -291,14 +301,20 @@ msgid ""
 "contributions to the conference understands the ability to engage with "
 "the given topic as one of the key criteria. "
 msgstr ""
-"Neexistuje žiadne oficiálne obmedzenie pre tému prednášky alebo workshopu. Najvyššiu pravdepodobnosť zaujať účastníkov PyCon však budeš mať s témami týkajúcimi sa Pythonu a Python komunity. Komisia vyberajúca príspevky na konferenciu chápe schopnosť zaujať danou témou ako jedno z kľúčových kritérií. "
+"Neexistuje žiadne oficiálne obmedzenie pre tému prednášky alebo "
+"workshopu. Najvyššiu pravdepodobnosť zaujať účastníkov PyCon však budeš "
+"mať s témami týkajúcimi sa Pythonu a Python komunity. Komisia vyberajúca "
+"príspevky na konferenciu chápe schopnosť zaujať danou témou ako jedno z "
+"kľúčových kritérií. "
 
 #: templates/cfp.html:54
 msgid ""
 "You can also submit <b>several proposals for talks or workshops</b>. "
 "However, you must fill out the form separately for each proposal."
 msgstr ""
-"Môžeš predložiť aj <b>viacero návrhov na príspevky alebo workshopy</b>. Pre každý návrh však musíš vyplniť formulár zvlášť (čo návrh na príspevok, to vyplnený formulár)."
+"Môžeš predložiť aj <b>viacero návrhov na príspevky alebo workshopy</b>. "
+"Pre každý návrh však musíš vyplniť formulár zvlášť (čo návrh na "
+"príspevok, to vyplnený formulár)."
 
 #: templates/cfp.html:57
 msgid ""
@@ -306,14 +322,17 @@ msgid ""
 "which could be included in the Beginner's Track - section for "
 "participants who have no experience with Python. "
 msgstr ""
-"Uvítame aj <b>témy prednášok a workshopov pre úplných začiatočníkov</b>, ktoré by mohli byť zaradené do tzv. Beginner’s Track - sekcie pre účastníkov, ktorí nemajú s Pythonom žiadne skúsenosti."
+"Uvítame aj <b>témy prednášok a workshopov pre úplných začiatočníkov</b>, "
+"ktoré by mohli byť zaradené do tzv. Beginner’s Track - sekcie pre "
+"účastníkov, ktorí nemajú s Pythonom žiadne skúsenosti."
 
 #: templates/cfp.html:60
 msgid ""
 "If you want to submit your proposal, fill out our CfP form and follow the"
 " instructions in it. "
 msgstr ""
-"Ak chceš odoslať svoj návrh, vyplň náš formulár CfP a postupuj podľa pokynov v ňom uvedených."
+"Ak chceš odoslať svoj návrh, vyplň náš formulár CfP a postupuj podľa "
+"pokynov v ňom uvedených."
 
 #: templates/cfp.html:63
 msgid "The deadline for submitting proposals is 01.01.2024"
@@ -329,7 +348,9 @@ msgid ""
 "interesting or important topics, we can also offer a limited number of "
 "45-minute time slots."
 msgstr ""
-"Pre väčšinu prednášok je vyhradených 30 minút. V prípade mimoriadne zaujímavých alebo dôležitých tém vieme ponúknuť aj obmedzené množstvo 45-minútových časových okien."
+"Pre väčšinu prednášok je vyhradených 30 minút. V prípade mimoriadne "
+"zaujímavých alebo dôležitých tém vieme ponúknuť aj obmedzené množstvo "
+"45-minútových časových okien."
 
 #: templates/cfp.html:77
 msgid "Workshops"
@@ -344,7 +365,12 @@ msgid ""
 "and implementation, we have set time slots of varying length (1 hour, 2 "
 "hours or 3 hours)."
 msgstr ""
-"Rovnako ako pri prednáškach, chceme ponúknuť aj workshopy, ktoré môžu obohatiť účastníkov na rôznych užívateľských úrovniach. Naším cieľom je prostredníctvom praktických ukážok a zadaní zlepšovať zručnosti a prehlbovať vedomosti Python komunity. Nakoľko workshopy vyžadujú na prípravu a realizáciu viac času, vyčlenili sme pre ne tri rôzne dlhé časové bloky (1 hodina, 2 hodiny alebo 3 hodiny)."
+"Rovnako ako pri prednáškach, chceme ponúknuť aj workshopy, ktoré môžu "
+"obohatiť účastníkov na rôznych užívateľských úrovniach. Naším cieľom je "
+"prostredníctvom praktických ukážok a zadaní zlepšovať zručnosti a "
+"prehlbovať vedomosti Python komunity. Nakoľko workshopy vyžadujú na "
+"prípravu a realizáciu viac času, vyčlenili sme pre ne tri rôzne dlhé "
+"časové bloky (1 hodina, 2 hodiny alebo 3 hodiny)."
 
 #: templates/cfp.html:86 templates/tickets.html:202
 msgid "Beginner's track"
@@ -361,7 +387,14 @@ msgid ""
 "to Python-related topics and motivate them to further develop their "
 "skills."
 msgstr ""
-"PyCon nie je iba pre skúsených programátorov. Našou snahou je šíriť vedomosti, propagovať programovací jazyk Python a vytvárať pestrú, podporujúcu sa komunitu,kde sa môžu všetci členovia vzájomne učiť a spoločne rozvíjať. Preto pripravujeme sekciu určenú pre začiatočníkov, ktorí nemajú s Pythonom žiadne alebo len malé skúsenosti. V rámci tejto sekcie chceme účastníkom ponúknuť prednášky a workshopy, ktoré ich uvedú do tém súvisiacich s Pythonom a motivujú ich k ďalšiemu rozvíjaniu ich zručností."
+"PyCon nie je iba pre skúsených programátorov. Našou snahou je šíriť "
+"vedomosti, propagovať programovací jazyk Python a vytvárať pestrú, "
+"podporujúcu sa komunitu,kde sa môžu všetci členovia vzájomne učiť a "
+"spoločne rozvíjať. Preto pripravujeme sekciu určenú pre začiatočníkov, "
+"ktorí nemajú s Pythonom žiadne alebo len malé skúsenosti. V rámci tejto "
+"sekcie chceme účastníkom ponúknuť prednášky a workshopy, ktoré ich uvedú "
+"do tém súvisiacich s Pythonom a motivujú ich k ďalšiemu rozvíjaniu ich "
+"zručností."
 
 #: templates/cfp.html:94
 msgid "Benefits for speakers"
@@ -388,7 +421,8 @@ msgid ""
 "If you have any questions or need additional information, contact us at "
 "info@pycon.sk  We look forward to all proposals!"
 msgstr ""
-"Ak máš akékoľvek otázky alebo potrebuješ ďalšie informácie, kontaktuj nás na info@pycon.sk Tešíme sa na všetky návrhy príspevkov!"
+"Ak máš akékoľvek otázky alebo potrebuješ ďalšie informácie, kontaktuj nás"
+" na info@pycon.sk Tešíme sa na všetky návrhy príspevkov!"
 
 #: templates/cfp.html:109
 msgid "Consent to the recording release"
@@ -401,7 +435,10 @@ msgid ""
 " is also why we plan to record all talks from the conference, stream them"
 " live and then publish them all on the web. "
 msgstr ""
-"Jednou z motivácií pre organizovanie PyCon je pomôcť šíriť vedomosti, vzdelávať v  programovaní v Pythone a podporovať ho na Slovensku i v zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie, naživo ich streamovať a následne všetky zverejniť na webe."
+"Jednou z motivácií pre organizovanie PyCon je pomôcť šíriť vedomosti, "
+"vzdelávať v  programovaní v Pythone a podporovať ho na Slovensku i v "
+"zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie, "
+"naživo ich streamovať a následne všetky zverejniť na webe."
 
 #: templates/cfp.html:114
 msgid ""
@@ -409,7 +446,9 @@ msgid ""
 "lightning talk, you give consent to SPy o.z. to record, edit and publish "
 "an audio and/or video recording of your presentation. "
 msgstr ""
-"Odoslaním návrhu na prednášku alebo workshop alebo zapísaním sa na lightning talk dávaš súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie audio a/alebo video záznamu z tvojej prezentácie."
+"Odoslaním návrhu na prednášku alebo workshop alebo zapísaním sa na "
+"lightning talk dávaš súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie "
+"audio a/alebo video záznamu z tvojej prezentácie."
 
 #: templates/cfp.html:117 templates/cfp_form.html:457
 msgid "Full recording release statement"
@@ -1429,16 +1468,12 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:222 templates/sponsors.html:29
-msgid "Official Sponsors &amp; Partners"
-msgstr "Oficiálni sponzori a partneri"
-
-#: templates/index.html:223 templates/sponsors.html:30
+#: templates/index.html:221 templates/sponsors.html:27
 msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:227 templates/index.html:228 templates/sponsors.html:34
-#: templates/sponsors.html:35
+#: templates/index.html:225 templates/index.html:226 templates/sponsors.html:31
+#: templates/sponsors.html:32
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
@@ -2401,43 +2436,24 @@ msgstr ""
 msgid "Check who made this event possible!"
 msgstr "Pozri, vďaka komu sa podarilo zorganizovať túto konferenciu."
 
-#: templates/includes/sponsors_list.html:16
-msgid "Diamond sponsor"
-msgstr "Diamantový sponzor"
-
-#: templates/includes/sponsors_list.html:27
+#: templates/includes/sponsors_list.html:17
 msgid "Platinum sponsors"
 msgstr "Platinoví sponzori"
 
-#: templates/includes/sponsors_list.html:73
-msgid "Gold sponsors"
-msgstr "Zlatí sponzori"
+#: templates/includes/sponsors_list.html:28
+msgid "Silver sponsors"
+msgstr "Strieborní sponzori"
 
-#: templates/includes/sponsors_list.html:112
+#: templates/includes/sponsors_list.html:39
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/includes/sponsors_list.html:165
-msgid "Community partners"
-msgstr "Komunitní partneri"
-
-#: templates/includes/sponsors_list.html:192
-msgid "Main media partner"
-msgstr "Hlavný mediálny partner"
-
-#: templates/includes/sponsors_list.html:204
-msgid "Media partners"
-msgstr "Mediálni partneri"
-
-#: templates/includes/sponsors_list.html:222
+#: templates/includes/sponsors_list.html:115
 msgid "Partners"
 msgstr "Partneri"
 
 #~ msgid "Schedule"
 #~ msgstr "Program"
-
-#~ msgid "Silver sponsors"
-#~ msgstr "Strieborní sponzori"
 
 #~ msgid "Talks and Workshops"
 #~ msgstr "Prednášky a workshopy"
@@ -2667,4 +2683,25 @@ msgstr "Partneri"
 #~ "classroom-like setting, they require "
 #~ "much more preparation."
 #~ msgstr ""
+
+#~ msgid "Silver sponsors"
+#~ msgstr "Strieborní sponzori"
+
+#~ msgid "Official Sponsors &amp; Partners"
+#~ msgstr "Oficiálni sponzori a partneri"
+
+#~ msgid "Diamond sponsor"
+#~ msgstr "Diamantový sponzor"
+
+#~ msgid "Gold sponsors"
+#~ msgstr "Zlatí sponzori"
+
+#~ msgid "Community partners"
+#~ msgstr "Komunitní partneri"
+
+#~ msgid "Main media partner"
+#~ msgstr "Hlavný mediálny partner"
+
+#~ msgid "Media partners"
+#~ msgstr "Mediálni partneri"
 
