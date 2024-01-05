@@ -1,5 +1,14 @@
 [
   {
+    "date": "2023-01-05",
+    "title_en": "The Second round of Call for Proposals is open!",
+    "meta_en": "Our program committee is already reviewing proposals that were submitted until 31. 12. 2023 and we want to thank everyone who submitted their proposals on time. For those who are still hesitating or did not have time to submit their proposal, there is an opportunity to do so until 20. 01. 2024 in the second round. Become a part of PyCon SK!",
+    "title_sk": "Druhé kolo výzvy na predkladanie návrhov na konferenčné príspevky je otvorené!",
+    "meta_sk": "Naša programová komisia už posudzuje návrhy, ktoré boli podané do 31. 12. 2023 a chceme poďakovať všetkým, ktorí svoje návrhy podali včas. Pre tých, ktorí ešte váhajú alebo nestihli poslať svoj návrh, je možnosť tak urobiť do 20. 01. 2024 v druhom, doplňujúcom kole. Staňte sa súčasťou PyCon SK!",
+    "categories": ["speakers"],
+    "url": "/en/cfp.html"
+  },
+  {
     "date": "2023-11-10",
     "title_en": "Call for Proposals for PyConSK 2024 is open!",
     "meta_en": "We are looking for speakers who can inspire, educate and engage our audience with talks and workshops covering a wide range of topics related to Python and its ecosystem. Whether you're an experienced Python developer, data scientist, web developer, or just a Python enthusiast, we'd love to hear from you.\n",
