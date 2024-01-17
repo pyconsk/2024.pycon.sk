@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-05 18:01+0100\n"
+"POT-Creation-Date: 2024-01-12 09:43+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -376,7 +376,7 @@ msgstr ""
 "prípravu a realizáciu viac času, vyčlenili sme pre ne tri rôzne dlhé "
 "časové bloky (1 hodina, 2 hodiny alebo 3 hodiny)."
 
-#: templates/cfp.html:87 templates/tickets.html:202
+#: templates/cfp.html:87 templates/tickets.html:209
 msgid "Beginner's track"
 msgstr "Sekcia pre začiatočníkov a začiatočníčky"
 
@@ -2005,37 +2005,44 @@ msgstr ""
 msgid "Community & Inclusion"
 msgstr "Komunita a inklúzia"
 
-#: templates/tickets.html:83
+#: templates/tickets.html:84
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr "PyCon je špeciálna konferencia - je organizovaná komunitou pre komunitu"
 
-#: templates/tickets.html:85
+#: templates/tickets.html:87
 msgid ""
-"By attending, you have a chance to meet like minded people and hear a lot"
-" of interesting\n"
-"          stories. However, for those who cannot afford to attend because"
-" of financial reasons we have opened a\n"
-"          financial aid scheme and give free tickets."
+"We are trying to make PyCon SK accessible even to those who have limited "
+"financial resources.\n"
+"          If you cannot afford to buy a ticket to the conference or pay "
+"for travel or accommodation, ask for\n"
+"          financial assistance through the form. Tell us more about your "
+"motivation to attend PyCon SK and we'll\n"
+"          inform you about the approval of the financial aid in advance."
 msgstr ""
-"Ak sa zúčastníš konferencie, máš šancu stretnúť podobne naladených ľudí a"
-" vypočuť si množstvo zaujímavých príbehov.\n"
-"              Pre tých, ktorí si z finančných dôvodov nemôžu dovoliť "
-"kúpiť lístok na konferenciu, sme pripravili program na podporu\n"
-"              a máme pripravené určité množstvo lístkov zadarmo."
+"Snažíme sa, aby bol PyCon SK dostupný aj pre tých, ktorí majú obmedzené "
+"finančné prostriedky.Ak si nemôžete dovoliť kúpiť vstupenku na "
+"konferenciu alebo zaplatiť cestu či ubytovanie, požiadajte nás "
+"prostredníctvom formuláru o finančnú pomoc. Povedzte nám viac o vašej "
+"motivácii zúčastniť sa PyCon SK a my vás budeme informovať o prípadnom "
+"schválení finančnej pomoci v dostatočnom predstihu."
 
-#: templates/tickets.html:108
+#: templates/tickets.html:93
+msgid "Financial Aid Form"
+msgstr "Finančná pomoc"
+
+#: templates/tickets.html:115
 msgid "Conference T-shirt and other swag"
 msgstr "Tričko z konferencie a ďalšie drobnosti"
 
-#: templates/tickets.html:109
+#: templates/tickets.html:116
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr "Čo by to bolo za konferenciu bez konferenčného trička?"
 
-#: templates/tickets.html:110
+#: templates/tickets.html:117
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle-->\n"
@@ -2046,11 +2053,11 @@ msgstr ""
 " Možno aj fľašu na vodu -->\n"
 "<!--          s našim skvelým PyCon SK logom. Privítame aj tvoje návrhy..."
 
-#: templates/tickets.html:125
+#: templates/tickets.html:132
 msgid "Refreshments"
 msgstr "Občerstvenie"
 
-#: templates/tickets.html:126
+#: templates/tickets.html:133
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back "
 "with our all-you-can-drink coffee, tea\n"
@@ -2059,7 +2066,7 @@ msgstr ""
 "Obávaš sa, že zaspíš počas prednášky? Už nemusíš, máme všetko - \n"
 "              kávu, čaj či vodu."
 
-#: templates/tickets.html:128
+#: templates/tickets.html:135
 msgid ""
 "We will have two professional baristas serving fresh coffee and tea all "
 "day long. Water\n"
@@ -2070,19 +2077,19 @@ msgstr ""
 "dispozícii\n"
 "na viacerých miestach rovnomerne v celej lobby."
 
-#: templates/tickets.html:137
+#: templates/tickets.html:144
 msgid "Lunch"
 msgstr "Obed"
 
-#: templates/tickets.html:138
+#: templates/tickets.html:145
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr "Počas všetkých troch dní sa budú na obed servírovať rôzne teplé jedlá"
 
-#: templates/tickets.html:139
+#: templates/tickets.html:146
 msgid "Meat and vegetarian alternatives will be available."
 msgstr "K dispozícii budú mäsité aj vegetariánske alternatívy"
 
-#: templates/tickets.html:140
+#: templates/tickets.html:147
 msgid ""
 "We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat\n"
@@ -2094,11 +2101,11 @@ msgstr ""
 "              a pitnú vodu poskytujeme z recyklovateľných plastových "
 "fliaš."
 
-#: templates/tickets.html:161
+#: templates/tickets.html:168
 msgid "Real Conference Ticket Price"
 msgstr "Skutočná cena vstupenky"
 
-#: templates/tickets.html:162
+#: templates/tickets.html:169
 msgid ""
 "The <b>real price</b> of one conference ticket would be much higher had "
 "it not been for our sponsors and\n"
@@ -2108,7 +2115,7 @@ msgstr ""
 "nás nepodporovali naši\n"
 "sponzori a partneri, vďaka ktorým môžeme lístky predávať oveľa lacnejšie."
 
-#: templates/tickets.html:165
+#: templates/tickets.html:172
 msgid ""
 "Without sponsors and partners all tickets would be less affordable and "
 "this price still does not include the enormous amount of volunteer work, "
@@ -2119,11 +2126,11 @@ msgstr ""
 "nezahŕňa obrovské množstvo dobrovoľníckej práce, ktorú robí Python "
 "komunita pred a počas každého PyConu."
 
-#: templates/tickets.html:176
+#: templates/tickets.html:183
 msgid "Sustainability"
 msgstr "Udržateľnosť"
 
-#: templates/tickets.html:177
+#: templates/tickets.html:184
 msgid ""
 "PyCon is going as green as possible. This is why we decided to avoid "
 "distributing physical swag bags with items that are not really needed or "
@@ -2133,7 +2140,7 @@ msgstr ""
 "sa distribúcii fyzických sponzorských darčekov v taškách, ktoré mnohí z "
 "nás nepotrebujú alebo nechcú a ľahko skončia v košoch."
 
-#: templates/tickets.html:179
+#: templates/tickets.html:186
 msgid ""
 "Popular PyCon t-shirts will only be available for purchase as part of the"
 " Community Supporter ticket to ensure they only reach those who really "
@@ -2143,7 +2150,7 @@ msgstr ""
 "Supporter, aby sa zabezpečilo, že sa dostanú len k tým, ktorí ich naozaj "
 "chcú."
 
-#: templates/tickets.html:180
+#: templates/tickets.html:187
 msgid ""
 "Thanks to the higher price of t-shirts, we will be able to choose better "
 "quality material that will last longer and won’t end as another "
@@ -2152,7 +2159,7 @@ msgstr ""
 "Vďaka vyššej cene tričiek si budeme môcť vybrať kvalitnejší materiál, "
 "ktorý dlhšie vydrží a neskončí ako ďalší zbytočný odpad."
 
-#: templates/tickets.html:182
+#: templates/tickets.html:189
 msgid ""
 "Overall, our goal is to be as zero-waste as possible. Help us in our "
 "initiative and bring your reusable water bottles and coffee cups!"
@@ -2160,7 +2167,7 @@ msgstr ""
 "Naším cieľom je byť čo najviac zero-waste. Pomôžte nám v našej iniciatíve"
 " a prineste si svoje znovu použiteľné fľaše na vodu a šálky na kávu!"
 
-#: templates/tickets.html:203
+#: templates/tickets.html:210
 msgid ""
 "PyCon is not just for experienced programmers, our aim is to spread "
 "knowledge, promote the Python programming language and create a diverse, "
@@ -2172,13 +2179,13 @@ msgstr ""
 "podporujúcu sa komunitu, kde sa môžu všetci členovia vzájomne učiť a "
 "spoločne rozvíjať."
 
-#: templates/tickets.html:204
+#: templates/tickets.html:211
 msgid ""
-"That's why we offer those interested in programming who have no previous "
+"That's why we offer those interested in programming who have little "
 "experience the opportunity to attend lectures and workshops where they "
 "learn the basics of Python."
 msgstr ""
-"Preto ponúkame záujemcom o programovanie, ktorí nemajú žiadne "
+"Preto ponúkame záujemcom o programovanie, ktorí nemajú veľa "
 "predchádzajúce skúsenosti, možnosť absolvovať prednášky a workshopy, kde "
 "si osvoja základy Pythonu."
 
@@ -2708,4 +2715,24 @@ msgstr "Partneri"
 
 #~ msgid "Media partners"
 #~ msgstr "Mediálni partneri"
+
+#~ msgid ""
+#~ "By attending, you have a chance to"
+#~ " meet like minded people and hear "
+#~ "a lot of interesting\n"
+#~ "          stories. However, for those "
+#~ "who cannot afford to attend because "
+#~ "of financial reasons we have opened "
+#~ "a\n"
+#~ "          financial aid scheme and give free tickets."
+#~ msgstr ""
+#~ "Ak sa zúčastníš konferencie, máš šancu"
+#~ " stretnúť podobne naladených ľudí a "
+#~ "vypočuť si množstvo zaujímavých príbehov.\n"
+#~ ""
+#~ "              Pre tých, ktorí si z "
+#~ "finančných dôvodov nemôžu dovoliť kúpiť "
+#~ "lístok na konferenciu, sme pripravili "
+#~ "program na podporu\n"
+#~ "              a máme pripravené určité množstvo lístkov zadarmo."
 
