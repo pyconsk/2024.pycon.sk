@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-12 09:43+0100\n"
+"POT-Creation-Date: 2024-01-19 14:55+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -2189,6 +2189,42 @@ msgstr ""
 "predchádzajúce skúsenosti, možnosť absolvovať prednášky a workshopy, kde "
 "si osvoja základy Pythonu."
 
+#: templates/tickets.html:217
+msgid "Health and safety guidelines at the conference"
+msgstr "Odporúčania pre zdravie a bezpečnosť na konferencii"
+
+#: templates/tickets.html:219
+msgid ""
+"Our goal is to create a safe environment at the conference venue and "
+"prevent the spread\n"
+"      of respiratory diseases. Although there are currently (January "
+"2024) no event capacity\n"
+"      restrictions in Slovakia, we advise participants to have up-to-date"
+" vaccinations."
+msgstr ""
+"Našim cieľom je vytvoriť bezpečné prostredie v mieste konania konferencie"
+" a zabrániť šíreniu respiračných chorôb. Aj keď v súčasnosti (január "
+"2024) na Slovensku neexistujú žiadne obmedzenia na podujatia, odporúčame "
+"účastníkom, aby mali aktuálne očkovanie."
+
+#: templates/tickets.html:223
+msgid ""
+"We expect attendees to be considerate to others and self-isolate in case "
+"of any respiratory\n"
+"      disease symptoms."
+msgstr ""
+"Očakávame, že účastníci budú ohľaduplní k ostatným a že sa izolujú v "
+"prípade príznakov respiračného ochorenia."
+
+#: templates/tickets.html:226
+msgid ""
+"Further health and safety guidelines may be announced based on public "
+"regulations or\n"
+"      the current pandemic situation."
+msgstr ""
+"Na základe pandemickej situácie a oficiálnych regulácií môžu byť tieto "
+"pravidlá ešte upravené."
+
 #: templates/venue.html:52
 msgid "Map and POIs"
 msgstr "Mapa"
@@ -2459,7 +2495,16 @@ msgstr "Strieborní sponzori"
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/includes/sponsors_list.html:115
+#: templates/includes/sponsors_list.html:98
+msgid "Django Girls & PyLadies Sponsor"
+msgstr ""
+
+#: templates/includes/sponsors_list.html:109
+#, fuzzy
+msgid "Media partners"
+msgstr "Partneri"
+
+#: templates/includes/sponsors_list.html:134
 msgid "Partners"
 msgstr "Partneri"
 
