@@ -1,267 +1,34 @@
 [
     {
-        "name": "Tom Dyson",
-        "bio": "Tom co-founded Torchbox, a digital agency focused on international non-profits: NGOs, government, charity, education, arts and sport. With five offices around the world, Torchbox is now one of the UK's largest independent agencies. Since 2019, it is 100% employee-owned.\nIn his role as CTO, Tom built a world-class technology team and led them on high profile projects for the UN, NASA, Google, Oxford University and the UK National Health Service.\nTom leads a global community of developers behind Wagtail, the open source product which was created by Torchbox and is now the world's most popular Python CMS, used by Google, NASA, Mozilla and Apple, as well as universities, governments, artists, newspapers, charities, banks and startups around the world.\nHe lives in the countryside in England, with his wife and two daughters. He plays cricket in the summer and makes music all year round.",
+        "name": "Alvaro Duran",
+        "bio": "I started using Python when I was a data scientist, but quickly found out that what I like the most is building software for others to use. Hence, most of the stuff I've learned over the years has to do with optimizing software from the point of view of the user.\n\nI am a developer with a unique blend of expertise in finance, software engineering, and data. When I'm building software, my mind veers towards thorough testing and expressive code. That's why I love Python!\n\nWhen not in front of the keyboard, I'm often found reading voraciously, near a pizza shop, or traveling. I may come across as too serious, but if you come bearing funny memes, or cookies, I can't help smiling.",
+        "country": "Spain",
+        "avatar": "img/speakers/alvaro_duran.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/alvaroduranbarata/"
+        }
+    },
+    {
+        "name": "Daniel Hervás",
+        "bio": "Full-stack engineer that got his first full-time role while still being a university student thanks to self-taught Python. With a background in first, local, and later fully international/remote startups, now works as a Lead Software Engineer and main Technical Coordinator at Reckon Digital, where he collaborates primarily with the UN's World Food Programme (WFP) projects.",
+        "country": "Spain",
+        "avatar": "img/speakers/daniel_hervas.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/d-hervas/"
+        }
+    },
+    {
+        "name": "Eli Holderness",
+        "bio": "Eli has been in tech since being released back into the wild from studying maths at university 7 years ago. They've spent their time working in industries ranging from telecoms to biotech to analog circuit design, continually getting nerd-sniped along the way. These days, they're a freelancer who speaks at conferences, runs workshops, and learns whatever they want. In their spare time, they like to play video games, knit and sew, and hang out with their cat.",
         "country": "United Kingdom",
-        "avatar": "img/speakers/tom_dyson.jpg",
+        "avatar": "img/speakers/eli_holderness.png",
         "links": {
-            "linkedin": "https://www.linkedin.com/in/tomdyson/",
-            "link": "https://torchbox.com/team/tom-dyson/"
-        }
-    },
-    {
-        "name": "Mauro Pelucchi",
-        "bio": "Mauro Pelucchi is a senior data scientist and big data engineer responsible for the design of the \"Real-Time Labour Market Information System on Skill Requirements\" for CEDEFOP. He currently works as Head of Global Data Science @ EMSI Burning-Glass with the goal to develop innovative models, methods and deployments of labour market data and other data to meet customer requirements and prototype new potential solutions. His main tasks are related to advanced machine learning modelling, labour market analyses, and the design of big data pipelines to process large datasets of online job vacancies.\nIn collaboration with the University of Milano-Bicocca, he took part in many research projects related to the labour market intelligence systems.\nHe collaborates with the University of Milano-Bicocca as a lecturer at the Master Business Intelligence and Big Data Analytics and with the University of Bergamo as a lecturer in Computer Engineering.",
-        "country": "Italy",
-        "avatar": "img/speakers/mauro_pelucchi.jpg",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/mauropelucchi/",
-            "link": "http://www.mauropelucchi.com"
-        }
-    },
-    {
-        "name": "Luka Raljević",
-        "bio": "I am Python software developer since 2010. Mostly web applications. I have made right choices, wrong choices and had to maintain someone else’s choices. I have built simple and complex web applications from scratch, took over complex systems, endured countless upgrades and dependency changes. I started as a fullstack developer and system administrator. I have been a team lead, a mentor and a software architect. However, I was always, first and foremost, a developer.",
-        "country": "Croatia",
-        "avatar": "img/speakers/luka_raljevic.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Dmitry Dygalo",
-        "bio": "A lazy developer from Prague, that doesn't like writing boring tests. Building a platform for effortless API testing at Schemathesis.io",
-        "country": "Czechia",
-        "avatar": "img/speakers/dmitry_dygalo.jpg",
-        "links": {
-            "github": "https://github.com/Stranger6667",
-            "twitter": "https://twitter.com/Stranger6667"
-        }
-    },
-    {
-        "name": "Dom Weldon",
-        "bio": "Dom Weldon is a Principal Software Engineer at decisionLab, a London-based mathematical modelling consultancy with expertise in machine learning, simulation, optimization and visualization. Dom's team specialize in taking models from data scientists and turning them into production ready tools. Current clients include the Royal Navy, Siemens and various UK public bodies.\n\nDom came to decisionLab from his PhD studies in Computational Geography at King's College London, his initial degree was in Natural Sciences at the University of Cambridge, and holds a master's in the historical and cultural geography of the Cold War United States. Outside of work, Dom is interested in languages and travelling, and holds a voluntary statutory appointment on a board monitoring the welfare and dignity of prisoners in a challenging North London jail.",
-        "country": "United Kingdom",
-        "avatar": "img/speakers/dom_weldon.jpg",
-        "links": {
-            "link": "https://www.decisionlab.co.uk/"
-        }
-    },
-    {
-        "name": "Petr Šebek",
-        "bio": "Petr has been working professionally with Python for nearly a decade. During the time he was processing millions of products in ROI Hunter, trading on stock exchanges using asynchronous Python at Quantlane and now he’s following his passion in clean code at ThreatMark.\nHe’s interested in working, understandable, and performant code in this order and strives to improve in each of the areas every day.",
-        "country": "Czechia",
-        "avatar": "img/speakers/petr_sebek.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Michal Kaukič",
-        "bio": "Učil som hlavne matematiku, ale venoval som sa aj Linuxu, Pythonu, Open Source. Organizovali sme OSS konferencie v Žiline. Sledoval som vývoj interaktívnych nástrojov od prvopočiatkov IPythonu po Jupyterlab, lebo ich považujem  za veľmi vhodné pre výučbu informatiky a programovania. Rád chodím po horách, cestujem.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/michal_kaukic.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Marcel Puškarik",
-        "bio": "Študujem softvérové inžinierstvo na magisterskom stupni na Fakulte informačních technologií v Prahe.\nBakalára som vyštudoval na Fakulte riadenia a informatiky v Žiline.\nRád sa učím nové veci a skúšam Python knižnice a frameworky.",
-        "country": "Czechia",
-        "avatar": "img/speakers/marcel_puskarik.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Artur Patoka",
-        "bio": "I'm a lead software engineer in test at PacketFabric, a young and dynamic network automation startup from California and I'm totally loving it. Over the last 9 years I've also worked for a few huge companies (Intel, arm, Finastra), in totally different domains (CPUs, GPUs, mobile hardware, finance, network) but my main interest has always been automation. It's amazing to see how universally useful Python is proving to be in those diverse areas!",
-        "country": "Poland",
-        "avatar": "img/speakers/artur_patoka.jpg",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/arturpatoka/"
-        }
-    },
-    {
-        "name": "Umut Nefta Kanilmaz",
-        "bio": "I am a researcher and PhD candidate at the department of Geoinformatics Z_GIS at the Paris-Lodron-University Salzburg. Previously, I worked as a software engineer with focus on scalable big data pipelines for machine learning applications. Prior to the COVID pandemic, I liked to organize Python Meetups in Hamburg, nowadays I use my free time to go bikepacking and explore local beer gardens in Salzburg.",
-        "country": "Germany",
-        "avatar": "img/speakers/nefta_kanilmaz.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Štěpán Bechynský",
-        "bio": "Po skoro devíti letech opustil Štěpán Bechynsky společnost Microsoft, kde pracoval jako Technical Evangelist se zaměřením na Microsoft Azure a zakotvil v klidnějších vodách farmaceutické společnosti MSD, kde měl na starost infrastrukturu v Amazon Web Services. V klidných vodách získal titul MVP a v roce 2016 se vrátil do společnosti Microsoft, kde se staral o IoT projekty v Německu jako technický konzultant. Od roku 2020 pracuje na pozici Microsoft Technical Trainer a vzdělává zákazníky a partnery společnosti Microsoft. Volné chvíle tráví nejraději u plotny.\nhttps://cz.linkedin.com/in/stepanbechynsky",
-        "country": "Czechia",
-        "avatar": "img/speakers/stepan_bechynsky.png",
-        "links": {
-        }
-    },
-    {
-        "name": "Miroslav Šedivý",
-        "bio": "Using Python to make the sun shine, the wind blow, and the gas flow. Greedy polyglot, sustainable urbanist, unicode collector, PSF Fellow.",
-        "country": "Austria",
-        "avatar": "img/speakers/miroslav_sedivy.jpg",
-        "links": {
-            "twitter": "https://twitter.com/eumiro/",
-            "github": "https://github.com/eumiro/",
-            "linkedin": "https://linkedin.com/in/eumiro/"
-        }
-    },
-    {
-        "name": "Vojta Filipec",
-        "bio": "Since my graduation in physics I spent a dozen of years doing data science. My professional experience covers both quantitative work (predictive models and data mining) and a load of soft-skills (consultancy). I enjoy working with maps and doing applied statistics. More at www.linkedin.com/in/vojtech-filipec",
-        "country": "Czechia",
-        "avatar": "img/speakers/vojtech_filipec.jpg",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/vojtech-filipec/"
-        }
-    },
-    {
-        "name": "Tomás Sabat",
-        "bio": "Tomás is the Chief Operating Officer at Vaticle, creators of TypeDB and TypeQL. He works closely with their open source and enterprise users who use TypeDB to build applications in a wide number of industries including financial services, life sciences, cyber security and supply chain management. A graduate of the University of Cambridge, Tomás has spent the last eight years founding and building businesses in the technology industry.",
-        "country": "Netherlands",
-        "avatar": "img/speakers/tomas_sabat.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Anastasiia Tymoshchuk",
-        "bio": "Anastasiia works in the development for more than of 10 years, including experience in e-commerce as well as game development. Every day she deals with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. Currently she works as a Head of Engineering, helping to build an engineering culture in her teams and serve her team’s needs as a Servant Leader.\n\nAnastasiia is also one of the organisers of PyBerlin meetup based in Berlin.",
-        "country": "Germany",
-        "avatar": "img/speakers/anastasiia_tymoshchuk.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Lilian Nandi",
-        "bio": "Lilian studied Computer Science at high school and did her PhD in Computer Modelling. She went on to looking at computer applications and programming in the pharmaceutical sector before entering formal teaching for the next generation. She is currently engaged in teaching Python programming, C# and Javascript. She has given lectures in conferences both in the UK and abroad about the teaching of Computer Programming to young people. She has run computer clubs including that of 'computer-assisted' investment for children and is a member of the British Computer Society.\n\nLilian firmly believes that in this emergent brave new world, the Anthropocene age, the computer (with its associated technologies) is the harbinger to transform globally man's short slavish existence to a better one - a world community defined by longer, richer and freer life experiences. She believes it is imperative that our schools empower our young children with his new knowledge, and Lilian herself did help reshape the Computer Science Department of an independent boys' school as Head of Department. She has produced for children more than 75 YouTube (online) videos on Computer Science and Programming - and has had more than 12,000 hits globally.",
-        "country": "United Kingdom",
-        "avatar": "img/speakers/female.png",
-        "links": {
-        }
-    },
-    {
-        "name": "Maarten Huijsmans",
-        "bio": "I'm a python developer with a few years of experience. I enjoy putting easter eggs in my code. Besides that, I also build useful stuff. Two years ago I started using FastAPI and was impressed by the powerful combination of Starlette and Pydantic to quickly build a well-documented API.\n\nI work at InvestSuite, a Belgian fintech scaleup. I work on multiple microservices: public & private APIs, streaming financial data, machine learning models, etc.",
-        "country": "Belgium",
-        "avatar": "img/speakers/maarten_huijsmans.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Michael Seifert",
-        "bio": "Michael is a consulting software engineer who helps product teams to develop Python software in the cloud. He worked with many different teams from various industries, but none of them practised property-based testing and only few were familiar with the concept.\n\nThis prompted him to spread the word about property-based testing and Hypothesis in an effort to help others write more robust and maintainable software.",
-        "country": "Germany",
-        "avatar": "img/speakers/michael_seifert.png",
-        "links": {
-        }
-    },
-    {
-        "name": "Marc-Andre Lemburg",
-        "bio": "Marc-Andre is the CEO and founder of eGenix.com, a Python-focused project and consulting company based in Germany, specializing in the data, finance and database space. He has a degree in mathematics from the University of Düsseldorf.\n\nHis work with and for Python started in 1994. He is a Python Core Developer, designed and implemented the Unicode support in Python, and author of the mx Extensions, e.g. mxTools, mxDateTime and mxODBC, which are now distributed and maintained through eGenix.com.\n\nMarc-Andre is a EuroPython Society (EPS) Fellow, a Python Software Foundation (PSF) founding Fellow and co-founded a local Python meeting in Düsseldorf (PyDDF). He served on the board of the PSF and EPS for many terms and loves to contribute to the growth of Python where ever he can.\n\nMore information is available on https://malemburg.com/",
-        "country": "Germany",
-        "avatar": "img/speakers/marc_andre_lemburg.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Sara Jakša",
-        "bio": "I am a software engineer at LeanIX. I come from a cognitive science and economics background, so I am more likely to be interested in how to use programming to find out the answer to the social science questions, data analysis and automation, then going into the nitty picky details about kubernetes. I also interested in how people and technology relate to one another.",
-        "country": "Slovenia",
-        "avatar": "img/speakers/sara_jaksa.png",
-        "links": {
-        }
-    },
-    {
-        "name": "Jan Margeta",
-        "bio": "Jan is the founder of KardioMe, a Pythonista and a white water kayaker. He is passionate about solving pending questions about our hearts, ears, cognition and environment with computer vision and machine learning, and is keen on building technologies that push the boundaries of our knowledge.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/jan_margeta.jpg",
-        "links": {
-            "link": "https://kardio.me/",
-            "linkedin": "https://www.linkedin.com/in/jmargeta/",
-            "github": "https://github.com/jmargeta",
-            "twitter": "https://twitter.com/jmargeta"
-        }
-    },
-    {
-        "name": "Věroš Kaplan",
-        "bio": "Věroš began his career as a Python developer. He has gradually moved into operations and today people think he is doing DevOps.\n\nHe earns his living by working with Kubernetes, Ansible and AWS as a freelancer.",
-        "country": "Czechia",
-        "avatar": "img/speakers/veros_kaplan.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Kacper Łukawski",
-        "bio": "Kacper Łukawski is a Developer Advocate at Qdrant - an open-source neural search engine. His broad experience is mostly related to data engineering, machine learning, and software design. He has been actively contributing to the discussion on Artificial Intelligence by conducting lectures and workshops locally and internationally.",
-        "country": "Poland",
-        "avatar": "img/speakers/kacper_lukawski.jpg",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/kacperlukawski/",
-            "github": "https://github.com/kacperlukawski",
-            "twitter": "https://twitter.com/LukawskiKacper"
-        }
-    },
-    {
-        "name": "Jozef Urbanovský",
-        "bio": "Jozef Urbanovský is Senior Software Engineer at Red Hat, as a part of Networking Services Team, mostly specializing in kernel and user space networking. He is a developer of LNST (Linux Network Stack Test) framework, that was created by kernel developers for kernel developers to test and verify functionality of their changes, as well as look for performance regressions.\nJozef’s alma mater is Brno University of Technology, where he graduated in 2020. In his free time he is avid climber, mountaineer and traveller, seeking for the unknown.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/jozef_urbanovsky.png",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/jozef-urbanovsk%C3%BD-146a25108/"
-        }
-    },
-    {
-        "name": "Nabanita Roy",
-        "bio": "Data Scientist @ ACI Worldwide | Education Lead @ Women in AI Ireland | Blogger @ Medium | ❤️ NLP",
-        "country": "Ireland",
-        "avatar": "img/speakers/nabanita_roy.png",
-        "links": {
-        }
-    },
-    {
-        "name": "Vojtěch Kusý",
-        "bio": "Vojtěch has been a professional web developer for almost 20 years. Currently, he is working as a software engineer at SpaceKnow. Before he was a long-term contributor to Drupal CMS, co-founded the digital adoption platform Inline Manual and worked as an engineering lead at privacy-focused startup Data Fiduciary. Meanwhile, he received Ph.D. in Systems Engineering in the Building Industry and Capital Construction.",
-        "country": "Czechia",
-        "avatar": "img/speakers/vojtech_kusy.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Matěj Bartoš",
-        "bio": "After graduating from Computer Vision and Image Processing Matěj started as a research scientist in SpaceKnow where he trained neural networks and optimized data processing. Afterward, he focused on solving large-scale satellite data imagery optimization and parallelization of several algorithms as a leader of the backend team at SpaceKnow.",
-        "country": "Czechia",
-        "avatar": "img/speakers/matej_bartos.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Jan Pipek",
-        "bio": "Jan works with data on a daily basis at Pace Revenue to optimize revenue in the hospitality industry. He met with Jakub Urban as physicists promoting Python at a research institute and since then have broadened this collaborative effort to organizing PyData Prague meetups and coaching PyLadies data courses.",
-        "country": "Czechia",
-        "avatar": "img/speakers/jan_pipek.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Jakub Urban",
-        "bio": "Jakub works with data on a daily basis at Pace Revenue to optimize revenue in the hospitality industry. He met with Jan Pipek as physicists promoting Python at a research institute and since then have broadened this collaborative effort to organizing PyData Prague meetups and coaching PyLadies data courses.",
-        "country": "Czechia",
-        "avatar": "img/speakers/male.svg",
-        "links": {
-        }
-    },
-    {
-        "name": "Karla Fejfarová",
-        "bio": "I am a Python developer at IMPER CZ. My background is in chemistry. After switching to bioinformatics, I learned to code, first in R and then in Python. Nowadays, I changed the field completely. In my daily job, I am putting together data about anyone doing business in Czechia or Slovakia.",
-        "country": "Czechia",
-        "avatar": "img/speakers/karla_fejfarova.jpg",
-        "links": {
+            "linkedin": "https://www.linkedin.com/in/eli-holderness-4890b886/"
         }
     },
     {
         "name": "Petr Viktorin",
-        "bio": "Petr is a CPython core developer and a member of the 2022 Python Steering Council.\nHe works at Red Hat, developing Python and integrating it into Fedora and RHEL systems.\nHe also teaches beginners' courses, and maintains Czech learning materials at naucse.python.cz.",
+        "bio": "I work for Python Software Foundation as CPython Deputy Core Developer in Residence.",
         "country": "Czechia",
         "avatar": "img/speakers/petr_viktorin.jpg",
         "links": {
@@ -269,131 +36,110 @@
         }
     },
     {
-        "name": "Oliver Osvald",
-        "bio": "He studied Mathematical Modelling at University College London. Later he worked for Hiscox Re & ILS, Mechanic Tech Lab and Berlin Brands Group to finally get to Bratislava where he process the solar data at Solargis.",
+        "name": "Jakub Hantabal",
+        "bio": "I am a biomedical data scientist focusing on cancer research, currently studying a Master’s degree in Precision Cancer Medicine at University of Oxford. Passionate about popularization of science and educating the future generation of data scientists, I am a co-founder of Data Science Academy NGO, where we organize educational events and build a community of data enthusiasts. I am also a partner at MHG Consulting, a boutique life science consultancy focused on central European clients. I am always on the lookout for opportunities to positively impact society.",
         "country": "Slovakia",
-        "avatar": "img/speakers/oliver_osvald.jpg",
+        "avatar": "img/speakers/jakub_hantabal.jpg",
         "links": {
+            "linkedin": "https://www.linkedin.com/in/jakub-hantabal-001898228/"
         }
     },
     {
-        "name": "Martin Mihál",
-        "bio": "He studied at Faculty of Mathematics, Physics and Informatics at Comenius University Bratislava. Then he worked at First Data, Piano, Operam to get to Solargis where he process the solar data.",
+        "name": "Laura Johanesova",
+        "bio": "I am a Data Analyst and Junior Software Developer with expertise in biomedical data processing and software development for photoplethysmography analysis. Currently I am also studying at the University of Vienna. I co-founded Data Science Academy NGO and have a strong record in strategic planning, curriculum development and fostering collaborative innovation in healthcare technology.",
         "country": "Slovakia",
-        "avatar": "img/speakers/martin_mihal.jpg",
+        "avatar": "img/speakers/laura_johanesova.jpg",
         "links": {
+            "linkedin": "https://www.linkedin.com/in/laura-johanesov%C3%A1/"
         }
     },
     {
-        "name": "Michal Racko",
-        "bio": "Have been interested in science & technology since childhood. \nAttended and won multiple international science competitions during high school including the International Olympiad in Astronomy and Astrophysics (silver and gold medals) and Intel ISEF (3rd place).\nStudied physics at Imperial College London which consistently gets among the world's top-10-ranked universities. Got involved in data analysis within the LHCb and later ATLAS collaborations at CERN.\nWorked as a data scientist in e-commerce preparing predictive models, performance analyses, simulations etc.\nLaunched own startup focusing on real-time processing of e-commerce data. Designed and developed the entire data-processing pipeline and ML models.\nWorked as an ML engineer in a tech company focusing on document image processing, classification and OCR.\nCurrently a member of the modelling team at Makers working on a new approach to simulations of distributed energy resources.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/michal_racko.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Viktoria Karolova",
-        "bio": "Viki studied Economics and Business at University of Glasgow and later at Kings College London. She started her career in People Operations at an e-commerce startup in Thailand, before she joined Google in London as a Technical Recruiter focusing on Software Engineering hiring. She is currently part of the Tech Leadership team at Slido working as Technology Operations Manager. The role allows her to combine her knowledge of Tech with a passion for enabling teams and people around her through projects aimed at process optimizations and developer advocacy.",
-        "country": "United Kingdom",
-        "avatar": "img/speakers/viki_karolova.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Jaroslav Výbošťok",
-        "bio": "Vyše 16 rokov vyučuje informatiku a semináre z programovania pre maturantov na Gymnáziu Jura Hronca v Bratislave. Učil tiež na osemročnom gymnáziu na Bajkalskej a Gymnáziu Ivana Horvátha v Bratislave a na základnej škole v Detve. Je spoluautorom učebníc Programujeme v Pythone – druhý a tretí diel a Maturujeme v Pythone. Na praxi pripravuje študentov učiteľstva informatiky ako fakultný učiteľ FMFI UK.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/jaroslav_vybostok.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Róbert Tomolya",
-        "bio": "Róbert Tomolya, učiteľ matematiky a informatiky, učí na na Gymnáziu vo Fiľakove s vyučovacom jazykom slovenským a maďarským. Hľadá, objavuje a inovuje svoje vyučovacie metódy tak, aby držal krok s dobou. Na hodinách informatiky a matematiky využíva vlastné edukačné materiály aby tak vzbudil v žiakoch opätovný záujem o prírodné vedy.\nRóbert Tomolya vymyslel a dlhé roky organizuje viacero súťaží počas ktorých študenti majú možnosť rozvíjať nielen informatické znalosti a prezentačné zručnosti, ale aj tímovú prácu.\nInfoprog je medzinárodná súťaž (Slovensko, Srbsko, Maďarsko, Rumunsko) v informatike pre stredné školy, ktorú organizuje už od roku 1996. \nDalšiou srdcovou záležitosťou Róberta Tomolyu je Prírodovedný Triatlon, ktorého prvý ročník sa uskutočnil v roku 2008, je celoštátna súťaž pre stredné školy, v ktorej trojčlenné tímy súťažia v oblasti matematiky, fyziky a informatiky. \nJe zakladateľom informatickej  súťaže AlgoritMánia, kde súťažia trojčlenné tímy zo základných škôl. Úlohy súťaže sú založené na všeobecných počítačových zručnostiach, algoritmickom myslení a kreativite. V organizovaní a pri vytváraní úloh mu pomáhajú jeho talentovaní študenti.\nRóbert Tomolya taktiež pred piatimi rokmi založil online krúžok programovania - Virtuálny programovací krúžok. Počas neho žiaci sedia doma a programujú v online prostredí, zatiaľ čo mu pri výučbe pomáhajú jeho bývalí žiaci.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/robert_tomolya.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Cheuk Ting Ho",
-        "bio": "Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, now Cheuk is the Developer Advocate for Anaconda.\n\nBesides her work, Cheuk enjoys speaking at various conferences. Cheuk also organises events for developers. Cheuk has organised conferences including EuroPython (of which she is a board member), PyData Global and Pyjamas Conf. Believing in Tech Diversity and Inclusion, Cheuk constantly organizes workshops and mentored sprints for minority groups. In 2021, Cheuk has become a Python Software Foundation fellow.",
-        "country": "United Kingdom",
-        "avatar": "img/speakers/cheuk_ting_ho.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Michael Niepel",
-        "bio": "Michael has over 17 years of professional experience in software development and delivery. His recent projects focus on transformation of information systems from analogue to digital across the industries including retail, insurance, staffing and more. His go-to tool is Python ecosystem but empathizes on using the right tool for the right job to drive project successful. Michael’s passion is for applications directly connected to the physical world like IoT and AR/MR.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/michael_niepel.jpg",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/michael-niepel-35050a32/"
-        }
-    },
-    {
-        "name": "Lukáš Polák",
-        "bio": "Lukáš Polák has been playing with distributed systems and ETL for several years. In the past, he helped Hollywood movie studios to ingest analytical data from social media platforms, so they could improve the aim of their ads. Also, he supported the design and creation of a proprietary query engine named Husky. The engine was designed to allow low-code access to data, even for non-technical users.\nCurrently, he works on a platform for data ingestion and calculation of insights for Data Stories, using project Prefect.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/lukas_polak.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Michal Brandis",
-        "bio": "Ukončil inžinierske štúdium na FEI STU v Bratislave v odbore Telekomunikácie. Dlhodobo pôsobil v oblasti IT ako Support špecialista. Pred 4 rokmi nastúpil na pozíciu Account manažéra v TITANS freelancers, ktorý ako líder v oblasti outsourcingu dodáva stovky IT špecialistov na projekty doma i v zahraničí. Od roku 2021 pôsobí v roli Key Account manažéra a má na starosť viac ako 30 kľúčových klientov po celom svete. Počas svojej kariéry komunikoval so zástupcami veľkých nadnárodných aj malých lokálnych firiem, CEOs, CTOs a zastrešoval viac ako 400 projektov. Prečítal tisíce životopisov a pomohol stovkám freelancerov nájsť ten správny projekt. Vo voľnom čase sa venuje historickému šermu a rôznym ázijským bojovým umeniam.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/michal_brandis.png",
-        "links": {
-        }
-    },
-    {
-        "name": "Jozef Gaborik",
-        "bio": "Jozef is a full-stack developer with multiple years of experience. He created his first web page at the age of 13 and continues to do so from then on. He studied at the Slovak University of Technology. In the past he worked at both bigger companies in the telco industry and small startups focusing on cloud technologies. Currently he is a senior Python developer at Sufio. He likes open-source, volleyball, and good books.\n\nHe is slightly paranoid :)",
-        "country": "Slovakia",
-        "avatar": "img/speakers/jozef_gaborik.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Maria Jose Molina-Contreras",
-        "bio": "She is a passionate plant molecular biologist, working as a data scientist at INFARM (Berlin, Germany).\nIn her spare time, she loves to develop projects that can help people around her, especially people who are eager to learn new things in tech. For that reason, she tries to develop projects that are beginner-friendly, even with complex topics.\n\nShe is an active member in the Python Berlin communities, helping to organize workshops and participating actively in mentoring newcomers (specially, people who are changing from career path) and giving talks in many local communities like PyLadies and also in international conferences. Moreover, she participated in the python documentation translation (English-Spanish) and she is a coordinator in the discord channel of \"Python en Español\".",
-        "country": "Germany",
-        "avatar": "img/speakers/maria_jose_molina_contreras.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Peter Dolák",
-        "bio": "Mostly as a backend developer in Python and Go, Peter has contributed to Bloomreach's Engagement product for almost 8 years since finishing studies in Computer Science at FMFI UK BA.\nHe has helped the company - and its predecessor Exponea - become one of the leaders in the CDP and Marketing Cloud market.\nPeter has developed many other for-profit and nonprofit web applications, with the most popular one having been used by over 100k registered users across the globe.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/peter_dolak.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Jakub Tesárek",
-        "bio": "Jakub started his professional career as a self-thought PHP programmer Shoptet where he eventually worked himself up to a lead developer position. Later he switched to Python which he used in SAP for 8 years as full-stack principal engineer. Currently he works in LMC where he and his team develop server applications based on machine learning and big data. Jakub’s passion is a clean code and team self-reliance. In his free time he rides a motorcycle, shoots guns and fights in amateur kickboxing bouts.",
+        "name": "Karel Boháček",
+        "bio": "I am a former experimental physicist with a PhD in nuclear and particle physics. My experience lies in working on the development of advanced particle accelerators. After that, I made a transition to the banking sector, where my focus was on mathematical programming and developing predictive models for credit risks. This led me to my current field of data science, which I have always been passionate about. Currently, I work as a data scientist, specializing in ML and AI solutions for Alma Career.",
         "country": "Czechia",
-        "avatar": "img/speakers/jakub_tesarek.jpg",
+        "avatar": "img/speakers/karel_bohacek.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/karel-bohacek/"
+        }
+    },
+    {
+        "name": "Jacek Kołodziej",
+        "bio": "Principal Software Engineer for search/recommendations/item page at Allegro.\n\nOn the side: photographs, runs, wanders from one concert to another and from one hill to another, too. Plays drums occasionally",
+        "country": "Poland",
+        "avatar": "img/speakers/jacek_kolodziej.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/kolodziejj",
+            "instagram": "https://www.instagram.com/unit03/",
+            "last.fm": "https://www.last.fm/user/Unit03"
+        }
+    },
+    {
+        "name": "Yuliia Barabash",
+        "bio": "Cloud Engineer in Nordcloud.\n\nI have lived in Germany for the past five years, during which I have gained a diverse range of experiences in the tech industry. My expertise spans from developing web applications in Python to constructing AWS cloud solutions. I have a good understanding of design patterns, Object-Oriented Programming (OOP), event-driven architecture, and microservices architectures. Additionally, I have hands-on experience with REST API design and database technologies. I am continuously committed to enhancing my skills and ensuring that I utilize tools in the best practices.\n",
+        "country": "Germany",
+        "avatar": "img/speakers/yuliia_barabash.png",
+        "links": {
+            "linkedin": "https://de.linkedin.com/in/yuliia-barabash"
+        }
+    },
+    {
+        "name": "Luboslav Lacko",
+        "bio": "Zástupca šéfredaktora magazínu NEXTECH, specialista na IT, vývoj softvéru, databázové technológie, strojové učenie. Pôsobí aj ako publicista, školiteľ a konzultant. Je autorom 12  knižných publikácií vo vydavateľstvách Computerpress a Albatrosmedia a technologických zborníkov.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/luboslav_lacko.jpg",
+        "links": {
+            "linkedin": "https://sk.linkedin.com/in/luboslav-lacko-ba93807"
+        }
+    },
+    {
+        "name": "Matúš Ferech",
+        "bio": "Matúš is a software engineer interested in systems programming, security, and privacy.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/male.png",
         "links": {
         }
     },
     {
-        "name": "Marek Bruchatý",
-        "bio": "Marek is a software engineer at Bloomreach who leads the technological direction of the AI team. Marek has many years of experience in the design and development of products using artificial intelligence and Python.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/marek_bruchaty.jpg",
+        "name": "Maxim Danilov",
+        "bio": "Python/Django Senior Software Engineer, Solution Architect and Tech Speaker.\n\nI began my career as a programmer specializing in embedded solutions in 1997, and grow to the role of Chief Technology Officer in 2023. Through many successful projects, I gained a robust understanding of various software development paradigms. After more than 10 years as a code mentor, I finally earned the title 'Super Mentor in Engineering' in December 2023.",
+        "country": "Austria",
+        "avatar": "img/speakers/maxim_danilov.jpg",
         "links": {
         }
     },
     {
-        "name": "Ondrej Unger",
-        "bio": "In his first year of university, Ondrej started as a QA engineer at Exponea (now a part of Bloomreach). After five years, he is still working at Bloomreach as a backend developer in the Analytics team. The team develops and maintains Bloomreach’s own in-memory database and uses Python, C++, and Go. Ondrej also works as a team lead, taking care of development processes and the happiness of the team.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/ondrej_unger.jpg",
+        "name": "Miroslav Šedivý",
+        "bio": "Using Python to make the sun shine and the wind blow. Greedy polyglot, sustainable urbanist, unicode collector, PSF Fellow.",
+        "country": "Czechoslovakia",
+        "avatar": "img/speakers/miro_sedivy.jpg",
+        "links": {
+            "twitter": "https://twitter.com/eumiro/",
+            "github": "https://github.com/eumiro/",
+            "linkedin": "https://linkedin.com/in/eumiro/"
+        }
+    },
+    {
+        "name": "Sara Jakša",
+        "bio": "At day, I am a software engineer with the main focus on working on third party integrations for our product. At night, I like to play around with technologies connected to IndieWeb, fanfiction or analysing data to answer questions connected to my interest, let this be book reading, movie watching, personality, queer questions or more.",
+        "country": "Slovenia",
+        "avatar": "img/speakers/sara_jaksa.png",
+        "links": {
+        }
+    },
+    {
+        "name": "Štěpán Bechynský",
+        "bio": "Po skoro devíti letech opustil Štěpán Bechynsky společnost Microsoft, kde pracoval jako Technical Evangelist se zaměřením na Microsoft Azure a zakotvil v klidnějších vodách farmaceutické společnosti MSD, kde měl na starost infrastrukturu v Amazon Web Services. V klidných vodách získal titul MVP a v roce 2016 se vrátil do společnosti Microsoft, kde se staral o IoT projekty v Německu jako technický konzultant. Od roku 2020 pracuje na pozici Microsoft Technical Trainer a vzdělává zákazníky a partnery společnosti Microsoft. Volné chvíle tráví nejraději u plotny a jako koníček učí na 1. IT Gymnáziu v Praze.",
+        "country": "Czechia",
+        "avatar": "img/speakers/stepan_bechynsky.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/stepanbechynsky/"
+        }
+    },
+    {
+        "name": "Veronika Kabátová",
+        "bio": "I'm an open source enthusiast who enjoys mentoring newbies, building communities around projects and convincing teams to do project management the right way - with documentation, testing, reliability and transparency in mind. During my ~9 years of experience in tech, I went from being a lost beginner, through a leader of a Linux kernel testing project, to a development pipeline architect. Tech work is people work, and I have more than enough experience talking to people on both sides to show for it. I'm also one of the organizers of the neighboring PyCon CZ, to give back to the amazing Python community that welcomed me when I needed it the most.",
+        "country": "Czechia",
+        "avatar": "img/speakers/veronika_kabatova.jpg",
         "links": {
         }
     }

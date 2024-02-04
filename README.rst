@@ -1,10 +1,10 @@
-PyCon SK 2022 Website
+PyCon SK 2024 Website
 #####################
 
-Official `PyCon SK 2022 <https://2022.pycon.sk/>`_ website. And a `staging site <https://staging-2022.pycon.sk/>`_ deployed to GitHub pages.
+Official `PyCon SK 2024 <https://2024.pycon.sk/>`_ website. And a `staging site <https://staging-2024.pycon.sk/>`_ deployed to GitHub pages.
 
-.. image:: https://travis-ci.org/pyconsk/2022.pycon.sk.svg?branch=master
-    :target: https://travis-ci.org/pyconsk/2022.pycon.sk
+.. image:: https://travis-ci.org/pyconsk/2024.pycon.sk.svg?branch=master
+    :target: https://travis-ci.org/pyconsk/2024.pycon.sk
 
 Contributing
 ------------
@@ -25,8 +25,8 @@ Installation
 
 - clone repository locally::
 
-    git clone https://github.com/pyconsk/2022.pycon.sk.git
-    cd 2022.pycon.sk
+    git clone https://github.com/pyconsk/2024.pycon.sk.git
+    cd 2024.pycon.sk
 
 - install pipenv (`official pipenv documentation instructions <https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv>`_)::
 

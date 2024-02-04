@@ -30,8 +30,8 @@ CATEGORIES = {
 
 SPEAKERS = get_speakers()
 TALKS = get_talks()
-EDU_SPEAKERS = get_edu_speakers()
-EDU_TALKS = get_edu_talks()
+EDU_SPEAKERS = []  # get_edu_speakers()
+EDU_TALKS = []  # get_edu_talks()
 
 
 @app.route('/sitemap.xml')
