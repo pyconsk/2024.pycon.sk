@@ -142,5 +142,32 @@
         "avatar": "img/speakers/veronika_kabatova.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Jeroen Overschie",
+        "bio": "Jeroen is a Machine Learning Engineer at Xebia Data (formerly GoDataDriven), in The Netherlands. Jeroen has a background in Software Engineering and Data Science and helps companies take their Machine Learning solutions into production.\nBesides his usual work, Jeroen has been active in the Open Source community. Jeroen published several PyPi modules, npm modules, and has contributed to several large open source projects (Hydra from Facebook and Emberfire from Google). Jeroen also authored two chrome extensions, which are published on the web store.",
+        "country": "Netherlands",
+        "avatar": "img/speakers/jeroen_overschie.jpg",
+        "links": {
+            "web": "https://jeroenoverschie.nl",
+            "linkedin": "https://www.linkedin.com/in/jeroenoverschie/"
+        }
+    },
+    {
+        "name": "Marcelo Trylesinski",
+        "bio": "Marcelo is a Brazilian software engineer, currently living in the Netherlands. In the last years, he has been helping the FastAPI community, and maintaining Starlette, one of the FastAPI dependencies, and Uvicorn, a web server that runs applications like FastAPI. Not long ago, he joined the recently created company Pydantic.",
+        "country": "Brazil",
+        "avatar": "img/speakers/marcelo_trylesinski.png",
+        "links": {
+            "github": "https://github.com/Kludex"
+        }
+    },
+    {
+        "name": "Tvrtko Strenak",
+        "bio": "I am currently working as a Python developer at airt. In the past three years, I have gained valuable experience in the industry, including a year working on a microservice product that uses Apache Kafka for communication between services.\n\nI am a strong believer in the power of open source software, and I enjoy learning from the open source community. My interests in the field at the moment include machine learning, model deployment, Apache Kafka, and advanced Python programming.",
+        "country": "Croatia",
+        "avatar": "img/speakers/tvrtko_strenak.jpg",
+        "links": {
+        }
     }
 ]

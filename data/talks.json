@@ -134,5 +134,32 @@
     "lang": "en",
     "title": "How to not get crazy from information overload",
     "text": "There's too many pieces of advice out there to keep them in mind and actually remember to apply them when it matters. It's tempting to become a genius overnight as the competition is harsh. But trying to become perfect and keep every piece of information in mind is overwhelming and stressful.\n\nWhere's the line between what's realistic, both as a beginner and as experienced programmer? What are some good habits to adopt right away, and how do they relate to your typical programming memes?\n\nWe'll take a look at some behaviors even experienced IT folks struggle with and how to do things instead and why, to get you a head start in your new journey.\n\n(Happy to do the talk in Slovak if preferred for the beginners' track)"
+  },
+  {
+    "speakers": [
+      "Jeroen Overschie"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Are you ready for MLOps?",
+    "text": "MLOps has survived the hype cycle and is gaining in maturity. But are we looking at MLOps for answers for the _right things_? \nNo matter how valuable MLOps can be for you, without proper building blocks in place MLOps cannot live up to its full potential. What are the prerequisites for MLOps? What parts of MLOps should you focus on? When should you even start thinking about MLOps, or when is ‘plain’ DevOps wiser to focus on first? Join us in this session to learn more!"
+  },
+  {
+    "speakers": [
+      "Marcelo Trylesinski"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Common FastAPI mistakes",
+    "text": "We'll go through common FastAPI mistakes I've seen in the last 4 years. We'll see insights on performance, best practices, and use of the framework in general. \n\nLet's go beyond the obvious, and at the end of the talk, you'll know how you can become a FastAPI Expert yourself."
+  },
+  {
+    "speakers": [
+      "Tvrtko Strenak"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Decoding FastStream: A Deeper Dive into the Event Streaming Library",
+    "text": "FastStream simplifies the development of services communicating over event streams such as Apache Kafka, Redis and Nats. In our talk, we introduce its origin, basics, and delve into advanced features. Past talks raised awareness; this year, we are slowly shifting focus on technical nuances—implementation details and the development environment—to inspire developers and improve open source contributions."
   }
 ]
