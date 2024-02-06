@@ -161,5 +161,42 @@
     "lang": "en",
     "title": "Decoding FastStream: A Deeper Dive into the Event Streaming Library",
     "text": "FastStream simplifies the development of services communicating over event streams such as Apache Kafka, Redis and Nats. In our talk, we introduce its origin, basics, and delve into advanced features. Past talks raised awareness; this year, we are slowly shifting focus on technical nuances—implementation details and the development environment—to inspire developers and improve open source contributions."
+  },
+  {
+    "speakers": [
+      "PyLadies Bratislava"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Introduction to Automation and Scripting: A Beginner's Workshop in Python",
+    "text": "Unlock the power of automation and scripting with our beginner-friendly workshop in Python. This hands-on session introduces participants to fundamental Python programming, automation concepts, and essential scripting skills. Ideal for beginners, this workshop empowers individuals to embark on their own scripting journey."
+  },
+  {
+    "speakers": [
+      "Jakub Hantabal",
+      "Laura Johanesová"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Uncovering patterns in a dataset via data visualization and accessible machine learning",
+    "text": "In this workshop, we will learn how to gain insight into a dataset. We will use a dataset that everyone can relate to - Pokemon! This workshop will be entirely practical - you will code along with us in a Jupyter notebook. We will be explaining the theory and rationale behind what code we write along the way, and the audience are encouraged to ask questions along the way.\n\nWe will simulate the job of a real-world data analyst who is tasked with investigating a question: Does higher health correlate with a better attack?\n\nTo accomplish this, we will progress through the dataset from basic cleanup all the way to fitting a machine learning model. We will first clean and filter the dataset, and determine if the data is even usable. Here, we will learn how to evaluate the quality of the data (summary statistics, missing values and what to do with them (imputation), data distribution etc). We will look into the HP and Attack data and ascertain if what we’re given is sufficient to answer our question. Can we add another feature to these two? We’ll also look at additional feature selection.\n\nWe will then progress to data visualization - we’ll touch on which plot to use for which purpose and learn their syntax in Python (Histogram, scatter plot, correlation plot, box and whisker plot + violin plot, hist and rug plot). We will visualize the data in multiple ways.\n\nConcluding the workshop, we will move on to simple machine learning - you will be introduced to supervised learning, classification and regression. We will discuss how to choose the right model to train and look at applying regression models (linear regression) and classification models (logistic regression, random forest) to our dataset. We will measure the performance of these models, and draw conclusions from their outputs.\n\nBy the end of the workshop, we will answer the initial question, as well as gain insights into the Pokemon dataset, realising how powerful Python is in accessible data analysis."
+  },
+  {
+    "speakers": [
+      "Jeroen Overschie"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "How to MLOps: Experiment tracking & deployment",
+    "text": "What's this thing called **MLOps**? You may have heard about it by now, but never really understood what all the fuzz is about. Let's find out together!\n\nIn this tutorial, you will learn about MLOps and take your first steps in a hands-on way. To do so, we will be using **Open Source** tooling. We will be taking a simple example of Machine Learning use case and will gradually make it more ready for production \uD83D\uDE80.\n\nWe start with a simple time-series model in Python using scikit-learn and first add logging steps to make the performance of the model measurable. Don't worry: we will go through it step-by-step, so you won't be overwhelmed. Then, we will log our ML model and load it back into an inference step. Lastly, we will learn about deploying these actual models by Dockerizing our application \uD83D\uDE4F."
+  },
+  {
+    "speakers": [
+      "Štěpán Bechynský"
+    ],
+    "type": "Workshop",
+    "lang": "cz",
+    "title": "Micro:bit a Python",
+    "text": "Přijďte s vlastním laptopem, já vám půjčím Micro:bit a sami si vyzkoušíte práci s fyzickým hardware, který podporuje Python. Workshop je vhodný zejména pro učitele a lektory v kroužcích mládeže. Uvidíte, jak učit Python jinak."
   }
 ]

@@ -45,7 +45,7 @@
         }
     },
     {
-        "name": "Laura Johanesova",
+        "name": "Laura Johanesová",
         "bio": "I am a Data Analyst and Junior Software Developer with expertise in biomedical data processing and software development for photoplethysmography analysis. Currently I am also studying at the University of Vienna. I co-founded Data Science Academy NGO and have a strong record in strategic planning, curriculum development and fostering collaborative innovation in healthcare technology.",
         "country": "Slovakia",
         "avatar": "img/speakers/laura_johanesova.jpg",
@@ -95,7 +95,7 @@
         "name": "Matúš Ferech",
         "bio": "Matúš is a software engineer interested in systems programming, security, and privacy.",
         "country": "Slovakia",
-        "avatar": "img/speakers/male.png",
+        "avatar": "img/speakers/matus_ferech.jpg",
         "links": {
         }
     },
@@ -169,6 +169,13 @@
         "avatar": "img/speakers/tvrtko_sternak.jpg",
         "links": {
             "linkedin": "https://www.linkedin.com/in/tvrtko-sternak-152816208"
+        }
+    },
+    {
+        "name": "PyLadies Bratislava",
+        "bio": "PyLadies Bratislava started in 2019 to promote, educate, and advance a diverse Python community through meet-ups and workshops.\nPyLadies Bratislava is open to everybody to join. We encourage mainly women and minorities, but everyone willing to participate is welcome.\nWe meet once a month and have fun with Python.",
+        "avatar": "img/speakers/female.png",
+        "links": {
         }
     }
 ]
