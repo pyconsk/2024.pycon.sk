@@ -198,5 +198,14 @@
     "lang": "cz",
     "title": "Micro:bit a Python",
     "text": "Přijďte s vlastním laptopem, já vám půjčím Micro:bit a sami si vyzkoušíte práci s fyzickým hardware, který podporuje Python. Workshop je vhodný zejména pro učitele a lektory v kroužcích mládeže. Uvidíte, jak učit Python jinak."
+  },
+  {
+    "speakers": [
+      "Rudolf Starovský"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Knižnica Numba alebo ako zrýchliť Python?",
+    "text": "Programovací jazyk Python nepatrí z pohľadu výkonnosti medzi najrýchlejšie programovacie jazyky. Ak chceme zrýchliť naše výpočty v jazyku Python, môže nám pomôcť knižnica Numba, vďaka ktorej môžeme dosiahnuť výkonnosť podobnú kompilovaným jazykom C alebo C++.\nV prednáške vysvetlíme ako funguje Python interpreter a čo je Just in time kompilácia. Pozrieme sa aké možnosti ponúka knižnica Numba a na konkrétnych príkladoch uvedieme ako vieme zrýchliť Python kód."
   }
 ]

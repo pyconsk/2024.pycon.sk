@@ -177,5 +177,13 @@
         "avatar": "img/speakers/female.png",
         "links": {
         }
+    },
+    {
+        "name": "Rudolf Starovský",
+        "bio": "Rudolf is Lead Deveoper in Python in Zurich Insurance Company. He is responsible for development and programming in the domain of Life insurance models using mainly pandas, numpy, dask and numba.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/rudolf_starovsky.jpg",
+        "links": {
+        }
     }
 ]
