@@ -7,7 +7,7 @@ from flask_babel import Babel, gettext, lazy_gettext
 
 from schedule import (FRIDAY1, FRIDAY2, FRIDAY3, SATURDAY1, SATURDAY2, SATURDAY3, SATURDAY4, SATURDAY5,
                       SUNDAY1, SUNDAY3, SUNDAY4)
-from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks, encode_name, decode_name, get_jobs
+from utils import get_news, get_speakers, get_talks, get_sponsors, encode_name, decode_name, get_jobs
 
 EVENT = gettext('PyCon SK 2024 | Bratislava, Slovakia')
 DOMAIN = 'https://2024.pycon.sk'
@@ -30,6 +30,7 @@ CATEGORIES = {
 
 SPEAKERS = get_speakers()
 TALKS = get_talks()
+SPONSORS = get_sponsors()
 EDU_SPEAKERS = []  # get_edu_speakers()
 EDU_TALKS = []  # get_edu_talks()
 
@@ -73,7 +74,7 @@ def root():
 def index():
     template_vars = _get_template_variables(li_index='active', news=get_news(get_locale(), items=3),
                                             categories=CATEGORIES, background_filename='img/about/header1.jpg',
-                                            speakers=SPEAKERS+EDU_SPEAKERS)
+                                            speakers=SPEAKERS+EDU_SPEAKERS, sponsors=SPONSORS)
     return render_template('index.html', **template_vars)
 
 
@@ -81,7 +82,8 @@ def index():
 def chat():
     template_vars = _get_template_variables(li_index='active', news=get_news(get_locale(), items=3),
                                             categories=CATEGORIES, background_filename='img/about/header1.jpg',
-                                            speakers=SPEAKERS+EDU_SPEAKERS, redirect="https://discord.gg/pr2cE4uT")
+                                            speakers=SPEAKERS+EDU_SPEAKERS, sponsors=SPONSORS,
+                                            redirect="https://discord.gg/pr2cE4uT")
     return render_template('index.html', **template_vars)
 
 @app.route('/<lang_code>/news.html')
@@ -155,7 +157,8 @@ def cfv():
 
 @app.route('/<lang_code>/sponsors.html')
 def sponsors():
-    return render_template('sponsors.html', **_get_sponsors_variables(li_sponsors='active', background='bkg-index'))
+    return render_template('sponsors.html',
+                           **_get_sponsors_variables(li_sponsors='active', background='bkg-index', sponsors=SPONSORS))
 
 
 @app.route('/<lang_code>/edusummit.html')
@@ -436,7 +439,6 @@ def _get_schedule_variables(**kwargs):
 
 def _get_sponsors_variables(**kwargs):
     variables = _get_template_variables(**kwargs)
-    # todo add sponsors json and make sponsors.html jinja template
     return variables
 
 

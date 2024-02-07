@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Titans",
+        "category": "Platinum sponsors",
+        "class": "platinum",
+        "logo": "img/partners/titans.png",
+        "alt": "Titans logo",
+        "link": "https://www.titans.sk/"
+    },
+    {
+        "name": "Zurich",
+        "category": "Silver sponsors",
+        "class": "gold",
+        "logo": "img/partners/zurich.png",
+        "link": "https://www.zurich.com/"
+    },
+    {
+        "name": "IBL",
+        "category": "Silver sponsors",
+        "class": "gold",
+        "logo": "img/partners/ibl.png",
+        "link": "https://www.iblsoft.com/"
+    },
+    {
+        "name": "Slido",
+        "category": "Bronze sponsors",
+        "class": "silver",
+        "link": "https://www.slido.com/",
+        "logo": "img/partners/slido.png"
+    },
+    {
+        "name": "O'Reilly",
+        "category": "Bronze sponsors",
+        "class": "bronze",
+        "link": "https://www.oreilly.com/",
+        "logo": "img/partners/oreilly.png"
+    },
+    {
+        "name": "O'Alma Career",
+        "category": "Bronze sponsors",
+        "class": "bronze",
+        "link": "https://www.almacareer.com/",
+        "logo": "img/partners/alma.png"
+    },
+    {
+        "name": "Stickermule",
+        "category": "Bronze sponsors",
+        "class": "bronze",
+        "link": "https://www.stickermule.com/eu/custom-stickers",
+        "logo": "img/partners/stickermule.png"
+    },
+    {
+        "name": "Accenture",
+        "category": "Django Girls & PyLadies Sponsor",
+        "class": "partners",
+        "link": "https://www.nadaciapontis.sk/projekty/accenture-nadacny-fond/",
+        "logo": "img/partners/accenture.png",
+        "alt": "Accenture.it logo"
+    },
+    {
+        "name": "Zive",
+        "category": "Media partners",
+        "class": "partners",
+        "link": "https://zive.sk/",
+        "logo": "img/partners/zive.png",
+        "alt": "zive logo"
+    },
+    {
+        "name": "Nextech",
+        "category": "Media partners",
+        "class": "bronze",
+        "link": "https://www.nextech.sk/",
+        "logo": "img/partners/nextech.png"
+    },
+    {
+        "name": "Robime.it",
+        "category": "Media partners",
+        "class": "partners",
+        "link": "https://robime.it/",
+        "logo": "img/partners/robime-it.svg"
+    },
+    {
+        "name": "FIIT STUBA",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://www.fiit.stuba.sk/",
+        "logo": "img/partners/fiit.svg",
+        "alt": "FIIT logo"
+    },
+    {
+        "name": "BTS group",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://www.btsgroup.sk/",
+        "logo": "img/partners/bts-group.png",
+        "alt": "FIIT logo"
+    },
+    {
+        "name": "Coder Dojo",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://bratislava.coderdojo.sk/",
+        "logo": "img/partners/coderdojo.svg"
+    },
+    {
+        "name": "Lab.cafe",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://lab.cafe/",
+        "logo": "img/partners/labcafe.png"
+    },
+    {
+        "name": "AjTyvIT",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://ajtyvit.sk/",
+        "logo": "img/partners/ajtyvit.svg"
+    },
+    {
+        "name": "FREEFOOD",
+        "category": "Partners",
+        "class": "partners",
+        "link": "http://www.freefood.sk/",
+        "logo": "img/partners/freefood.png"
+    },
+    {
+        "name": "DSA",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://dsacademy.sk/",
+        "logo": "img/partners/dsa.svg"
+    },
+    {
+        "name": "PyLadies Bratislava",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://www.meetup.com/pyladies-bratislava/",
+        "logo": "img/partners/pyladies.jpeg",
+        "alt": "PyLadies logo"
+    },
+    {
+        "name": "IT Valley",
+        "category": "Partners",
+        "class": "partners",
+        "link": "https://www.kosiceitvalley.sk/",
+        "logo": "img/partners/it-valley.png"
+    },
+    {
+        "name": "PyCon LT",
+        "category": "Partners",
+        "class": "partners",
+        "link": "http://www.pycon.lt/",
+        "logo": "img/partners/pycon_lt.png"
+    }
+]

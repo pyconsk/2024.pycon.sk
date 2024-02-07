@@ -61,6 +61,23 @@ def get_speakers():
 def get_talks():
     return read_json_file(os.path.join('data', 'talks.json'))
 
+def get_sponsors():
+    all_sponsors = read_json_file(os.path.join('data', 'sponsors.json'))
+    categories = {}
+    for _sponsor in all_sponsors:
+        name = _sponsor.get('name', '')
+        ctg = _sponsor.get('category', 'Partners')
+        sponsor = {
+            'name': name,
+            'category': ctg,
+            'class': ctg.lower(),
+            'link': _sponsor.get('link', ''),
+            'logo': _sponsor.get('logo', ''),
+            'alt': _sponsor.get('alt', name + ' logo')
+        }
+        categories.setdefault(ctg, []).append(sponsor)
+    return categories
+
 def get_edu_speakers():
     return read_json_file(os.path.join('data', 'edusummit_speakers.json'))
 
