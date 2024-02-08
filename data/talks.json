@@ -207,5 +207,59 @@
     "lang": "sk",
     "title": "Knižnica Numba alebo ako zrýchliť Python?",
     "text": "Programovací jazyk Python nepatrí z pohľadu výkonnosti medzi najrýchlejšie programovacie jazyky. Ak chceme zrýchliť naše výpočty v jazyku Python, môže nám pomôcť knižnica Numba, vďaka ktorej môžeme dosiahnuť výkonnosť podobnú kompilovaným jazykom C alebo C++.\nV prednáške vysvetlíme ako funguje Python interpreter a čo je Just in time kompilácia. Pozrieme sa aké možnosti ponúka knižnica Numba a na konkrétnych príkladoch uvedieme ako vieme zrýchliť Python kód."
+  },
+  {
+    "speakers": [
+      "Jan Margeta"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Simulate, Analyze, Learn: Python's Physics Simulation",
+    "text": "Join us on a journey through the world of physics simulators from Python. This talk will explore the power and versatility of various physics simulation libraries, shedding light on their applications and capabilities, in particular applied to robotics.  \nDiscover how these libraries enable scientists and enthusiasts to model and analyze real world systems. We'll delve into practical examples, simulating the world for analysis or as an environment for reinforcement learning.  \nIf you are intrigued by the marriage of code, physics and machine learning, and gain skills to simulate the wonders of the universe using Python, this talk is for you."
+  },
+  {
+    "speakers": [
+      "Márton Kodok"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Build applications with generative AI on Google Cloud",
+    "text": "We will explore Vertex AI - Model Garden powered experiences, we are going to learn more about the integration of these generative AI APIs. We are going to see in action what the Gemini family of generative models are for developers to build and deploy AI-driven applications. Vertex AI includes a suite of foundation models, these are referred to as the PaLM and Gemini family of generative ai models, and they come in different versions.\nWe are going to cover how to use via API to:\n- execute prompts in text and chat\n- cover multimodal use cases with image prompts.\n- finetune and distill to improve knowledge domains\n- run function calls with foundation models to optimize them for specific tasks. \nAt the end of the session, developers will understand how to innovate with generative AI and develop apps using the generative ai industry trends."
+  },
+  {
+    "speakers": [
+      "Tibor Kurina"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Možnosti spracovania veľkých dát (HugeData/BigData) v jayzku Python",
+    "text": "V súčasnom digitálnom veku sa veľké dáta (Big Data) stávajú kľúčovou súčasťou mnohých priemyselných a vedeckých aplikácií. Táto prednáška sa zameriava na možnosti, ktoré ponúka programovací jazyk Python pri spracovaní veľkých dát. Úvodná časť poskytne prehľad o veľkých dátach, ich význame a výzvach, a prečo je Python považovaný za jeden z najvhodnejších jazykov pre ich analýzu. Budeme sa venovať kľúčovým knižniciam ako Pandas, NumPy, Polars, Dask, Modin a Vaex, ktoré sú nevyhnutné pre efektívne spracovanie dát.\n\nĎalšie sekcie sa budú zaoberať pokročilými témami ako distribuované spracovanie dát s využitím nástrojov ako Apache Spark, a integráciou Pythonu s inými platformami pre lepšiu škálovateľnosť a efektivitu. Významnú časť prednášky tvorí aplikácia Pythonu v oblasti strojového učenia a analýzy dát s praktickými ukážkami z rôznych oblastí.\n\nPrednáška tiež poukáže na najlepšie praktiky pri práci s veľkými dátami v Pythonu, ako aj na špecifické výzvy spojené so spracovaním veľkých objemov dát v reálnom čase, zabezpečením dát, a škálovateľnosťou. Na záver sa dotkneme najnovších trendov a budúceho vývoja v oblasti veľkých dát a Pythonu, čím poskytneme účastníkom prednášky ucelený pohľad na súčasný a budúci stav technológií spojených s veľkými dátami.\n\nCieľová skupina: Prednáška je určená pre odborníkov v oblasti dátových vied, programátorov, analytikov a všetkých, ktorí majú záujem o využitie Pythonu pri spracovaní a analýze veľkých dát."
+  },
+  {
+    "speakers": [
+      "Elena Štefancová"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Mám dáta, čo s nimi?",
+    "text": "Prehľad vhodných Python knižníc pre úplné začiatky práce s dátami."
+  },
+  {
+    "speakers": [
+      "Maxim Danilov"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Creating really Multilingual Django project in few steps.",
+    "text": "In this talk, we can go together through all the milestones needed to create a truly multilingual Django Project in 120 minutes. This includes the translation of static texts for both front end and back end, adjustments for dynamic data translations, and translations of graphical elements. Finally, I will demonstrate how to adapt a multilingual project for various cultures and writing styles."
+  },
+  {
+    "speakers": [
+      "Shahriyar Rzayev"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Score A+ for Security Headers with Django application",
+    "text": "The tutorial will focus on developing a Django application that utilizes ReadOnce objects, ensuring secrets can only be accessed once before being permanently deleted. Additionally, the workshop will guide attendees through the best practices for achieving an A+ rating in security headers checks, a crucial aspect of web application security. By the end of this session, participants will have hands-on experience in enhancing the security and maintainability of Django projects, crucial skills for any Python developer."
   }
 ]

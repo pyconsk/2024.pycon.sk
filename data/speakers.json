@@ -105,6 +105,8 @@
         "country": "Austria",
         "avatar": "img/speakers/maxim_danilov.jpg",
         "links": {
+            "linkedin": "https://www.linkedin.com/in/danilovmy/",
+            "github": "https://github.com/danilovmy"
         }
     },
     {
@@ -149,7 +151,7 @@
         "country": "Netherlands",
         "avatar": "img/speakers/jeroen_overschie.jpg",
         "links": {
-            "web": "https://jeroenoverschie.nl",
+            "globe": "https://jeroenoverschie.nl",
             "linkedin": "https://www.linkedin.com/in/jeroenoverschie/"
         }
     },
@@ -180,10 +182,56 @@
     },
     {
         "name": "Rudolf Starovský",
-        "bio": "Rudolf is Lead Deveoper in Python in Zurich Insurance Company. He is responsible for development and programming in the domain of Life insurance models using mainly pandas, numpy, dask and numba.",
+        "bio": "Rudolf is Lead Developer in Python in Zurich Insurance Company. He is responsible for development and programming in the domain of Life insurance models using mainly pandas, numpy, dask and numba.",
         "country": "Slovakia",
         "avatar": "img/speakers/rudolf_starovsky.jpg",
         "links": {
+        }
+    },
+    {
+        "name": "Jan Margeta",
+        "bio": "Jan is the founder of KardioMe, a Pythonista and a white water kayaker. He is passionate about solving questions about our health with computer vision and machine learning.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/jan_margeta.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/jmargeta"
+        }
+    },
+    {
+        "name": "Márton Kodok",
+        "bio": "Márton is a Google Developer Expert on Cloud, a Champion in the Cloud Innovator program, top romanian user on Stackoverflow. Active contributor for open-source solutions like Beanstalkd console, and Riak admin interface. Conference speaker and writer about BigQuery, Cloud Run, Vertex AI.\n\n\n\nMárton Kodok is a Senior Software Architect at REEA.net, where he creates backend systems for web/mobile and contributes to design, scale and orchestrate them to serve millions of users by using Google Cloud. \n\n\n\nOutside coding, Márton hikes mountains with family, engages in civic matters, and monitors electromobility, construction, and public administration. His aspiration is relentless pursuit of knowledge.",
+        "country": "Romania",
+        "avatar": "img/speakers/marton_kodok.png",
+        "links": {
+            "globe": "https://kodokmarton.com/"
+        }
+    },
+    {
+        "name": "Tibor Kurina",
+        "bio": "Tibor is a Big Data Architect with more than 20 years of experience and a lecturer in Python, Scala, Java and others.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/tibor_kurina.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/tibor-kurina-ing-phd-51794725/"
+        }
+    },
+    {
+        "name": "Elena Štefancová",
+        "bio": "Elena sa 7 rokov pohybuje v rôznych oblastiach zaoberajúcich sa prácou s dátami.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/elena_stefancova.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/elena-%C5%A1tefancov%C3%A1-8b5a01b7/"
+        }
+    },
+    {
+        "name": "Shahriyar Rzayev",
+        "bio": "Senior Software Engineer @NordVPN at Nord Security.\nInterested in Security, Architecture, and Clean Code.\nLeading Azerbaijan Python User Community.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/shahriyar_rzayev.jpg",
+        "links": {
+            "github": "https://github.com/ShahriyarR",
+            "linkedin": "https://de.linkedin.com/in/shahriyar-rzayev"
         }
     }
 ]
