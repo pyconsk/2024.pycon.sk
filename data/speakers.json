@@ -233,5 +233,21 @@
             "github": "https://github.com/ShahriyarR",
             "linkedin": "https://de.linkedin.com/in/shahriyar-rzayev"
         }
+    },
+    {
+        "name": "Michal Kaukič",
+        "bio": "Učil som hlavne matematiku, ale venoval som sa aj Linuxu, Pythonu, Open Source. Organizovali sme OSS konferencie v Žiline. Sledoval som vývoj interaktívnych nástrojov od prvopočiatkov IPythonu po Jupyterlab, lebo ich považujem za veľmi vhodné pre výučbu informatiky a programovania. Rád chodím po horách, cestujem.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/michal_kaukic.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Mirek Biňas",
+        "bio": "Odborný asistent na Katedre počítačov a informatiky, TUKE, kde učí “detiská” programovať najmä v jazyku C. \nStále dúfa, že keď vyrastie, bude z neho Linuxák. Alebo Batman.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/mirek_binas.jpg",
+        "links": {
+        }
     }
 ]

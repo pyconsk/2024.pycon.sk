@@ -261,5 +261,15 @@
     "lang": "en",
     "title": "Score A+ for Security Headers with Django application",
     "text": "The tutorial will focus on developing a Django application that utilizes ReadOnce objects, ensuring secrets can only be accessed once before being permanently deleted. Additionally, the workshop will guide attendees through the best practices for achieving an A+ rating in security headers checks, a crucial aspect of web application security. By the end of this session, participants will have hands-on experience in enhancing the security and maintainability of Django projects, crucial skills for any Python developer."
+  },
+  {
+    "speakers": [
+      "Michal Kaukič",
+      "Mirek Biňas"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Dátová analytika ako predjedlo",
+    "text": "Veľa je dát na svete, všetky o niečom hovoria, ak sa k nim prihliadneme. Vyberieme niektoré (ako na trhu, čo sa nám zapáči) a budeme ich spolu pojedať na tácke Jupytera, s pandas namiesto noža a vidličky. Lepšie raz vidieť, ako veľa ráz počuť, preto budeme kresliť čo sa dá, aj čo veľmi nie :-) Meniť uhly pohľadu, približovať, oddiaľovať, pridávať, uberať. A aby sme sa len my sami netešili, urobíme nakoniec webovú aplikáciu, ktorú si môžu pozrieť aj iní."
   }
 ]
