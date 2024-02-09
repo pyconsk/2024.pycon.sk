@@ -1,5 +1,13 @@
 {% extends "body.html" %}
 
+{% block og_image %}
+  <meta property="og:image"
+        content="{{ domain }}{{ url_for('static', filename=speaker['avatar']) }}"/>
+{% endblock %}
+{% block og_title %}
+  <meta property="og:title" content="{{ speaker['name'] }} @ PyCon SK 2024') }}"/>
+{% endblock %}
+
 {% block content %}
 <section class="inner-page-banner {{ background}}">
   <div class="container">
@@ -9,7 +17,7 @@
           {% if speaker and speaker.get('name') %}<h1>{{ speaker['name'] }}</h1>
           <ul>
             <li>
-              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2024</a>
             </li>
             <li><a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a></li>
             <li>{{ speaker['name'] }}</li>

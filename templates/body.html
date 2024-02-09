@@ -9,13 +9,20 @@
   <meta name="author" content="SPy o.z.">
 
   <meta property="og:type" content="website"/>
-  <meta property="og:image"
-        content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
+  {% block og_image %}
+    <meta property="og:image"
+          content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
+  {% endblock %}
   <meta property="og:url" content="{{ domain }}"/>
-  <meta property="og:title" content="{{ _('PyCon SK 2024, Bratislava') }}"/>
-  <meta property="og:site_name" content="2024.pycon.sk"/>
-  <meta property="og:description"
-        content="{{ _('PyCon SK is a community-organized conference for the Python programming language.') }}"/>
+  {% block og_title %}
+    <meta property="og:title" content="{{ _('PyCon SK 2024, Bratislava') }}"/>
+  {% endblock %}
+    <meta property="og:site_name" content="2024.pycon.sk"/>
+  {% block og_description %}
+    <meta property="og:description"
+          content="{{ _('PyCon SK is a community-organized conference for the Python programming language.') }}"/>
+  {% endblock %}
+
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="@pyconsk"/>
   <meta name="twitter:title" content="{{ _('PyCon SK 2024, Bratislava') }}"/>
@@ -112,39 +119,38 @@
                                     <div class="eventalk-main-menu">
                                         <nav class="d-none d-lg-block">
                                             <ul>
-{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
-{#                                                  <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>#}
-{#                                                </li>#}
-{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
-{#                                                  <a href="{{ url_for('chat', lang_code=lang_code) }}">{{ _('Chat') }}</a>#}
-{#                                                </li>#}
-                                                <li{% if li_sponsors %} class="menu-justify current"{% endif %}>
+                                                <li class="dropdown {% if li_talks or li_speakers %} current{% endif %}">
+                                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Program') }}
+                                                  </a>
+                                                  <ul class="rt-dropdown-menu" role="menu">
+                                                    <li {% if li_speakers %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a>
+                                                    </li>
+                                                    <li {% if li_talks %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('talks', lang_code=lang_code) }}">{{ _('Talks and workshops') }}</a>
+                                                    </li>
+                                                  </ul>
+                                                </li>
+                                                <li {% if li_sponsors %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
                                                 </li>
-{#                                                <li{% if li_cfp %} class="menu-justify current"{% endif %}>#}
-{#                                                  <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('Call for Proposals') }}</a>#}
-{#                                                </li>#}
                                                 <li>
                                                   <a target="_blank" href="https://python.sk/daruj/">{{ _('2%%') }}</a>
                                                 </li>
                                                 <li class="dropdown {% if li_aboutus or li_cfv or li_venue or li_coc %} current{% endif %}">
                                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('About') }}
-<!--                                                    <i class="fa fa-angle-down"></i>-->
                                                   </a>
                                                   <ul class="rt-dropdown-menu" role="menu">
-<!--                                                    <li{% if li_faq %} class="menu-justify current"{% endif %}>-->
-<!--                                                      <a href="{{ url_for('faq', lang_code=lang_code) }}">{{ _('FAQ') }}</a>-->
-<!--                                                    </li>-->
-                                                    <li{% if li_aboutus %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_aboutus %} class="menu-justify current"{% endif %}>
                                                       <a href="{{ url_for('aboutus', lang_code=lang_code) }}">{{ _('About Us') }}</a>
                                                     </li>
-                                                    <li{% if li_venue %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_venue %} class="menu-justify current"{% endif %}>
                                                       <a href="{{ url_for('venue', lang_code=lang_code) }}">{{ _('Venue') }}</a>
                                                     </li>
-                                                    <li{% if li_cfv %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_cfv %} class="menu-justify current"{% endif %}>
                                                         <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
                                                     </li>
-                                                    <li{% if li_coc %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_coc %} class="menu-justify current"{% endif %}>
                                                         <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
                                                     </li>
                                                   </ul>
@@ -169,17 +175,20 @@
                                         <!-- Mobile Menu start -->
                                         <nav id="dropdown" class="d-md-none">
                                           <ul>
-{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
-{#                                                  <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>#}
-{#                                                </li>#}
-{#                                                <li{% if li_news %} class="menu-justify current"{% endif %}>#}
-{#                                                  <a href="{{ url_for('chat', lang_code=lang_code) }}">{{ _('Chat') }}</a>#}
-{#                                                </li>#}
-                                                <li{% if li_sponsors %} class="menu-justify current"{% endif %}>
-                                                  <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
+                                                <li class="dropdown {% if li_program or li_speakers %} current{% endif %}">
+                                                  <a href="#">{{ _('Program') }}
+                                                  </a>
+                                                  <ul class="rt-dropdown-menu" role="menu">
+                                                    <li {% if li_speakers %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a>
+                                                    </li>
+                                                    <li {% if li_talks %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('talks', lang_code=lang_code) }}">{{ _('Talks and workshops') }}</a>
+                                                    </li>
+                                                  </ul>
                                                 </li>
-                                                <li{% if li_cfp %} class="menu-justify current"{% endif %}>
-                                                  <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('Call for Proposals') }}</a>
+                                                <li {% if li_sponsors %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
                                                 </li>
                                                 <li>
                                                   <a target="_blank" href="https://python.sk/daruj/">{{ _('2%%') }}</a>
@@ -189,22 +198,18 @@
                                                 </li>
                                                 <li class="dropdown {% if li_aboutus or li_cfv or li_venue or li_coc %} current{% endif %}">
                                                   <a href="#">{{ _('About') }}
-<!--                                                    <i class="fa fa-angle-down"></i>-->
                                                   </a>
                                                   <ul class="rt-dropdown-menu" role="menu">
-<!--                                                    <li{% if li_faq %} class="menu-justify current"{% endif %}>-->
-<!--                                                      <a href="{{ url_for('faq', lang_code=lang_code) }}">{{ _('FAQ') }}</a>-->
-<!--                                                    </li>-->
-                                                    <li{% if li_aboutus %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_aboutus %} class="menu-justify current"{% endif %}>
                                                       <a href="{{ url_for('aboutus', lang_code=lang_code) }}">{{ _('About Us') }}</a>
                                                     </li>
-                                                    <li{% if li_venue %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_venue %} class="menu-justify current"{% endif %}>
                                                       <a href="{{ url_for('venue', lang_code=lang_code) }}">{{ _('Venue') }}</a>
                                                     </li>
-                                                    <li{% if li_cfv %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_cfv %} class="menu-justify current"{% endif %}>
                                                         <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
                                                     </li>
-                                                    <li{% if li_coc %} class="menu-justify current"{% endif %}>
+                                                    <li {% if li_coc %} class="menu-justify current"{% endif %}>
                                                         <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
                                                     </li>
                                                   </ul>
@@ -238,15 +243,6 @@
                                         </li>
                                     </ul>
                                 </div>
-
-{#                                <div class="col-lg-2 col-md-3">#}
-{#                                    <ul class="header-action-items">#}
-{#                                        <li>#}
-{#                                          <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}"#}
-{#                                             class="btn-fill size-xs color-yellow border-radius-5">{{ _('Buy Tickets') }}</a>#}
-{#                                        </li>#}
-{#                                    </ul>#}
-{#                                </div>#}
                             </div>
                         </div>
                     </div>

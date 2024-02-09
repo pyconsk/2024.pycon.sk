@@ -1,0 +1,54 @@
+{% extends "body.html" %}
+
+{% block content %}
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Talks and workshops') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2024</a>
+            </li>
+            <li>{{ _('Talks and workshops') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inne Page Banner Area End Here -->
+
+<section>
+  <div class="container mt-5">
+    {% for talk in talks %}
+      <div class="schedule-listing">
+        <div class="">
+          <span class="schedule-slot-time">
+            {{ talk.type }}
+          </span>
+        </div>
+        <div class="schedule-slot-info">
+          <div class="">
+            <h3 class="schedule-slot-title">{{ talk.title }}</h3>
+            <h4 class="schedule-slot-speaker-name">
+              <span class="badge badge-pill badge-primary mr-4">
+                  {% if talk.lang == 'sk' %}{{ _('Slovak language') }}
+                  {% elif talk.lang == 'en' %}{{ _('English language') }}
+                  {% elif talk.lang == 'cz' %}{{ _('Czech language') }}{% endif %}
+              </span>
+              {% for speaker in talk.speakers %}
+                <a href="{{ url_for('profile', lang_code=lang_code, name=speaker.lower().replace('-','--').replace(' ', '-'))}}">{{ speaker }}</a>{% if not loop.last %}, {% endif %}
+              {% endfor %}
+            </h4>
+            <p class="mt-0 pb-0">{{ talk.text[:280] }}... <a href="{{ url_for('profile', lang_code=lang_code, name=talk.speakers[0].lower().replace('-','--').replace(' ', '-'))}}">({{ _('Full description') }})</a></p>
+
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

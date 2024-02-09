@@ -1,6 +1,15 @@
 [
   {
-    "date": "2023-01-05",
+    "date": "2024-02-08",
+    "title_en": "Conference program published!",
+    "meta_en": "Find out what talks and workshops await you at PyCon SK 2024.",
+    "title_sk": "Program konferencie zverejnený!",
+    "meta_sk": "Zistite, aké prednášky a workshopy vás čakajú na PyCon SK 2024.",
+    "categories": ["speakers"],
+    "url": "/en/speakers/index.html"
+  },
+  {
+    "date": "2024-01-05",
     "title_en": "The Second round of Call for Proposals is open!",
     "meta_en": "Our program committee is already reviewing proposals that were submitted until 31. 12. 2023 and we want to thank everyone who submitted their proposals on time. For those who are still hesitating or did not have time to submit their proposal, there is an opportunity to do so until 20. 01. 2024 in the second round. Become a part of PyCon SK!",
     "title_sk": "Druhé kolo výzvy na predkladanie návrhov na konferenčné príspevky je otvorené!",

@@ -328,6 +328,14 @@ def speakers():
 
     return render_template('speaker_list.html', **variables)
 
+
+@app.route('/<lang_code>/talks.html')
+def talks():
+    variables = _get_template_variables(li_talks='active', background='bkg-speaker', talks=TALKS, speakers=SPEAKERS+EDU_SPEAKERS)
+
+    return render_template('talk_list.html', **variables)
+
+
 @app.route('/<lang_code>/speakers/<name>.html')
 def profile(name):
     variables = _get_template_variables(li_speakers='active', background='bkg-speaker')

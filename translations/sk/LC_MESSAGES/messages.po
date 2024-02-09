@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-04 20:20+0100\n"
+"POT-Creation-Date: 2024-02-09 22:59+0000\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -23,20 +23,20 @@ msgstr ""
 msgid "PyCon SK 2024 | Bratislava, Slovakia"
 msgstr "PyCon SK 2022 | Bratislava"
 
-#: pycon.py:351
+#: pycon.py:362
 msgid "Friday"
 msgstr "Piatok"
 
-#: pycon.py:360
+#: pycon.py:371
 msgid "Saturday"
 msgstr "Sobota"
 
-#: pycon.py:367
+#: pycon.py:378
 msgid "Sunday"
 msgstr "Nedeľa"
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
-#: templates/aboutus.html:29 templates/body.html:139 templates/body.html:199
+#: templates/aboutus.html:29 templates/body.html:135 templates/body.html:191
 #: templates/cfv.html:14
 msgid "About Us"
 msgstr "O nás"
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Or visit our website"
 msgstr "alebo navštívte našu web stránku"
 
-#: templates/aboutus.html:53 templates/body.html:145 templates/body.html:205
+#: templates/aboutus.html:53 templates/body.html:141 templates/body.html:197
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
@@ -133,60 +133,65 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:122 templates/body.html:179
+#: templates/body.html:116 templates/body.html:169 templates/livestream.html:17
+#: templates/program.html:9 templates/program.html:14 templates/schedule.html:9
+#: templates/schedule.html:14 templates/talk_list.html:9
+msgid "Program"
+msgstr "Program"
+
+#: templates/body.html:120 templates/body.html:173 templates/cfp.html:14
+#: templates/cfp_form.html:14 templates/includes/program_table.html:4
+#: templates/index.html:97 templates/index.html:166 templates/recording.html:14
+#: templates/speaker.html:14 templates/speaker_list.html:14
+#: templates/speaker_list2.html:14
+msgid "Speakers"
+msgstr "Rečníci a rečníčky"
+
+#: templates/body.html:125 templates/body.html:178
 msgid "Sponsors"
 msgstr "Sponzori"
 
-#: templates/body.html:125 templates/body.html:182 templates/cfp.html:9
-#: templates/cfp.html:15
-msgid "Call for Proposals"
-msgstr "Prihlás svoj príspevok"
-
-#: templates/body.html:128 templates/body.html:185
+#: templates/body.html:128 templates/body.html:181
 #, python-format
 msgid "2%%"
 msgstr "2%%"
 
-#: templates/body.html:131 templates/body.html:191
+#: templates/body.html:131 templates/body.html:187
 msgid "About"
 msgstr "O nás"
 
-#: templates/body.html:136 templates/body.html:196
-msgid "FAQ"
-msgstr "FAQ"
-
-#: templates/body.html:142 templates/body.html:202 templates/tickets.html:47
+#: templates/body.html:138 templates/body.html:194 templates/tickets.html:47
 #: templates/venue.html:35 templates/venue.html:40
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:148 templates/body.html:208 templates/coc.html:10
+#: templates/body.html:144 templates/body.html:200 templates/coc.html:10
 #: templates/coc.html:15
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:188 templates/body.html:237 templates/index.html:20
+#: templates/body.html:184 templates/body.html:229 templates/index.html:20
 #: templates/index.html:208
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:272
+#: templates/body.html:255
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:286
+#: templates/body.html:269
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:300
+#: templates/body.html:283
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:314
+#: templates/body.html:297
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:330
+#: templates/body.html:313
 msgid ""
 "The PyCon SK 2024 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
@@ -196,16 +201,16 @@ msgstr ""
 "každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
 "programovací jazyk Python."
 
-#: templates/body.html:332 templates/body.html:372 templates/countdown.html:98
+#: templates/body.html:315 templates/body.html:355 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi a dobrovoľníčkami z %(spy)s."
 
-#: templates/body.html:333 templates/body.html:373 templates/countdown.html:99
+#: templates/body.html:316 templates/body.html:356 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:375 templates/countdown.html:94
+#: templates/body.html:358 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -214,17 +219,13 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:377 templates/countdown.html:96
+#: templates/body.html:360 templates/countdown.html:96
 msgid "Python Software Foundation"
 msgstr "Python Software Foundation"
 
-#: templates/cfp.html:14 templates/cfp_form.html:14
-#: templates/includes/program_table.html:4 templates/index.html:97
-#: templates/index.html:166 templates/recording.html:14
-#: templates/speaker.html:14 templates/speaker_list.html:14
-#: templates/speaker_list2.html:14
-msgid "Speakers"
-msgstr "Rečníci a rečníčky"
+#: templates/cfp.html:9 templates/cfp.html:15
+msgid "Call for Proposals"
+msgstr "Prihlás svoj príspevok"
 
 #: templates/cfp.html:28
 msgid "Call for Proposals for PyConSK 2024 is open!"
@@ -1463,10 +1464,6 @@ msgstr "Čítaj viac"
 msgid "Speakers that who have already confirmed attendance at PyCon SK 2024."
 msgstr "Rečníci, ktorí už potvrdili svoju účasť na PyCon SK 2024."
 
-#: templates/index.html:169
-msgid "You can fill the Call for Proposals and join this list..."
-msgstr "Môžeš vyplniť formulár s návrhom a pridať sa na zoznam..."
-
 #: templates/index.html:206
 msgid "Get Your Ticket Now"
 msgstr "Kúp si lístok teraz"
@@ -1513,12 +1510,6 @@ msgstr "Všetky firmy"
 #: templates/jobs.html:43
 msgid "Displaying offers for"
 msgstr "Zobrazujem pracovné pozície pre"
-
-#: templates/livestream.html:17 templates/program.html:9
-#: templates/program.html:14 templates/schedule.html:9
-#: templates/schedule.html:14
-msgid "Program"
-msgstr "Program"
 
 #: templates/livestream.html:20
 msgid "Livestream"
@@ -1922,25 +1913,33 @@ msgstr ""
 msgid "Cancelled"
 msgstr ""
 
-#: templates/speaker.html:67
+#: templates/speaker.html:67 templates/talk_list.html:35
 msgid "Slovak language"
 msgstr "Slovenský jazyk"
 
-#: templates/speaker.html:68
+#: templates/speaker.html:68 templates/talk_list.html:36
 msgid "English language"
 msgstr "Anglický jazyk"
 
-#: templates/speaker.html:69
+#: templates/speaker.html:69 templates/talk_list.html:37
 msgid "Czech language"
 msgstr "Český jazyk"
 
-#: templates/speaker_list.html:26
+#: templates/speaker_list.html:9 templates/speaker_list.html:26
 msgid "Our amazing speakers"
 msgstr "Naši úžasní speakeri"
 
 #: templates/sponsors.html:8 templates/sponsors.html:13
 msgid "Our sponsors"
 msgstr "Naši sponzori"
+
+#: templates/talk_list.html:14
+msgid "Talks and workshops"
+msgstr "Prednášky a workshopy"
+
+#: templates/talk_list.html:43
+msgid "Full description"
+msgstr "Celý popis"
 
 #: templates/thanks.html:9
 msgid "Thank You"
@@ -2492,31 +2491,6 @@ msgstr ""
 msgid "Check who made this event possible!"
 msgstr "Pozri, vďaka komu sa podarilo zorganizovať túto konferenciu."
 
-#: templates/includes/sponsors_list.html:17
-msgid "Platinum sponsors"
-msgstr "Platinoví sponzori"
-
-#: templates/includes/sponsors_list.html:28
-msgid "Silver sponsors"
-msgstr "Strieborní sponzori"
-
-#: templates/includes/sponsors_list.html:39
-msgid "Bronze sponsors"
-msgstr "Bronzoví sponzori"
-
-#: templates/includes/sponsors_list.html:98
-msgid "Django Girls & PyLadies Sponsor"
-msgstr ""
-
-#: templates/includes/sponsors_list.html:109
-#, fuzzy
-msgid "Media partners"
-msgstr "Partneri"
-
-#: templates/includes/sponsors_list.html:134
-msgid "Partners"
-msgstr "Partneri"
-
 #~ msgid "Schedule"
 #~ msgstr "Program"
 
@@ -2768,7 +2742,7 @@ msgstr "Partneri"
 #~ msgstr "Hlavný mediálny partner"
 
 #~ msgid "Media partners"
-#~ msgstr "Mediálni partneri"
+#~ msgstr "Partneri"
 
 #~ msgid ""
 #~ "By attending, you have a chance to"
@@ -2789,4 +2763,22 @@ msgstr "Partneri"
 #~ "lístok na konferenciu, sme pripravili "
 #~ "program na podporu\n"
 #~ "              a máme pripravené určité množstvo lístkov zadarmo."
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+#~ msgid "You can fill the Call for Proposals and join this list..."
+#~ msgstr "Môžeš vyplniť formulár s návrhom a pridať sa na zoznam..."
+
+#~ msgid "Platinum sponsors"
+#~ msgstr "Platinoví sponzori"
+
+#~ msgid "Bronze sponsors"
+#~ msgstr "Bronzoví sponzori"
+
+#~ msgid "Django Girls & PyLadies Sponsor"
+#~ msgstr ""
+
+#~ msgid "Partners"
+#~ msgstr "Partneri"
 
