@@ -13,11 +13,10 @@
     <meta property="og:image"
           content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
   {% endblock %}
-  <meta property="og:url" content="{{ domain }}"/>
+  <meta property="og:url" content="{{ domain }}{{ request.path }}"/>
   {% block og_title %}
     <meta property="og:title" content="{{ _('PyCon SK 2024, Bratislava') }}"/>
   {% endblock %}
-    <meta property="og:site_name" content="2024.pycon.sk"/>
   {% block og_description %}
     <meta property="og:description"
           content="{{ _('PyCon SK is a community-organized conference for the Python programming language.') }}"/>
