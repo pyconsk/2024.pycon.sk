@@ -200,6 +200,51 @@
   },
   {
     "speakers": [
+      "Dom Weldon"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "How do imports work, and why should I care? (and why should I use a tool like PDM?)",
+    "text": "ELEVATOR PITCH\nI asked myself a question: “what happens when you import something in python?” The answer was not as simple as I thought. In this talk, I’ll share what I learnt, and discuss why this is vital for security, before sharing opinions on tooling, especially the use of the Poetry alternative PDM, in 2024.\n\nABSTRACT\nPython has a rich ecosystem of open source packages available to assist with almost any conceivable requirement. Installing, using, and updating these packages should be quick, easy, and secure, however, dependency management and python packaging has historically been a source of frustration for developers, particularly with the added complications of virtual environments, and subtle differences between python versions. Furthermore, software supply chain security has attracted particular importance of late as increasing numbers of major vulnerabilities have been discovered requiring fast, sometimes immediate, mitigation.\n\nIn recent years, efforts have been made to improve packaging and dependency management in python, and we have seen the release of a number of developer tools, including Poetry, pipenv, and pipx. These work alongside pip and earlier tools such as disutils, setuptools, and easy_install, and offer higher level interfaces for developers to work with. In 2020, a new tool was released called PDM (Python Dependency Manager), and is gaining traction amongst developers in recent years.\n\nThis talk will start by giving an overview of how python imports work, before moving on to cover a brief history of package management in python, and an overview of the current state of play, and the vulnerabilities that we are exposed to by supply chain attacks. We’ll then give a brief introduction to PDM, before discussing what practical steps we can take to both improve our developer experiences, and ensure the code we write is modern, secure, and maintainable.\n\nWe’ll ask questions including some of the below.\n\n* What actually happens ‘under the hood’ when we use the import statement?\n* How many different ways can we import a package in python?\n* What does a dependency manager do, and how does it work?\n* What does a supply chain attack look like, and how do we try and stop them happening?\n\nFinally, the speaker will offer an opinionated guide to some of the best python tooling and package management setups available to python developers in 2024."
+  },
+  {
+    "speakers": [
+      "Amit Kumar"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Tackling Malaria with Python and distributed computing",
+    "text": "In this talk I’ll talk about how we leveraged tools in the PyData ecosystem to be able to analyze genomics datasets containing over 100 million variants x 100 samples.\n\nIn large-scale genomics analysis pairwise distance is a common technique to reduce samples, which is a very time-expensive calculation. I will demonstrate how we solve the scaling problem in sgkit by taking pairwise distance as an example using Numba and Dask using map reduce algorithms on cpu and gpu hardware."
+  },
+  {
+    "speakers": [
+      "Mohammad Rahman"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Green Roof and Purple Roof hydraulic modeling using Python",
+    "text": "Green roofs and purple roofs have emerged as sustainable strategies to mitigate urban heat island effects and manage stormwater runoff. Hydraulic modeling plays a pivotal role in understanding the performance of these roofs in retaining and managing water. This abstract delves into the utilization of Python, specifically leveraging the capabilities of NumPy and machine learning algorithms, to develop and analyze hydraulic models for green and purple roofs.\n\nThe integration of Python, a versatile programming language, with the scientific computing library NumPy, provides a powerful platform for constructing mathematical models that simulate water flow and retention characteristics of these innovative roofing systems. Through the application of machine learning algorithms, these models aim to predict and optimize the hydraulic behavior of green and purple roofs under varying conditions.\n\nIn this study, the focus lies in harnessing Python's computational prowess to implement numerical methods for simulating water flow dynamics on green and purple roofs. Utilizing NumPy's array-based computing functionalities enables efficient manipulation and calculation of large datasets, crucial for modeling complex hydraulic systems. By integrating machine learning techniques, such as regression and neural networks, with the hydraulic models, predictive capabilities are enhanced to forecast water retention, infiltration rates, and overall performance of these roofs.\n\nPython's extensibility allows for the incorporation of data collected from physical prototypes or real-world installations, facilitating the calibration and validation of the hydraulic models. Leveraging machine learning algorithms, these models adapt and improve over time with additional data, enhancing their accuracy and reliability in predicting water behavior on green and purple roofs.\n\nFurthermore, Python's visualization libraries enable the creation of graphical representations that aid in interpreting and communicating the simulation results. This visualization aspect is crucial for stakeholders, urban planners, and researchers to comprehend the hydraulic performance of green and purple roofs, fostering informed decision-making regarding their implementation and optimization.\n\nThrough the amalgamation of Python, NumPy, and machine learning techniques, this study aims to contribute to the advancement of hydraulic modeling for green and purple roofs. By harnessing the computational capabilities of Python and leveraging machine learning algorithms, the goal is to develop robust and predictive models that assist in optimizing the design, performance evaluation, and implementation of these sustainable roofing systems in urban environments.\n\nKeywords: Hydraulic modeling, Green roof, Purple roof, Python, NumPy, Machine learning, Water retention, Stormwater management, Urban sustainability."
+  },
+  {
+    "speakers": [
+      "Pavel Král"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Large Language Models Across Languages",
+    "text": "My presentation, titled \"Large Language Models Across Languages\" aims to explore the fascinating world of large language models (LLMs) and their varying efficiencies in different languages.\n\nMy talk is grounded in extensive research publicly available on GitHub, providing a robust and transparent foundation for the insights shared.\n\nhttps://github.com/pavelkraleu/llm-language-tokens/tree/main\n\nKey Points of the Talk:\n* Token Economy Across Languages: An analysis of which languages require the most tokens to express the same content. This segment will dive into the tokenization process of LLMs and compare major languages on their token consumption for equivalent texts.\n* Cross-Lingual Embeddings Effectiveness: Evaluating how effectively LLMs' embeddings capture and express information across different languages. This part will focus on the quality of embeddings in bridging language gaps and maintaining semantic integrity.\n* Reasoning Abilities in Various Languages: Investigating the reasoning capabilities of LLMs when operating in multiple languages. The focus will be on comparing the models' performance across a spectrum of languages."
+  },
+  {
+    "speakers": [
+      "Vojta Filipec"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "The Beauty of Sinus And Cosinus: Hypotrochoid Curves as a Web App",
+    "text": "This is a talk of a data scientist who loves to play with math, enjoys creating visualisations in Jupyter Notebook but has limited capabilities of sharing his notebooks online. I will explain what hypotrochoid curves are, how to plot them in Jupyter Notebook, then how remake a notebook into an interactive in-browser app (using ipython widgets and voila), and finally how to publish this app via Binder. I hope this will be useful for anyone who wants to share his/her notebooks with broad audience.\n\n"
+  },
+  {
+    "speakers": [
       "PyLadies Bratislava"
     ],
     "type": "Workshop",

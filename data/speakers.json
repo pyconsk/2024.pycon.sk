@@ -249,5 +249,47 @@
         "avatar": "img/speakers/mirek_binas.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Dom Weldon",
+        "bio": "Dom is a full stack cloud software engineer based in central London. He works as an independent contractor, currently in financial services, and was formerly a Principal at Decision Lab, a consultancy with expertise in simulation, optimisation, and machine learning. Dom’s primary expertise are in Python, AWS (and the Infrastructure as Code tool Terraform), Javascript, and graph and relational databases. Dom studied at the University of Cambridge and King’s College London, and alongside his work in tech holds a voluntary statutory appointment monitoring conditions for prisoners inside a challenging inner London jail.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/dom_weldon.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Amit Kumar",
+        "bio": "Software Engineer at Quansight and creator of cirun.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/amit_kumar.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Mohammad Rahman",
+        "bio": "A civil engineer - developed his career over 20+ years in New Zealand and Australia",
+        "country": "Australia",
+        "avatar": "img/speakers/male.png",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/mohammad-rahman-mr/"
+        }
+    },
+    {
+        "name": "Pavel Král",
+        "bio": "As a passionate back-end developer with a focus on business innovation, I am deeply interested in connecting the latest technology trends with practical business applications. \n\nMy passion for experimentation and finding new commercial opportunities is matched by my ability to create reliable and professional back-end systems.",
+        "country": "Czechia",
+        "avatar": "img/speakers/pavel_kral.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Vojta Filipec",
+        "bio": "Data science - that is the realm of mine. My professional experience covers both quantitative work (predictive models and data mining) and a load of soft-skills (consultancy). I enjoy working with maps and doing applied statistics.",
+        "country": "Czechia",
+        "avatar": "img/speakers/vojta_filipec.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/vojtech-filipec/"
+        }
     }
 ]
