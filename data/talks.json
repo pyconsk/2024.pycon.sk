@@ -315,6 +315,6 @@
     "type": "Workshop",
     "lang": "sk",
     "title": "Dátová analytika ako predjedlo",
-    "text": "Veľa je dát na svete, všetky o niečom hovoria, ak sa k nim prihliadneme. Vyberieme niektoré (ako na trhu, čo sa nám zapáči) a budeme ich spolu pojedať na tácke Jupytera, s pandas namiesto noža a vidličky. Lepšie raz vidieť, ako veľa ráz počuť, preto budeme kresliť čo sa dá, aj čo veľmi nie :-) Meniť uhly pohľadu, približovať, oddiaľovať, pridávať, uberať. A aby sme sa len my sami netešili, urobíme nakoniec webovú aplikáciu, ktorú si môžu pozrieť aj iní."
+    "text": "Veľa je dát na svete, všetky o niečom hovoria, ak sa k nim prihliadneme. Vybrali sme údaje o taxikároch v New Yorku a budeme ich spolu pojedať na tácke Jupytera, s polars namiesto noža a vidličky. Lepšie raz vidieť, ako veľa ráz počuť, preto budeme kresliť čo sa dá, aj čo veľmi nie :-) Pomôže nám pritom plotly. Aby sme sa len my sami netešili, urobíme nakoniec webovú aplikáciu (pyviz panel), ktorú si môžu pozrieť aj iní. Život nestojí - objavilo sa marimo, veľmi zaujímavá alternatíva pre dátové webové aplikácie. Ukážka, ako by mohlo vyzerať to, čo vytvoríme je na http://feelmath.eu:2025." 
   }
 ]
