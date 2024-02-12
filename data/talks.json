@@ -146,15 +146,6 @@
   },
   {
     "speakers": [
-      "Marcelo Trylesinski"
-    ],
-    "type": "Talk",
-    "lang": "en",
-    "title": "Common FastAPI mistakes",
-    "text": "We'll go through common FastAPI mistakes I've seen in the last 4 years. We'll see insights on performance, best practices, and use of the framework in general. \n\nLet's go beyond the obvious, and at the end of the talk, you'll know how you can become a FastAPI Expert yourself."
-  },
-  {
-    "speakers": [
       "Tvrtko Sternak"
     ],
     "type": "Talk",

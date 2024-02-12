@@ -156,15 +156,6 @@
         }
     },
     {
-        "name": "Marcelo Trylesinski",
-        "bio": "Marcelo is a Brazilian software engineer, currently living in the Netherlands. In the last years, he has been helping the FastAPI community, and maintaining Starlette, one of the FastAPI dependencies, and Uvicorn, a web server that runs applications like FastAPI. Not long ago, he joined the recently created company Pydantic.",
-        "country": "Brazil",
-        "avatar": "img/speakers/marcelo_trylesinski.png",
-        "links": {
-            "github": "https://github.com/Kludex"
-        }
-    },
-    {
         "name": "Tvrtko Sternak",
         "bio": "I am currently working as a Python developer at airt. In the past three years, I have gained valuable experience in the industry, including a year working on a microservice product that uses Apache Kafka for communication between services.\n\nI am a strong believer in the power of open source software, and I enjoy learning from the open source community. My interests in the field at the moment include machine learning, model deployment, Apache Kafka, and advanced Python programming.",
         "country": "Croatia",
