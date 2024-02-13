@@ -282,5 +282,42 @@
         "links": {
             "linkedin": "https://www.linkedin.com/in/vojtech-filipec/"
         }
+    },
+    {
+        "name": "Mykalin Jones",
+        "bio": "I am a Particle Physicist-turned-Data Analyst with over a decade of teaching experience. I have written curricula for various topics including Python for Children, The Basics of Python, Intermediate Python, and Data Science for Beginners. I provide individual and group classes on all of these topics as well as maths, science, and standardized test prep. I am currently based in France, but I especially enjoy traveling as much as possible and discovering different cultures and languages. ",
+        "country": "France",
+        "avatar": "img/speakers/mykalin_jones.png",
+        "links": {
+            "globe": "https://www.astrotutors.com/",
+            "linkedin": "https://www.linkedin.com/in/mykalin-jones-584047123/"
+        }
+    },
+    {
+        "name": "Peter Steiner",
+        "bio": "Senior IT professional with over 10 years experience working on very large enterprise global environments including 200k+ devices and 10k+ users. Various expertise as developer and lead for data engineering projects. Experienced in design and building ETL data pipelines (DWH/DataLake), monitoring/reporting solutions for of large-scale environments",
+        "country": "Slovakia",
+        "avatar": "img/speakers/peter_steiner.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/peter-steiner-a178b27/"
+        }
+    },
+    {
+        "name": "Peter Bakonyi",
+        "bio": "Peter Bakonyi is a Software Analyst at Aliter Technologies and a PhD student at the Faculty of Informatics and Information Technologies at STU. He possesses expertise in data engineering and machine learning.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/peter_bakonyi.png",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/peter-steiner-a178b27/"
+        }
+    },
+    {
+        "name": "Tomas Pulai",
+        "bio": "Pochádzam z malej dedinky menom Olváry v okrese Veľký Krtíš.\nStrednú školu som absolvoval v Lučenci v obore mechanik a elektronik so zameraním na organizačnú a výpočtovú techniku.\nNásledne som pokračoval v bakalárskom štúdiu na Univerzite sv. Cyrila a Metoda v Trnave.\nInžiniersky titul som získal na FIIT-ke v roku 2009.\nPrvé pracovné skúsenosti som získal počas bakalárskeho študia. Od roku 2009 som súčasťou spoločnosti Fiserv kde som\nzačínal ako programátor v jazyku C++. Aktuálne zastávam pozíciu senior aplikačného analytika.\nKúzlu jazyka Python som prepadol už počas bakalárskeho štúdia. Písal som v nej tak bakalársku ako aj diplomovú prácu a dodnes je pre mňa prvou voľbou, pokiaľ to situácia umožňuje.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/tomas_pulai.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/tomas-pulai-843a9a39/"
+        }
     }
 ]
