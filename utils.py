@@ -58,8 +58,10 @@ def decode_name(encoded_name):
 def get_speakers():
     return read_json_file(os.path.join('data', 'speakers.json'))
 
+
 def get_talks():
     return read_json_file(os.path.join('data', 'talks.json'))
+
 
 def get_sponsors():
     all_sponsors = read_json_file(os.path.join('data', 'sponsors.json'))
@@ -78,8 +80,10 @@ def get_sponsors():
         categories.setdefault(ctg, []).append(sponsor)
     return categories
 
+
 def get_edu_speakers():
     return read_json_file(os.path.join('data', 'edusummit_speakers.json'))
+
 
 def get_edu_talks():
     return read_json_file(os.path.join('data', 'edusummit_talks.json'))

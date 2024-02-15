@@ -9,10 +9,10 @@
         </div>
 
         <div class="sponsonrs-layout1">
-          {% for category in ['Platinum sponsors', 'Silver sponsors', 'Bronze sponsors', 'Django Girls & PyLadies Sponsor', 'Media partners', 'Partners'] %}
+          {% for category in ['Platinum sponsors', 'Gold sponsors', 'Silver sponsors', 'Bronze sponsors', 'Django Girls & PyLadies Sponsor', 'Media partners', 'Partners'] %}
           <h3 class="color-dark title-black text-center sponsors-title">{{_(category)}}</h3>
           <div class="row sponsor-row justify-content-center">{% for sponsor in sponsors[category] %}
-              <div class="{% if category not in ['Platinum sponsors', 'Silver sponsors'] %}col-xl-3 {% endif %}{% if category != 'Platinum sponsors' %}col-lg-4 {% endif %}col-md-6 col-sm-6 col-xs-12 align-self-center">
+              <div class="{% if category not in ['Platinum sponsors', 'Gold sponsors', 'Silver sponsors'] %}col-xl-3 {% endif %}{% if category != 'Platinum sponsors' %}col-lg-4 {% endif %}col-md-6 col-sm-6 col-xs-12 align-self-center">
                   <div class="sponsonrs-box sponsor-details {{ sponsor['class'] }} mx-auto mt-5 mr-1 ml-1 mb-1">
                       <a href="{{ sponsor['link'] }}" target="_blank">
                           <img class="img-responsive img-fluid" src="{{ url_for('static', filename=sponsor['logo']) }}" alt="{{ sponsor['alt'] }}"/>

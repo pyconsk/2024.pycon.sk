@@ -2,10 +2,26 @@
     {
         "name": "Titans",
         "category": "Platinum sponsors",
-        "class": "platinum",
+        "class": "diamond",
         "logo": "img/partners/titans.png",
         "alt": "Titans logo",
         "link": "https://www.titans.sk/"
+    },
+    {
+        "name": "Python Software Foundation",
+        "category": "Gold sponsors",
+        "class": "platinum",
+        "logo": "img/partners/psf.svg",
+        "alt": "PSF logo",
+        "link": "https://www.python.org/psf-landing/"
+    },
+    {
+        "name": "EuroPython Society",
+        "category": "Gold sponsors",
+        "class": "platinum",
+        "logo": "img/partners/eps.png",
+        "alt": "EPS logo",
+        "link": "https://www.europython-society.org/"
     },
     {
         "name": "Zurich",
