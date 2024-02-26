@@ -52,6 +52,13 @@
         "link": "https://www.aliter.com/en/home"
     },
     {
+        "name": "Seznam",
+        "category": "Silver sponsors",
+        "class": "gold",
+        "logo": "img/partners/seznam.png",
+        "link": "https://www.seznam.cz/"
+    },
+    {
         "name": "Slido",
         "category": "Bronze sponsors",
         "class": "silver",

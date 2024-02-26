@@ -156,6 +156,15 @@
         }
     },
     {
+        "name": "Yke Rusticus",
+        "bio": "Yke is a Machine Learning Engineer at Xebia with a background in astronomy and artificial intelligence. In the industry, he learned that models and algorithms often do not get past the experimentation phase, leading him to specialise in MLOps to bridge the gap between experimentation and production. As a professional in this field, Yke has developed ML platforms and use cases across different cloud providers, and is passionate about sharing his knowledge through tutorials and trainings.",
+        "country": "Netherlands",
+        "avatar": "img/speakers/yke_rusticus.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/yke-rusticus/"
+        }
+    },
+    {
         "name": "Tvrtko Sternak",
         "bio": "I am currently working as a Python developer at airt. In the past three years, I have gained valuable experience in the industry, including a year working on a microservice product that uses Apache Kafka for communication between services.\n\nI am a strong believer in the power of open source software, and I enjoy learning from the open source community. My interests in the field at the moment include machine learning, model deployment, Apache Kafka, and advanced Python programming.",
         "country": "Croatia",
@@ -167,7 +176,7 @@
     {
         "name": "PyLadies Bratislava",
         "bio": "PyLadies Bratislava started in 2019 to promote, educate, and advance a diverse Python community through meet-ups and workshops.\nPyLadies Bratislava is open to everybody to join. We encourage mainly women and minorities, but everyone willing to participate is welcome.\nWe meet once a month and have fun with Python.",
-        "avatar": "img/speakers/female.png",
+        "avatar": "img/speakers/pyladies.png",
         "links": {
         }
     },
