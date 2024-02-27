@@ -84,6 +84,7 @@ venv/
 envs/
 envs3/
 ENV/
+pipenv
 
 # Spyder project settings
 .spyderproject

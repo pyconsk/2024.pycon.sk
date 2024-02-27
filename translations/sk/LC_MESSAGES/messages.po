@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-13 20:18+0100\n"
+"POT-Creation-Date: 2024-02-27 13:39+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -484,7 +484,7 @@ msgstr ""
 "ktorom bude odkaz na stránku, kde môžeš svoj príspevok kedykoľvek "
 "upraviť."
 
-#: templates/cfp_form.html:37 templates/cfv.html:41
+#: templates/cfp_form.html:37
 msgid ""
 "For all of the \"paperwork\" we use Google forms. You fill it on our page"
 " (just the form below), or you can submit the form directly: "
@@ -497,7 +497,7 @@ msgstr ""
 msgid "About the speaker"
 msgstr "O rečníkovi/rečníčke"
 
-#: templates/cfp_form.html:53 templates/cfv.html:54 templates/cfv.html:56
+#: templates/cfp_form.html:53
 msgid "Your name"
 msgstr "Tvoje meno"
 
@@ -513,7 +513,7 @@ msgstr ""
 "V prípade, že príspevok bude prezentovať viacero ľudí, oddeľ mená "
 "prezentujúcich čiarkami."
 
-#: templates/cfp_form.html:71 templates/cfv.html:64 templates/cfv.html:66
+#: templates/cfp_form.html:71
 msgid "Your email"
 msgstr "Tvoj email"
 
@@ -791,7 +791,7 @@ msgstr ""
 msgid "Do you need accommodation?"
 msgstr "Potrebuješ ubytovanie?"
 
-#: templates/cfp_form.html:445 templates/cfv.html:130
+#: templates/cfp_form.html:445
 msgid "Submit"
 msgstr "Odoslať"
 
@@ -866,50 +866,9 @@ msgstr ""
 "dobrovoľníčka, môžeš darovať až 3%% zo svojich daní ktorejkoľvek "
 "zaregistrovanej neziskovke."
 
-#: templates/cfv.html:74 templates/cfv.html:76
-msgid "Your phone"
-msgstr "Tvoj mobil"
-
-#: templates/cfv.html:84
-msgid "Something about you"
-msgstr "Niečo o tebe"
-
-#: templates/cfv.html:86
-msgid ""
-"We would like to get to know you, write something about yourself and also"
-" why you would like to help out..."
-msgstr "Radi by sme vedeli niečo o tebe, ale aj prečo nám chceš pomôcť..."
-
-#: templates/cfv.html:94
-msgid "How much time can you spend volunteering?"
-msgstr ""
-"Napíš časový odhad, koľko by si sa mohol/mohla venovať dobrovoľníctvu pre"
-" SPy o.z.."
-
-#: templates/cfv.html:96
-msgid ""
-"We need just a rough estimate, for example: an hour a day, two hours a "
-"week..."
-msgstr "Stačí orientačná informácia, napr. hodina denne, dve hodiny týždenne..."
-
-#: templates/cfv.html:104
-msgid "What would you like to do?"
-msgstr "Je niečo konkrétne, čo by si rád/rada robil(a)?"
-
-#: templates/cfv.html:106
-msgid ""
-"Let us know what you are experienced in. If you have a vision and no "
-"experience, that is alright, write down what you would like to do and "
-"surely we'll find tasks to realize the vision."
-msgstr ""
-"Ak je niečo, v čom máš skúsenosti, o ktoré sa chceš s nami podeliť, napíš"
-" nám, čo to je. Ak máš predstavu, čo chceš robiť a nemáš žiadne "
-"skúsenosti, nevadí, podeľ sa s nami o svoje predstavy a určite nájdeme "
-"úlohy, v ktorých sa môžeš realizovať..."
-
-#: templates/cfv.html:114 templates/cfv.html:116
-msgid "Where did you find out about SPy o.z.?"
-msgstr "Odkiaľ si sa dozvedel(a) o SPy o.z.?"
+#: templates/cfv.html:41
+msgid "Volunteer registration: "
+msgstr "Prihlasovanie dobrovoľníkov: "
 
 #: templates/coc.html:29
 msgid ""
@@ -2490,3 +2449,52 @@ msgstr ""
 #: templates/includes/sponsors_list.html:8
 msgid "Check who made this event possible!"
 msgstr "Pozri, vďaka komu sa podarilo zorganizovať túto konferenciu."
+
+#~ msgid "Your phone"
+#~ msgstr "Tvoj mobil"
+
+#~ msgid "Something about you"
+#~ msgstr "Niečo o tebe"
+
+#~ msgid ""
+#~ "We would like to get to know "
+#~ "you, write something about yourself and"
+#~ " also why you would like to "
+#~ "help out..."
+#~ msgstr "Radi by sme vedeli niečo o tebe, ale aj prečo nám chceš pomôcť..."
+
+#~ msgid "How much time can you spend volunteering?"
+#~ msgstr ""
+#~ "Napíš časový odhad, koľko by si sa"
+#~ " mohol/mohla venovať dobrovoľníctvu pre SPy"
+#~ " o.z.."
+
+#~ msgid ""
+#~ "We need just a rough estimate, for"
+#~ " example: an hour a day, two "
+#~ "hours a week..."
+#~ msgstr "Stačí orientačná informácia, napr. hodina denne, dve hodiny týždenne..."
+
+#~ msgid "What would you like to do?"
+#~ msgstr "Je niečo konkrétne, čo by si rád/rada robil(a)?"
+
+#~ msgid ""
+#~ "Let us know what you are "
+#~ "experienced in. If you have a "
+#~ "vision and no experience, that is "
+#~ "alright, write down what you would "
+#~ "like to do and surely we'll find"
+#~ " tasks to realize the vision."
+#~ msgstr ""
+#~ "Ak je niečo, v čom máš skúsenosti,"
+#~ " o ktoré sa chceš s nami "
+#~ "podeliť, napíš nám, čo to je. Ak"
+#~ " máš predstavu, čo chceš robiť a "
+#~ "nemáš žiadne skúsenosti, nevadí, podeľ "
+#~ "sa s nami o svoje predstavy a "
+#~ "určite nájdeme úlohy, v ktorých sa "
+#~ "môžeš realizovať..."
+
+#~ msgid "Where did you find out about SPy o.z.?"
+#~ msgstr "Odkiaľ si sa dozvedel(a) o SPy o.z.?"
+
