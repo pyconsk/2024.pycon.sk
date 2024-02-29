@@ -337,5 +337,14 @@
         "links": {
             "linkedin": "https://www.linkedin.com/in/michal-brandis-1753b16b/"
         }
+    },
+    {
+        "name": "CoderDojo",
+        "bio": "CoderDojo je bezplatný programovací klub pre mladých ľudí od 7 do 17 rokov. Sme súčasťou globálnej siete 2400 klubov, ktoré sú všetky bezplatné, otvorené pre všetkých a vedené dobrovoľníkmi.\n\nKluby CoderDojo sú neformálne stretnutia, kde majú deti možnosť rozvíjať svoje zručnosti v priateľskej komunite svojich rovesníkov a technických mentorov (spravidla profesionálnych programátorov).\n\nStretnutia majú formát hackerspaceov: téma je voľná a deti motivujeme k práci na vlastných projektoch a nápadoch.\n\nNa Slovensku funguje CoderDojo Bratislava od roku 2016. Patríme pod občianske združenie CoderDojo Slovensko.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/coder-dojo.png",
+        "links": {
+            "globe": "https://bratislava.coderdojo.sk/"
+        }
     }
 ]

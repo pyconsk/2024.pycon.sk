@@ -263,6 +263,15 @@
   },
   {
     "speakers": [
+      "Michal Brandis"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Analýza freelance trhu. Trendy, štatistiky a prehľad v IT projektoch",
+    "text": "Všimli ste si, ako často recruiteri nerozumejú IT? Nevedia vám poriadne vysvetliť, akú pracovnú pozíciu ponúkajú, spätná väzba po pohovore sa postupne stáva sci-fi fenoménom a keď už sa vám konečne podarí získať nový projekt, mnohí z vás zaň nedostanú ani férové finančné ohodnotenie? Alebo vám klienti dokonca nezaplatia včas?\n\nPred takmer jedenástimi rokmi sa dvaja ostrieľaní ajťáci rozhodli vydláždiť pre IT špecialistov novú cestu, ktorá by sa odlišovala osobným a odborne fundovaným prístupom. Tú si do dnešného dňa zvolilo viac ako 29-tisíc freelancerov, od konzultantov cez programátorov, testerov, analytikov až po manažérov, ktorí získavajú špičkové projekty. Dá sa povedať, že značka TITANS ovládla trh outsourcingu IT špecialistov na Slovensku. \n\nPrieskumy uvádzajú, že IT oddelenia rozširuje čoraz menej úspešných firiem. Efektívnejší je pre ne dynamický prenájom tímu. Predstavím vám dôvody, pre ktoré toľkí ajťáci prechádzajú na breh freelancingu a faktory, ktoré vám pomôžu zistiť, či je to pre vás vhodná cesta. Dozviete sa viac o vývoji trhu, odvetviach s najväčším množstvom projektov, finančnom ohodnotení a tiež o špecializáciách, ktoré sú najžiadanejšie na IT projektoch. Na záver vám priblížim rozličné formy spolupráce s klientmi, priemerný čas, ktorí naši Titani strávia na projektoch, a praktický rozdiel medzi živnosťou a sro-čkou."
+  },
+  {
+    "speakers": [
       "PyLadies Bratislava"
     ],
     "type": "Workshop",
@@ -356,11 +365,11 @@
   },
   {
     "speakers": [
-      "Michal Brandis"
+      "CoderDojo"
     ],
-    "type": "Talk",
+    "type": "Workshop",
     "lang": "sk",
-    "title": "Analýza freelance trhu. Trendy, štatistiky a prehľad v IT projektoch",
-    "text": "Všimli ste si, ako často recruiteri nerozumejú IT? Nevedia vám poriadne vysvetliť, akú pracovnú pozíciu ponúkajú, spätná väzba po pohovore sa postupne stáva sci-fi fenoménom a keď už sa vám konečne podarí získať nový projekt, mnohí z vás zaň nedostanú ani férové finančné ohodnotenie? Alebo vám klienti dokonca nezaplatia včas?\n\nPred takmer jedenástimi rokmi sa dvaja ostrieľaní ajťáci rozhodli vydláždiť pre IT špecialistov novú cestu, ktorá by sa odlišovala osobným a odborne fundovaným prístupom. Tú si do dnešného dňa zvolilo viac ako 29-tisíc freelancerov, od konzultantov cez programátorov, testerov, analytikov až po manažérov, ktorí získavajú špičkové projekty. Dá sa povedať, že značka TITANS ovládla trh outsourcingu IT špecialistov na Slovensku. \n\nPrieskumy uvádzajú, že IT oddelenia rozširuje čoraz menej úspešných firiem. Efektívnejší je pre ne dynamický prenájom tímu. Predstavím vám dôvody, pre ktoré toľkí ajťáci prechádzajú na breh freelancingu a faktory, ktoré vám pomôžu zistiť, či je to pre vás vhodná cesta. Dozviete sa viac o vývoji trhu, odvetviach s najväčším množstvom projektov, finančnom ohodnotení a tiež o špecializáciách, ktoré sú najžiadanejšie na IT projektoch. Na záver vám priblížim rozličné formy spolupráce s klientmi, priemerný čas, ktorí naši Titani strávia na projektoch, a praktický rozdiel medzi živnosťou a sro-čkou."
+    "title": "CoderDojo workshop pre mladých ľudí od 7 do 17 rokov",
+    "text": "Kluby CoderDojo sú neformálne stretnutia, kde majú deti možnosť rozvíjať svoje zručnosti v priateľskej komunite svojich rovesníkov a technických mentorov (spravidla profesionálnych programátorov).\n\nStretnutia majú formát hackerspaceov: téma je voľná a deti motivujeme k práci na vlastných projektoch a nápadoch.\n\nNa CoderDojo na PyCone môžete prihlásiť potomka aj bez toho, aby mal kúpený lístok."
   }
 ]
