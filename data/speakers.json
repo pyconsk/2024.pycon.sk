@@ -36,20 +36,12 @@
         }
     },
     {
-        "name": "Jakub Hantabal",
-        "bio": "I am a biomedical data scientist focusing on cancer research, currently studying a Master’s degree in Precision Cancer Medicine at University of Oxford. Passionate about popularization of science and educating the future generation of data scientists, I am a co-founder of Data Science Academy NGO, where we organize educational events and build a community of data enthusiasts. I am also a partner at MHG Consulting, a boutique life science consultancy focused on central European clients. I am always on the lookout for opportunities to positively impact society.",
+        "name": "Jakub Hantabal a Laura Johanesová",
+        "bio": "Jakub: I am a biomedical data scientist focusing on cancer research, currently studying a Master’s degree in Precision Cancer Medicine at University of Oxford. Passionate about popularization of science and educating the future generation of data scientists, I am a co-founder of Data Science Academy NGO, where we organize educational events and build a community of data enthusiasts. I am also a partner at MHG Consulting, a boutique life science consultancy focused on central European clients. I am always on the lookout for opportunities to positively impact society. \n \n Laura: I am a Data Analyst and Junior Software Developer with expertise in biomedical data processing and software development for photoplethysmography analysis. Currently I am also studying at the University of Vienna. I co-founded Data Science Academy NGO and have a strong record in strategic planning, curriculum development and fostering collaborative innovation in healthcare technology.",
         "country": "Slovakia",
-        "avatar": "img/speakers/jakub_hantabal.jpg",
+        "avatar": "img/speakers/Hantabal_Johanesova.png",
         "links": {
-            "linkedin": "https://www.linkedin.com/in/jakub-hantabal-001898228/"
-        }
-    },
-    {
-        "name": "Laura Johanesová",
-        "bio": "I am a Data Analyst and Junior Software Developer with expertise in biomedical data processing and software development for photoplethysmography analysis. Currently I am also studying at the University of Vienna. I co-founded Data Science Academy NGO and have a strong record in strategic planning, curriculum development and fostering collaborative innovation in healthcare technology.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/laura_johanesova.jpg",
-        "links": {
+            "linkedin": "https://www.linkedin.com/in/jakub-hantabal-001898228/",
             "linkedin": "https://www.linkedin.com/in/laura-johanesov%C3%A1/"
         }
     },
@@ -156,12 +148,14 @@
         }
     },
     {
-        "name": "Yke Rusticus",
-        "bio": "Yke is a Machine Learning Engineer at Xebia with a background in astronomy and artificial intelligence. In the industry, he learned that models and algorithms often do not get past the experimentation phase, leading him to specialise in MLOps to bridge the gap between experimentation and production. As a professional in this field, Yke has developed ML platforms and use cases across different cloud providers, and is passionate about sharing his knowledge through tutorials and trainings.",
+        "name": "Yke Rusticus a Jeroen Overschie",
+        "bio": "Yke is a Machine Learning Engineer at Xebia with a background in astronomy and artificial intelligence. In the industry, he learned that models and algorithms often do not get past the experimentation phase, leading him to specialise in MLOps to bridge the gap between experimentation and production. As a professional in this field, Yke has developed ML platforms and use cases across different cloud providers, and is passionate about sharing his knowledge through tutorials and trainings. \n \n Jeroen is a Machine Learning Engineer at Xebia Data (formerly GoDataDriven), in The Netherlands. Jeroen has a background in Software Engineering and Data Science and helps companies take their Machine Learning solutions into production.\nBesides his usual work, Jeroen has been active in the Open Source community. Jeroen published several PyPi modules, npm modules, and has contributed to several large open source projects (Hydra from Facebook and Emberfire from Google). Jeroen also authored two chrome extensions, which are published on the web store.",
         "country": "Netherlands",
-        "avatar": "img/speakers/yke_rusticus.jpg",
+        "avatar": "img/speakers/Overschie_Rusticus.png",
         "links": {
-            "linkedin": "https://www.linkedin.com/in/yke-rusticus/"
+            "linkedin": "https://www.linkedin.com/in/yke-rusticus/",
+            "linkedin": "https://www.linkedin.com/in/jeroenoverschie/"
+
         }
     },
     {
@@ -227,7 +221,7 @@
     {
         "name": "Shahriyar Rzayev",
         "bio": "Senior Software Engineer @NordVPN at Nord Security.\nInterested in Security, Architecture, and Clean Code.\nLeading Azerbaijan Python User Community.",
-        "country": "Slovakia",
+        "country": "Germany",
         "avatar": "img/speakers/shahriyar_rzayev.jpg",
         "links": {
             "github": "https://github.com/ShahriyarR",
@@ -235,10 +229,10 @@
         }
     },
     {
-        "name": "Michal Kaukič",
-        "bio": "Učil som hlavne matematiku, ale venoval som sa aj Linuxu, Pythonu, Open Source. Organizovali sme OSS konferencie v Žiline. Sledoval som vývoj interaktívnych nástrojov od prvopočiatkov IPythonu po Jupyterlab, lebo ich považujem za veľmi vhodné pre výučbu informatiky a programovania. Rád chodím po horách, cestujem.",
+        "name": "Michal Kaukič a Mirek Biňas",
+        "bio": "Michal: Učil som hlavne matematiku, ale venoval som sa aj Linuxu, Pythonu, Open Source. Organizovali sme OSS konferencie v Žiline. Sledoval som vývoj interaktívnych nástrojov od prvopočiatkov IPythonu po Jupyterlab, lebo ich považujem za veľmi vhodné pre výučbu informatiky a programovania. Rád chodím po horách, cestujem. \n \n Mirek: Odborný asistent na Katedre počítačov a informatiky, TUKE, kde učí “detiská” programovať najmä v jazyku C. \nStále dúfa, že keď vyrastie, bude z neho Linuxák. Alebo Batman.",
         "country": "Slovakia",
-        "avatar": "img/speakers/michal_kaukic.jpg",
+        "avatar": "img/speakers/Binas_Kaukic.png",
         "links": {
         }
     },
@@ -290,6 +284,15 @@
         "avatar": "img/speakers/vojta_filipec.jpg",
         "links": {
             "linkedin": "https://www.linkedin.com/in/vojtech-filipec/"
+        }
+    },
+    {
+        "name": "Silvia Ličková",
+        "bio": "",
+        "country": "Slovakia",
+        "avatar": "img/speakers/sylvia-lickova.png",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/sylvialickova"
         }
     },
     {

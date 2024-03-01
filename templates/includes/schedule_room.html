@@ -1,0 +1,23 @@
+<div class="schedule-listing">
+  <span class="schedule-slot-time">{{ block.time }}</span>
+  <div class="schedule-slot-info">
+    {% if block.speaker_url %}
+      <a href="{{ url_for('profile', lang_code=lang_code, name=block.speaker_url) }}" target="_blank">
+    {% elif block.external_url %}
+      <a href="{{ block.external_url }}" target="_blank">
+    {% endif %}
+      {% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+      <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}"/>
+      {% if block.speaker %}</a>{% endif %}
+      {% endif %}
+      <div class="schedule-slot-info-content">
+        <h3 class="schedule-slot-title">{{ block.title }}</h3>
+        {% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+        <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+        {% if block.speaker %}</a>{% endif %}
+        {% if block.desc %}<p>{{ block.desc }}</p>{% endif %}
+
+      </div><!--Info content end -->
+      {% if block.speaker_url or block.external_url%} </a> {% endif %}
+  </div><!-- Slot info end -->
+</div><!-- Slot listing 1 end -->

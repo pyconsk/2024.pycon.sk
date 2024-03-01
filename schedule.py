@@ -1,466 +1,303 @@
 FRIDAY1 = (
-    # {
-    #     'time': '08:00 - 09:00',
-    #     'title': 'Registration',
-    #     'avatar': '/static/img/speakers/queue.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '09:00 - 09:25',
-    #     'title': 'Conference opening',
-    #     'avatar': '/static/img/speakers/opening-icon.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '09:30 - 10:15',
-    #     'name': 'Petr Viktorin',
-    #     'title': 'The stories of Python features',
-    #     'avatar': '/static/img/speakers/petr_viktorin.jpg',
-    #     'speaker_url': 'Petr Viktorin',
-    # },
-    # {
-    #     'time': '10:20 - 10:50',
-    #     'name': 'Dom Weldon',
-    #     'title': 'It''s Your Call(able): a tour of Python''s callable (function) interface',
-    #     'avatar': '/static/img/speakers/dom_weldon.jpg',
-    #     'speaker_url': 'Dom-Weldon',
-    # },
-    # {
-    #     'time': '11:05 - 11:35',
-    #     'name': 'Luka Raljević',
-    #     'title': 'Dive into codebase like a pro',
-    #     'avatar': '/static/img/speakers/luka_raljevic.jpg',
-    #     'speaker_url': 'Luka Raljević',
-    # },
-    # {
-    #     'time': '11:40 - 12:10',
-    #     'name': 'Anastasiia Tymoshchuk',
-    #     'title': 'Continuous Documentation for your Python code',
-    #     'avatar': '/static/img/speakers/anastasiia_tymoshchuk.jpg',
-    #     'speaker_url': 'Anastasiia Tymoshchuk',
-    # },
-    # {
-    #     'time': '12:10 - 13:10',
-    #     'title': 'Lunch break',
-    #     'avatar': '/static/img/speakers/lunch.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '13:10 - 13:55',
-    #     'name': 'Michal Racko',
-    #     'title': 'Distributed-energy-resource simulation and optimization in the context of a transmission grid',
-    #     'avatar': '/static/img/speakers/michal_racko.jpg',
-    #     'speaker_url': 'Michal Racko',
-    # },
-    # {
-    #     'time': '14:00 - 14:30',
-    #     'name': 'Vojta Filipec',
-    #     'title': 'Set up an interactive map in browser in a few steps',
-    #     'avatar': '/static/img/speakers/vojtech_filipec.jpg',
-    #     'speaker_url': 'Vojta Filipec',
-    # },
-    # {
-    #     'time': '14:45 - 15:30',
-    #     'name': 'Lukáš Polák',
-    #     'title': 'Scaling distributed workflow using Prefect',
-    #     'avatar': '/static/img/speakers/lukas_polak.jpg',
-    #     'speaker_url': 'Lukáš Polák',
-    # },
-    # {
-    #     'time': '15:35 - 16:05',
-    #     'name': 'Karla Fejfarová',
-    #     'title': 'Snakes and Birds: Daily Python Tip',
-    #     'avatar': '/static/img/speakers/karla_fejfarova.jpg',
-    #     'speaker_url': 'Karla Fejfarová',
-    # },
-    # {
-    #     'time': '16:20 - 16:50',
-    #     'name': 'Miroslav Šedivý',
-    #     'title': 'Your Name is Invalid!',
-    #     'avatar': '/static/img/speakers/miroslav_sedivy.jpg',
-    #     'speaker_url': 'Miroslav Šedivý',
-    # },
-    # {
-    #     'time': '16:55 - 17:25',
-    #     'title': 'Lightning talks',
-    #     'avatar': '/static/img/speakers/lightning.png',
-    #     'speaker_url': '',
-    # },
+    {
+        'time': '08:00 - 09:00',
+        'title': 'Registration',
+        'avatar': '/static/img/speakers/queue.png',
+    },
+    {
+        'time': '09:00 - 09:25',
+        'title': 'Conference opening',
+        'avatar': '/static/img/speakers/opening-icon.png',
+    },
+    {
+        'time': '09:30 - 10:10',
+        'title': 'Solving Two Hard Problems in Computer Science Using Pandas',
+    },
+    {
+        'time': '10:15 - 10:55',
+        'title': 'Nix: know what you are running, testing and deploying',
+    },
+    {
+        'time': '11:10 - 11:50',
+        'title': 'Knižnica Numba alebo ako zrýchliť Python?',
+    },
+    {
+        'time': '11:55 - 12:35',
+        'title': 'Analýza freelance trhu. Trendy, štatistiky a prehľad v IT projektoch',
+    },
+    {
+        'time': '12:35 - 13:35',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '13:35 - 14:15',
+        'title': 'Build applications with generative AI on Google Cloud',
+    },
+    {
+        'time': '14:20 - 15:00',
+        'title': 'GIL: What\'s the hassle and... should I care?',
+    },
+    {
+        'time': '15:15 - 15:55',
+        'title': 'Selecting tools to fight complexity in large Python projects',
+    },
+    {
+        'time': '16:00 - 16:40',
+        'title': 'How do imports work, and why should I care? (and why should I use a tool like PDM?)',
+    },
+    {
+        'time': '16:55 - 17:55',
+        'title': 'Lightning talks',
+        'avatar': '/static/img/speakers/lightning.png',
+        'speaker_url': '',
+    },
 )
 FRIDAY2 = (
-    # {
-    #     'time': '09:30 - 10:15',
-    #     'name': 'Miroslav Biňas',
-    #     'title': 'Ako sa dá s jazykom Python zvládnuť štvorročné štúdium na strednej škole',
-    #     'avatar': '/static/img/speakers/miroslav_binas.jpg',
-    #     'speaker_url': 'Miroslav Biňas',
-    # },
-    # {
-    #     'time': '10:20 - 10:50',
-    #     'name': 'Róbert Tomolya',
-    #     'title': 'Programovanie dronov',
-    #     'avatar': '/static/img/speakers/robert_tomolya.jpg',
-    #     'speaker_url': 'Róbert Tomolya',
-    # },
-    # {
-    #     'time': '11:05 - 11:35',
-    #     'name': 'Jaroslav Výbošťok',
-    #     'title': 'Programovací jazyk Robot Karel pre žiakov mladších i starších',
-    #     'avatar': '/static/img/speakers/jaroslav_vybostok.jpg',
-    #     'speaker_url': 'Jaroslav Výbošťok',
-    # },
-    # {
-    #     'time': '11:40 - 12:10',
-    #     'title': 'Hardvérové vynálezy ENTER olympiády',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '12:10 - 13:10',
-    #     'title': 'Lunch break',
-    #     'avatar': '/static/img/speakers/lunch.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '13:10 - 13:55',
-    #     'name': 'Michaela Gažová',
-    #     'title': 'Internetová bezpečnosť: základy sebaobrany',
-    #     'avatar': '/static/img/speakers/michaela_gazova.jpg',
-    #     'speaker_url': 'Michaela Gažová',
-    # },
-    # {
-    #     'time': '14:00 - 14:30',
-    #     'name': 'Luboslav Lacko',
-    #     'title': 'Čo sa s Microbitom naučíš, využiješ na reálnych IoT platformách',
-    #     'avatar': '/static/img/speakers/luboslav_lacko.jpg',
-    #     'speaker_url': 'Luboslav Lacko',
-    # },
-    # {
-    #     'time': '14:45 - 15:30',
-    #     'name': 'Lilian Nandi',
-    #     'title': 'Creating the Next Generation of Billionaires',
-    #     'avatar': '/static/img/speakers/female.png',
-    #     'speaker_url': 'Lilian Nandi',
-    # },
-    # {
-    #     'time': '15:35 - 16:05',
-    #     'name': 'Monika Balážová',
-    #     'title': 'Aké pozície ponúka IT odvetvie',
-    #     'avatar': '/static/img/speakers/monika_balazova.jpg',
-    #     'speaker_url': 'Monika Balážová',
-    # },
-    # {
-    #     'time': '16:20 - 16:50',
-    #     'title': 'Edu Talks - prezentácie vzdelávacích projektov',
-    #     'speaker_url': '',
-    # },
-)
-FRIDAY3 = (
-    # {
-    #     'time': '09:30 - 12:10',
-    #     'name': 'Michal Kaukič, Marcel Puškarik',
-    #     'title': 'Pyviz panel a interaktívne webové aplikácie',
-    #     'avatar': '/static/img/speakers/michal_kaukic.jpg',
-    #     'speaker_url': 'Michal Kaukič',
-    # },
-    # {
-    #     'time': '13:10 - 16:50',
-    #     'name': 'Jan Pipek, Jakub Urban',
-    #     'title': 'Pandas watching movies',
-    #     'avatar': '/static/img/speakers/jan_pipek.jpg',
-    #     'speaker_url': 'Jan Pipek',
-    # },
+    {
+        'time': '09:30 - 10:10',
+        'title': 'How to not get crazy from information overload',
+    },
+    {
+        'time': '10:15 - 10:55',
+        'title': 'The Beauty of Sinus And Cosinus: Hypotrochoid Curves as a Web App',
+    },
+    {
+        'time': '11:10 - 11:50',
+        'title': 'Sign language recognition: Enabling communication for the hearing-impaired through machine learning',
+    },
+    {
+        'time': '11:55 - 12:35',
+        'title': 'Pythonic Outliers: Mastering LOF Detection',
+    },
+    {
+        'time': '12:35 - 13:35',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '13:35 - 14:15',
+        'title': 'Python jako projekt',
+    },
+    {
+        'time': '14:20 - 15:00',
+        'title': 'Pointers? In My Python? It\'s More Likely Than You Think!',
+    },
+    {
+        'time': '15:15 - 15:55',
+        'title': 'Naming: Why it\'s important and how to do it right',
+    },
+    {
+        'time': '16:00 - 16:40',
+        'title': 'Data Engineering Story',
+    },
 )
 SATURDAY1 = (
-    # {
-    #     'time': '08:00 - 09:00',
-    #     'title': 'Registration',
-    #     'avatar': '/static/img/speakers/queue.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '09:00 - 09:25',
-    #     'title': 'Conference opening',
-    #     'avatar': '/static/img/speakers/opening-icon.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '09:30 - 10:00',
-    #     'name': 'Tomás Sabat',
-    #     'title': 'Building an Open Source Threat Intelligence Platform with STIX',
-    #     'avatar': '/static/img/speakers/tomas_sabat.jpg',
-    #     'speaker_url': 'Tomás Sabat',
-    # },
-    # {
-    #     'time': '10:05 - 10:50',
-    #     'name': 'Martin Mihál',
-    #     'title': 'Implementation of advanced analytics pipeline in solar energy industry and integration into AWS cloud environment',
-    #     'avatar': '/static/img/speakers/martin_mihal.jpg',
-    #     'speaker_url': 'Martin Mihál',
-    # },
-    # {
-    #     'time': '11:05 - 11:35',
-    #     'name': 'Maria Jose Molina-Contreras',
-    #     'title': 'How to build an indoor air quality monitoring and predictive system.',
-    #     'avatar': '/static/img/speakers/maria_jose_molina_contreras.jpg',
-    #     'speaker_url': 'Maria Jose Molina--Contreras',
-    # },
-    # {
-    #     'time': '11:40 - 12:10',
-    #     'name': 'Peter Dolák',
-    #     'title': 'Stereotype: Data models pushing Python to the limits',
-    #     'avatar': '/static/img/speakers/peter_dolak.jpg',
-    #     'speaker_url': 'Peter Dolák',
-    # },
-    # {
-    #     'time': '12:10 - 13:10',
-    #     'title': 'Lunch break',
-    #     'avatar': '/static/img/speakers/lunch.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '13:10 - 13:40',
-    #     'name': 'Tom Dyson',
-    #     'title': 'Find happiness with Python',
-    #     'avatar': '/static/img/speakers/tom_dyson.jpg',
-    #     'speaker_url': 'Tom Dyson',
-    # },
-    # {
-    #     'time': '13:45 - 14:15',
-    #     'name': 'Marc-Andre Lemburg',
-    #     'title': 'Choosing the right database for your next project - Looking at options beyond PostgreSQL and MySQL',
-    #     'avatar': '/static/img/speakers/marc_andre_lemburg.jpg',
-    #     'speaker_url': 'Marc--Andre Lemburg',
-    # },
-    # {
-    #     'time': '14:30 - 15:15',
-    #     'name': 'Vojtěch Kusý, Matěj Bartoš',
-    #     'title': 'Satellite Imagery Processing with Python',
-    #     'avatar': '/static/img/speakers/vojtech_kusy.jpg',
-    #     'speaker_url': 'Vojtěch Kusý',
-    # },
-    # {
-    #     'time': '15:20 - 15:50',
-    #     'name': 'Maarten Huijsmans',
-    #     'title': '5 Things we''ve learned building large APIs with FastAPI',
-    #     'avatar': '/static/img/speakers/maarten_huijsmans.jpg',
-    #     'speaker_url': 'Maarten Huijsmans',
-    # },
-    # {
-    #     'time': '16:05 - 16:50',
-    #     'name': 'Cheuk Ting Ho',
-    #     'title': 'Revolutionize Data Visulization with PyScript',
-    #     'avatar': '/static/img/speakers/cheuk_ting_ho.jpg',
-    #     'speaker_url': 'Cheuk Ting Ho',
-    # },
-    # {
-    #     'time': '16:55 - 17:25',
-    #     'title': 'QUIZ!',
-    #     'avatar': '/static/img/speakers/python.svg',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '17:30 - 18:00',
-    #     'title': 'Lightning talks',
-    #     'avatar': '/static/img/speakers/lightning.png',
-    #     'speaker_url': '',
-    # },
+    {
+        'time': '08:00 - 09:00',
+        'title': 'Registration',
+        'avatar': '/static/img/speakers/queue.png',
+    },
+    {
+        'time': '09:00 - 09:25',
+        'title': 'Conference opening',
+        'avatar': '/static/img/speakers/opening-icon.png',
+    },
+    {
+        'time': '09:30 - 10:10',
+        'title': 'Teaching Children Python - What Works?',
+    },
+    {
+        'time': '10:15 - 10:55',
+        'title': 'Pyments: How To Design Payment Applications In Python',
+    },
+    {
+        'time': '11:10 - 11:50',
+        'title': 'The different types of API authentications: the stories from the trenches of third party integrations',
+    },
+    {
+        'time': '11:55 - 12:35',
+        'title': 'Green Roof and Purple Roof hydraulic modeling using Python',
+    },
+    {
+        'time': '12:35 - 13:35',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '13:35 - 14:15',
+        'title': 'Saying Bye to the Keyboard, Hello to Alexa with Python AWS Lambda',
+    },
+    {
+        'time': '14:20 - 15:00',
+        'title': 'Decoding FastStream: A Deeper Dive into the Event Streaming Library',
+    },
+    {
+        'time': '15:15 - 15:55',
+        'title': 'Azure OpenAI for Python developers in enterprise organizations',
+    },
+    {
+        'time': '16:00 - 16:40',
+        'title': 'Simulate, Analyze, Learn: Python\'s Physics Simulation',
+    },
+    {
+        'time': '16:55 - 17:25',
+        'title': 'Python Quiz',
+        'avatar': '/static/img/speakers/python.svg',
+        'speaker_url': '',
+    },
+    {
+        'time': '17:30 - 18:00',
+        'title': 'Lightning talks',
+        'avatar': '/static/img/speakers/lightning.png',
+        'speaker_url': '',
+    },
 )
+
 SATURDAY2 = (
-    # {
-    #     'time': '09:30 - 10:00',
-    #     'name': 'Jozef Gaborik',
-    #     'title': 'Best practices for building Docker images for Python apps',
-    #     'avatar': '/static/img/speakers/jozef_gaborik.jpg',
-    #     'speaker_url': 'Jozef Gaborik',
-    # },
-    # {
-    #     'time': '10:05 - 10:50',
-    #     'name': 'Michal Brandis',
-    #     'title': 'IT FREELANCING - trendy, štatistiky & Python v IT projektoch',
-    #     'avatar': '/static/img/speakers/michal_brandis.jpg',
-    #     'speaker_url': 'Michal Brandis',
-    # },
-    # {
-    #     'time': '11:05 - 11:35',
-    #     'name': 'Viktoria Karolova',
-    #     'title': 'What I learned during my summer with a command line: confession of a non-tech person in tech',
-    #     'avatar': '/static/img/speakers/viki_karolova.jpg',
-    #     'speaker_url': 'Viktoria Karolova',
-    # },
-    # {
-    #     'time': '11:40 - 12:10',
-    #     'name': 'Jakub Tesárek',
-    #     'title': 'Working with Data-Scientits: Survival guide',
-    #     'avatar': '/static/img/speakers/jakub_tesarek.jpg',
-    #     'speaker_url': 'Jakub Tesárek',
-    # },
-    # {
-    #     'time': '12:10 - 13:10',
-    #     'title': 'Lunch break',
-    #     'avatar': '/static/img/speakers/lunch.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '14:30 - 15:15',
-    #     'name': 'Mauro Pelucchi',
-    #     'title': 'Nowcasting financial crisis with deep learning techniques',
-    #     'avatar': '/static/img/speakers/mauro_pelucchi.jpg',
-    #     'speaker_url': 'Mauro Pelucchi',
-    # },
-    # {
-    #     'time': '15:20 - 15:50',
-    #     'name': 'Umut Nefta Kanilmaz',
-    #     'title': 'Understanding the evolution and spread of conspiracy theories using Twitter user network data',
-    #     'avatar': '/static/img/speakers/nefta_kanilmaz.jpg',
-    #     'speaker_url': 'Umut Nefta Kanilmaz',
-    # },
-    # {
-    #     'time': '16:05 - 16:50',
-    #     'name': 'Nabanita Roy',
-    #     'title': 'Introduction to Text Analytics for Social Media Chatter',
-    #     'avatar': '/static/img/speakers/nabanita_roy.png',
-    #     'speaker_url': 'Nabanita Roy',
-    # },
+    {
+        'time': '10:15 - 10:55',
+        'title': 'Innovative data science education: The story of Data Science Academy',
+    },
+    {
+        'time': '11:10 - 11:50',
+        'title': 'Large Language Models Across Languages',
+    },
+    {
+        'time': '11:55 - 12:35',
+        'title': 'Are you ready for MLOps?',
+    },
+    {
+        'time': '12:35 - 13:35',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '13:35 - 14:15',
+        'title': 'Ako v Pythone naprogramovať a natrénovať neurónovú sieť na generovanie textu',
+    },
+    {
+        'time': '14:20 - 15:00',
+        'title': 'Možnosti spracovania veľkých dát (HugeData/BigData) v jazyku Python',
+    },
+    {
+        'time': '15:15 - 15:55',
+        'title': 'Python pre DevOps',
+    },
+    {
+        'time': '16:00 - 16:40',
+        'title': 'Tackling Malaria with Python and distributed computing',
+    },
 )
-SATURDAY3 = (
-    # {
-    #     'time': '9:30 - 12:10',
-    #     'name': 'Michael Niepel',
-    #     'title': 'Micropython Workshop',
-    #     'avatar': '/static/img/speakers/michael_niepel.jpg',
-    #     'speaker_url': 'Michael Niepel',
-    # },
-    # {
-    #     'time': '13:45 - 16:50',
-    #     'name': 'Michael Seifert',
-    #     'title': 'Bulletproof Python – Property-Based Testing with Hypothesis',
-    #     'avatar': '/static/img/speakers/michael_seifert.png',
-    #     'speaker_url': 'Michael Seifert',
-    # },
+
+
+SUNDAY_A = (
+    {
+        'time': '10:00 - 13:00',
+        'title': 'Dátová analytika ako predjedlo',
+    },
+    {
+        'time': '13:00 - 14:00',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '14:00 - 16:00',
+        'title': 'Introduction to Automation and Scripting: A Beginner\'s Workshop in Python',
+    },
 )
-SATURDAY4 = (
-    # {
-    #     'time': '13:10 - 15:15',
-    #     'name': 'Artur Patoka',
-    #     'title': 'Accelerate Python Development using live PyCharm debugging',
-    #     'avatar': '/static/img/speakers/artur_patoka.jpg',
-    #     'speaker_url': 'Artur Patoka',
-    # },
-    # {
-    #     'time': '15:20 - 16:20',
-    #     'name': 'Marek Bruchatý, Ondrej Unger',
-    #     'title': 'Performance Matters: How to Make Python Fast ',
-    #     'avatar': '/static/img/speakers/ondrej_unger.jpg',
-    #     'speaker_url': 'Ondrej Unger',
-    # },
+
+SUNDAY_B = (
+    {
+        'time': '10:00 - 13:00',
+        'title': 'How to MLOps: Experiment tracking & deployment',
+    },
+    {
+        'time': '13:00 - 14:00',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '14:00 - 16:00',
+        'title': 'Creating a RAG tool in Python',
+    },
 )
-SATURDAY5 = (
-    # {
-    #     'time': '09:30 - 10:50',
-    #     'name': 'Miroslav Biňas',
-    #     'title': 'Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython',
-    #     'avatar': '/static/img/speakers/miroslav_binas.jpg',
-    #     'speaker_url': 'Miroslav Biňas',
-    # },
-    # {
-    #     'time': '11:05 - 12:10',
-    #     'name': 'Miroslav Biňas',
-    #     'title': 'Vytvor si vlastný Pokedex v rámci FastAPI ako webovú aplikáciu',
-    #     'avatar': '/static/img/speakers/miroslav_binas.jpg',
-    #     'speaker_url': 'Miroslav Biňas',
-    # },
-    # {
-    #     'time': '13:10 - 15:15',
-    #     'title': 'Hackathon Učíme s hardvérom',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '15:20 - 16:50',
-    #     'name': 'Sylvia Ličková',
-    #     'title': 'Ako sa odprezentovať a zaujať životopisom',
-    #     'avatar': '/static/img/speakers/sylvia_lickova.jpg',
-    #     'speaker_url': 'Sylvia Ličková',
-    # },
+
+SUNDAY_C = (
+    {
+        'time': '10:00 - 12:00',
+        'title': 'CoderDojo workshop pre mladých ľudí od 7 do 17 rokov',
+    },
+    {
+        'time': '13:00 - 14:00',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '14:00 - 15:00',
+        'title': 'Ako sa predať na trhu práce (CV/LINKEDIN)',
+    },
 )
-SUNDAY1 = (
-    # {
-    #     'time': '09:30 - 09:55',
-    #     'title': 'Conference opening',
-    #     'avatar': '/static/img/speakers/opening-icon.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '10:00 - 10:30',
-    #     'name': 'Sara Jakša',
-    #     'title': 'Regex is Magic',
-    #     'avatar': '/static/img/speakers/sara_jaksa.png',
-    #     'speaker_url': 'Sara Jakša',
-    # },
-    # {
-    #     'time': '10:45 - 11:15',
-    #     'name': 'Štěpán Bechynský',
-    #     'title': 'Python, Raspberry Pi a Grove',
-    #     'avatar': '/static/img/speakers/stepan_bechynsky.png',
-    #     'speaker_url': 'Štěpán Bechynský',
-    # },
-    # {
-    #     'time': '11:20 - 12:05',
-    #     'name': 'Věroš Kaplan',
-    #     'title': 'Writing Kubernetes operators in Python - Kopf',
-    #     'avatar': '/static/img/speakers/veros_kaplan.jpg',
-    #     'speaker_url': 'Věroš Kaplan',
-    # },
-    # {
-    #     'time': '12:05 - 13:05',
-    #     'title': 'Lunch break',
-    #     'avatar': '/static/img/speakers/lunch.png',
-    #     'speaker_url': '',
-    # },
-    # {
-    #     'time': '13:05 - 13:35',
-    #     'name': 'Jan Margeta',
-    #     'title': 'Interactive 3D scientific data visualization and mesh analysis with PyVista',
-    #     'avatar': '/static/img/speakers/jan_margeta.jpg',
-    #     'speaker_url': 'Jan Margeta',
-    # },
-    # {
-    #     'time': '13:40 - 14:10',
-    #     'name': 'Petr Šebek',
-    #     'title': 'Where good engineering practices would save the day',
-    #     'avatar': '/static/img/speakers/petr_sebek.jpg',
-    #     'speaker_url': 'Petr Šebek',
-    # },
-    # {
-    #     'time': '14:25 - 14:55',
-    #     'name': 'Jozef Urbanovský',
-    #     'title': 'Automated Network Performance testing in Python',
-    #     'avatar': '/static/img/speakers/jozef_urbanovsky.png',
-    #     'speaker_url': 'Jozef Urbanovský',
-    # },
-    # {
-    #     'time': '15:00 - 15:30',
-    #     'name': 'Kacper Łukawski',
-    #     'title': 'Don’t use a lot where a little will do. A story of programming tricks you wish you invented.',
-    #     'avatar': '/static/img/speakers/kacper_lukawski.jpg',
-    #     'speaker_url': 'Kacper Łukawski',
-    # },
-    # {
-    #     'time': '15:30 - 15:45',
-    #     'title': 'Conference closing',
-    #     'speaker_url': '',
-    # },
+
+SUNDAY_D = (
+    {
+        'time': '10:00 - 12:00',
+        'title': 'Creating really Multilingual Django project in few steps',
+    },
+    {
+        'time': '13:00 - 14:00',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '14:00 - 16:00',
+        'title': 'Score A+ for Security Headers with Django application',
+    },
 )
-SUNDAY3 = (
-    # {
-    #     'time': '13:10 - 14:15',
-    #     'title': 'PyLadies Meetup',
-    #     'speaker_url': '',
-    # },
+
+SUNDAY_E = (
+    {
+        'time': '10:00 - 12:00',
+        'title': 'Uncovering patterns in a dataset via data visualization and accessible machine learning',
+    },
+    {
+        'time': '12:00 - 13:00',
+        'title': 'Micro:bit a Python',
+    },
+
+    {
+        'time': '13:00 - 14:00',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '14:00 - 15:00',
+        'title': 'AsyncSocket Mastery',
+    },
+    {
+        'time': '15:00 - 16:00',
+        'title': 'Mám dáta, čo s nimi?',
+    },
 )
-SUNDAY4 = (
-    # {
-    #     'time': '09:00 - 15:45',
-    #     'title': 'Django Girls',
-    #     'speaker_url': '',
-    # },
+
+SUNDAY_F = (
+    {
+        'time': '9:00 - 13:00',
+        'title': 'Django Girls',
+        'avatar': '/static/img/speakers/female.png',
+        'external_url': 'https://djangogirls.org/en/bratislava_sk/',
+        'desc': 'Registration via djangogirls.org',
+    },
+    {
+        'time': '13:00 - 14:00',
+        'title': 'Lunch break',
+        'avatar': '/static/img/speakers/lunch.png',
+    },
+    {
+        'time': '14:00 - 17:00',
+        'title': 'Django Girls',
+        'avatar': '/static/img/speakers/female.png',
+        'external_url': 'https://djangogirls.org/en/bratislava_sk/',
+        'desc': 'Registration via djangogirls.org',
+    },
 )

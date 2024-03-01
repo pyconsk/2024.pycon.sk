@@ -37,8 +37,7 @@
   },
   {
     "speakers": [
-      "Jakub Hantabal",
-      "Laura Johanesová"
+      "Jakub Hantabal a Laura Johanesová"
     ],
     "type": "Talk",
     "lang": "en",
@@ -186,7 +185,7 @@
     ],
     "type": "Talk",
     "lang": "sk",
-    "title": "Možnosti spracovania veľkých dát (HugeData/BigData) v jayzku Python",
+    "title": "Možnosti spracovania veľkých dát (HugeData/BigData) v jazyku Python",
     "text": "V súčasnom digitálnom veku sa veľké dáta (Big Data) stávajú kľúčovou súčasťou mnohých priemyselných a vedeckých aplikácií. Táto prednáška sa zameriava na možnosti, ktoré ponúka programovací jazyk Python pri spracovaní veľkých dát. Úvodná časť poskytne prehľad o veľkých dátach, ich význame a výzvach, a prečo je Python považovaný za jeden z najvhodnejších jazykov pre ich analýzu. Budeme sa venovať kľúčovým knižniciam ako Pandas, NumPy, Polars, Dask, Modin a Vaex, ktoré sú nevyhnutné pre efektívne spracovanie dát.\n\nĎalšie sekcie sa budú zaoberať pokročilými témami ako distribuované spracovanie dát s využitím nástrojov ako Apache Spark, a integráciou Pythonu s inými platformami pre lepšiu škálovateľnosť a efektivitu. Významnú časť prednášky tvorí aplikácia Pythonu v oblasti strojového učenia a analýzy dát s praktickými ukážkami z rôznych oblastí.\n\nPrednáška tiež poukáže na najlepšie praktiky pri práci s veľkými dátami v Pythonu, ako aj na špecifické výzvy spojené so spracovaním veľkých objemov dát v reálnom čase, zabezpečením dát, a škálovateľnosťou. Na záver sa dotkneme najnovších trendov a budúceho vývoja v oblasti veľkých dát a Pythonu, čím poskytneme účastníkom prednášky ucelený pohľad na súčasný a budúci stav technológií spojených s veľkými dátami.\n\nCieľová skupina: Prednáška je určená pre odborníkov v oblasti dátových vied, programátorov, analytikov a všetkých, ktorí majú záujem o využitie Pythonu pri spracovaní a analýze veľkých dát."
   },
   {
@@ -272,6 +271,15 @@
   },
   {
     "speakers": [
+      "Mirek Biňas"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Python pre DevOps",
+    "text": "Hovorí sa, že tým najlepším lepidlom na lepenie Dev a Ops je bash. Používame ho na drobné skripty, na tvorbu vlastných nástrojov z príkazového riadku, na ľahkú automatizáciu pomocou cron-u alebo na písanie úloh pre CI/CD. Aj keď má bash v tejto oblasti svoje nezastupiteľné miesto, môžeme ho dnes na mnohých miestach nahradiť jazykom Python a ako bonus dostaneme celý jeho ekosystém. A v tomto príspevku si ukážeme, ako je možné jazyk Python použiť (nie len) pre DevOps  pomocou nástroja Apache Airflow."
+  },
+  {
+    "speakers": [
       "PyLadies Bratislava"
     ],
     "type": "Workshop",
@@ -281,8 +289,7 @@
   },
   {
     "speakers": [
-      "Jakub Hantabal",
-      "Laura Johanesová"
+      "Jakub Hantabal a Laura Johanesová"
     ],
     "type": "Workshop",
     "lang": "en",
@@ -291,8 +298,7 @@
   },
   {
     "speakers": [
-      "Jeroen Overschie",
-      "Yke Rusticus"
+      "Yke Rusticus a Jeroen Overschie"
     ],
     "type": "Workshop",
     "lang": "en",
@@ -323,7 +329,7 @@
     ],
     "type": "Workshop",
     "lang": "en",
-    "title": "Creating really Multilingual Django project in few steps.",
+    "title": "Creating really Multilingual Django project in few steps",
     "text": "In this talk, we can go together through all the milestones needed to create a truly multilingual Django Project in 120 minutes. This includes the translation of static texts for both front end and back end, adjustments for dynamic data translations, and translations of graphical elements. Finally, I will demonstrate how to adapt a multilingual project for various cultures and writing styles."
   },
   {
@@ -337,8 +343,7 @@
   },
   {
     "speakers": [
-      "Michal Kaukič",
-      "Mirek Biňas"
+      "Michal Kaukič a Mirek Biňas"
     ],
     "type": "Workshop",
     "lang": "sk",
@@ -362,6 +367,15 @@
     "lang": "sk",
     "title": "AsyncSocket Mastery",
     "text": "Workshop ponúka pohľad do sveta asynchrónneho programovania v jazyku Python, s dôrazom na modul asyncio a prácu s TCP/IP socketmi.\nÚčastníci sa naučia:\n- základy asynchrónneho programovania\n- jeho výhody pri manipulácii so sieťovými soketmi\n\nHlavnou časťou workshopu budú praktické cvičenia, kde účastníci implementujú asynchrónne TCP/IP aplikácie (serverovské aj klientské) pomocou modulu asyncio."
+  },
+  {
+    "speakers": [
+      "Silvia Ličková"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Ako sa predať na trhu práce (CV/LINKEDIN)",
+    "text": "Životopis Vás sprevádza celým kariérnym životom. Nepotrebujete ho len pri hľadaní novej práce. Často býva súčasťou prihlášky na kurz, školenie či rozvojové programy. Ak ho vypracujete správne, zvýšia sa Vaše šance na úspech. \n\nNa workshope sa spolu pozrieme na konkrétne stratégie pre tvorbu pôsobivého životopisu a osobného brandu v online svete."
   },
   {
     "speakers": [
