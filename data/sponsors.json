@@ -66,6 +66,20 @@
         "link": "https://www.blueprintpower.com/"
     },
     {
+        "name": "Bloomreach",
+        "category": "Silver sponsors",
+        "class": "gold",
+        "logo": "img/partners/bloomreach.png",
+        "link": "https://www.bloomreach.com/en"
+    },
+    {
+        "name": "GOPAS",
+        "category": "Silver sponsors",
+        "class": "gold",
+        "logo": "img/partners/gopas.png",
+        "link": "https://www.gopas.sk/"
+    },
+    {
         "name": "Slido",
         "category": "Bronze sponsors",
         "class": "silver",
@@ -98,21 +112,19 @@
         "category": "Django Girls & PyLadies Sponsor",
         "class": "partners",
         "link": "https://www.nadaciapontis.sk/projekty/accenture-nadacny-fond/",
-        "logo": "img/partners/accenture.png",
-        "alt": "Accenture.it logo"
+        "logo": "img/partners/accenture.png"
     },
     {
         "name": "Zive",
         "category": "Media partners",
         "class": "partners",
         "link": "https://zive.sk/",
-        "logo": "img/partners/zive.png",
-        "alt": "zive logo"
+        "logo": "img/partners/zive.png"
     },
     {
         "name": "Nextech",
         "category": "Media partners",
-        "class": "bronze",
+        "class": "partners",
         "link": "https://www.nextech.sk/",
         "logo": "img/partners/nextech.png"
     },
