@@ -11,6 +11,11 @@
       {% if block.speaker %}</a>{% endif %}
       {% endif %}
       <div class="schedule-slot-info-content">
+        {% if block.tag %}
+          <span class="badge badge-pill badge-primary">
+            {{ block.tag }}
+          </span>
+        {% endif %}
         <h3 class="schedule-slot-title">{{ block.title }}</h3>
         {% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
         <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>

@@ -234,6 +234,9 @@ def _get_schedule_details(day):
         matched_talks = [x for x in TALKS if x["title"] == item["title"]]
         if matched_talks:
             matched_talk = matched_talks[0]
+            if not item.get('tag'):
+                item['tag'] = matched_talk.get("tag", "")
+
             matched_speakers = [x for x in SPEAKERS if x["name"] in matched_talk["speakers"]]
             if matched_speakers:
                 matched_speaker = matched_speakers[0]

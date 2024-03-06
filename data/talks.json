@@ -3,6 +3,7 @@
     "speakers": [
       "Alvaro Duran"
     ],
+    "tag": "Advanced",
     "type": "Talk",
     "lang": "en",
     "title": "Pyments: How To Design Payment Applications In Python",
@@ -12,6 +13,7 @@
     "speakers": [
       "Daniel Hervás"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "en",
     "title": "Naming: Why it's important and how to do it right",
@@ -21,6 +23,7 @@
     "speakers": [
       "Eli Holderness"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "en",
     "title": "Pointers? In My Python? It's More Likely Than You Think!",
@@ -30,6 +33,7 @@
     "speakers": [
       "Petr Viktorin"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "cz",
     "title": "Python jako projekt",
@@ -39,6 +43,7 @@
     "speakers": [
       "Jakub Hantabal a Laura Johanesová"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Innovative data science education: The story of Data Science Academy",
@@ -48,6 +53,7 @@
     "speakers": [
       "Karel Boháček"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "en",
     "title": "Sign language recognition: Enabling communication for the hearing-impaired through machine learning",
@@ -57,6 +63,7 @@
     "speakers": [
       "Jacek Kołodziej"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "GIL: What's the hassle and... should I care?",
@@ -66,6 +73,7 @@
     "speakers": [
       "Yuliia Barabash"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Saying Bye to the Keyboard, Hello to Alexa with Python AWS Lambda",
@@ -75,6 +83,7 @@
     "speakers": [
       "Luboslav Lacko"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "sk",
     "title": "Ako v Pythone naprogramovať a natrénovať neurónovú sieť na generovanie textu",
@@ -84,6 +93,7 @@
     "speakers": [
       "Matúš Ferech"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Nix: know what you are running, testing and deploying",
@@ -93,6 +103,7 @@
     "speakers": [
       "Maxim Danilov"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Selecting tools to fight complexity in large Python projects",
@@ -102,6 +113,7 @@
     "speakers": [
       "Miroslav Šedivý"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Solving Two Hard Problems in Computer Science Using Pandas",
@@ -111,6 +123,7 @@
     "speakers": [
       "Sara Jakša"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "The different types of API authentications: the stories from the trenches of third party integrations",
@@ -120,6 +133,7 @@
     "speakers": [
       "Štěpán Bechynský"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Azure OpenAI for Python developers in enterprise organizations",
@@ -130,6 +144,7 @@
       "Veronika Kabátová"
     ],
     "type": "Talk",
+    "tag": "Beginners",
     "lang": "en",
     "title": "How to not get crazy from information overload",
     "text": "There's too many pieces of advice out there to keep them in mind and actually remember to apply them when it matters. It's tempting to become a genius overnight as the competition is harsh. But trying to become perfect and keep every piece of information in mind is overwhelming and stressful.\n\nWhere's the line between what's realistic, both as a beginner and as experienced programmer? What are some good habits to adopt right away, and how do they relate to your typical programming memes?\n\nWe'll take a look at some behaviors even experienced IT folks struggle with and how to do things instead and why, to get you a head start in your new journey."
@@ -139,6 +154,7 @@
       "Jeroen Overschie"
     ],
     "type": "Talk",
+    "tag": "Beginners",
     "lang": "en",
     "title": "Are you ready for MLOps?",
     "text": "MLOps has survived the hype cycle and is gaining in maturity. But are we looking at MLOps for answers for the _right things_? \nNo matter how valuable MLOps can be for you, without proper building blocks in place MLOps cannot live up to its full potential. What are the prerequisites for MLOps? What parts of MLOps should you focus on? When should you even start thinking about MLOps, or when is ‘plain’ DevOps wiser to focus on first? Join us in this session to learn more!"
@@ -147,6 +163,7 @@
     "speakers": [
       "Tvrtko Sternak"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Decoding FastStream: A Deeper Dive into the Event Streaming Library",
@@ -156,6 +173,7 @@
     "speakers": [
       "Rudolf Starovský"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "sk",
     "title": "Knižnica Numba alebo ako zrýchliť Python?",
@@ -165,6 +183,7 @@
     "speakers": [
       "Jan Margeta"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Simulate, Analyze, Learn: Python's Physics Simulation",
@@ -174,6 +193,7 @@
     "speakers": [
       "Márton Kodok"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Build applications with generative AI on Google Cloud",
@@ -183,6 +203,7 @@
     "speakers": [
       "Tibor Kurina"
     ],
+    "tag": "Advanced",
     "type": "Talk",
     "lang": "sk",
     "title": "Možnosti spracovania veľkých dát (HugeData/BigData) v jazyku Python",
@@ -192,6 +213,7 @@
     "speakers": [
       "Dom Weldon"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "How do imports work, and why should I care? (and why should I use a tool like PDM?)",
@@ -201,6 +223,7 @@
     "speakers": [
       "Amit Kumar"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Tackling Malaria with Python and distributed computing",
@@ -208,17 +231,9 @@
   },
   {
     "speakers": [
-      "Mohammad Rahman"
-    ],
-    "type": "Talk",
-    "lang": "en",
-    "title": "Green Roof and Purple Roof hydraulic modeling using Python",
-    "text": "Green roofs and purple roofs have emerged as sustainable strategies to mitigate urban heat island effects and manage stormwater runoff. Hydraulic modeling plays a pivotal role in understanding the performance of these roofs in retaining and managing water. This abstract delves into the utilization of Python, specifically leveraging the capabilities of NumPy and machine learning algorithms, to develop and analyze hydraulic models for green and purple roofs.\n\nThe integration of Python, a versatile programming language, with the scientific computing library NumPy, provides a powerful platform for constructing mathematical models that simulate water flow and retention characteristics of these innovative roofing systems. Through the application of machine learning algorithms, these models aim to predict and optimize the hydraulic behavior of green and purple roofs under varying conditions.\n\nIn this study, the focus lies in harnessing Python's computational prowess to implement numerical methods for simulating water flow dynamics on green and purple roofs. Utilizing NumPy's array-based computing functionalities enables efficient manipulation and calculation of large datasets, crucial for modeling complex hydraulic systems. By integrating machine learning techniques, such as regression and neural networks, with the hydraulic models, predictive capabilities are enhanced to forecast water retention, infiltration rates, and overall performance of these roofs.\n\nPython's extensibility allows for the incorporation of data collected from physical prototypes or real-world installations, facilitating the calibration and validation of the hydraulic models. Leveraging machine learning algorithms, these models adapt and improve over time with additional data, enhancing their accuracy and reliability in predicting water behavior on green and purple roofs.\n\nFurthermore, Python's visualization libraries enable the creation of graphical representations that aid in interpreting and communicating the simulation results. This visualization aspect is crucial for stakeholders, urban planners, and researchers to comprehend the hydraulic performance of green and purple roofs, fostering informed decision-making regarding their implementation and optimization.\n\nThrough the amalgamation of Python, NumPy, and machine learning techniques, this study aims to contribute to the advancement of hydraulic modeling for green and purple roofs. By harnessing the computational capabilities of Python and leveraging machine learning algorithms, the goal is to develop robust and predictive models that assist in optimizing the design, performance evaluation, and implementation of these sustainable roofing systems in urban environments.\n\nKeywords: Hydraulic modeling, Green roof, Purple roof, Python, NumPy, Machine learning, Water retention, Stormwater management, Urban sustainability."
-  },
-  {
-    "speakers": [
       "Pavel Král"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "en",
     "title": "Large Language Models Across Languages",
@@ -228,6 +243,7 @@
     "speakers": [
       "Vojta Filipec"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "en",
     "title": "The Beauty of Sinus And Cosinus: Hypotrochoid Curves as a Web App",
@@ -237,6 +253,7 @@
     "speakers": [
       "Mykalin Jones"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "en",
     "title": "Teaching Children Python - What Works?",
@@ -246,6 +263,7 @@
     "speakers": [
       "Peter Steiner"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "en",
     "title": "Data Engineering Story",
@@ -255,6 +273,7 @@
     "speakers": [
       "Peter Bakonyi"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "en",
     "title": "Pythonic Outliers: Mastering LOF Detection",
@@ -264,6 +283,7 @@
     "speakers": [
       "Michal Brandis"
     ],
+    "tag": "Beginners",
     "type": "Talk",
     "lang": "sk",
     "title": "Analýza freelance trhu. Trendy, štatistiky a prehľad v IT projektoch",
@@ -273,6 +293,7 @@
     "speakers": [
       "Mirek Biňas"
     ],
+    "tag": "Intermediate",
     "type": "Talk",
     "lang": "sk",
     "title": "Python pre DevOps",
@@ -282,6 +303,7 @@
     "speakers": [
       "PyLadies Bratislava"
     ],
+    "tag": "Beginners",
     "type": "Workshop",
     "lang": "en",
     "title": "Introduction to Automation and Scripting: A Beginner's Workshop in Python",
@@ -291,6 +313,7 @@
     "speakers": [
       "Jakub Hantabal a Laura Johanesová"
     ],
+    "tag": "Intermediate",
     "type": "Workshop",
     "lang": "en",
     "title": "Uncovering patterns in a dataset via data visualization and accessible machine learning",
@@ -300,6 +323,7 @@
     "speakers": [
       "Yke Rusticus a Jeroen Overschie"
     ],
+    "tag": "Beginners",
     "type": "Workshop",
     "lang": "en",
     "title": "How to MLOps: Experiment tracking & deployment",
@@ -309,6 +333,7 @@
     "speakers": [
       "Štěpán Bechynský"
     ],
+    "tag": "Beginners",
     "type": "Workshop",
     "lang": "cz",
     "title": "Micro:bit a Python",
@@ -318,6 +343,7 @@
     "speakers": [
       "Elena Štefancová"
     ],
+    "tag": "Beginners",
     "type": "Workshop",
     "lang": "sk",
     "title": "Mám dáta, čo s nimi?",
@@ -327,6 +353,7 @@
     "speakers": [
       "Maxim Danilov"
     ],
+    "tag": "Intermediate",
     "type": "Workshop",
     "lang": "en",
     "title": "Creating really Multilingual Django project in few steps",
@@ -336,6 +363,7 @@
     "speakers": [
       "Shahriyar Rzayev"
     ],
+    "tag": "Intermediate",
     "type": "Workshop",
     "lang": "en",
     "title": "Score A+ for Security Headers with Django application",
@@ -345,6 +373,7 @@
     "speakers": [
       "Michal Kaukič a Mirek Biňas"
     ],
+    "tag": "Beginners",
     "type": "Workshop",
     "lang": "sk",
     "title": "Dátová analytika ako predjedlo",
@@ -354,6 +383,7 @@
     "speakers": [
       "Pavel Král"
     ],
+    "tag": "Intermediate",
     "type": "Workshop",
     "lang": "en",
     "title": "Creating a RAG tool in Python",
@@ -363,6 +393,7 @@
     "speakers": [
       "Tomáš Pulai"
     ],
+    "tag": "Intermediate",
     "type": "Workshop",
     "lang": "sk",
     "title": "AsyncSocket Mastery",
@@ -372,6 +403,7 @@
     "speakers": [
       "Silvia Ličková"
     ],
+    "tag": "Beginners",
     "type": "Workshop",
     "lang": "sk",
     "title": "Ako sa predať na trhu práce (CV/LINKEDIN)",
@@ -382,6 +414,7 @@
       "CoderDojo"
     ],
     "type": "Workshop",
+    "tag": "Kids",
     "lang": "sk",
     "title": "CoderDojo workshop pre mladých ľudí od 7 do 17 rokov",
     "text": "Kluby CoderDojo sú neformálne stretnutia, kde majú deti možnosť rozvíjať svoje zručnosti v priateľskej komunite svojich rovesníkov a technických mentorov (spravidla profesionálnych programátorov).\n\nStretnutia majú formát hackerspaceov: téma je voľná a deti motivujeme k práci na vlastných projektoch a nápadoch.\n\nNa CoderDojo na PyCone môžete prihlásiť potomka aj bez toho, aby mal kúpený lístok."

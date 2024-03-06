@@ -117,7 +117,7 @@ SATURDAY1 = (
     },
     {
         'time': '11:55 - 12:35',
-        'title': 'Green Roof and Purple Roof hydraulic modeling using Python',
+        'title': 'Simulate, Analyze, Learn: Python\'s Physics Simulation',
     },
     {
         'time': '12:35 - 13:35',
@@ -137,17 +137,13 @@ SATURDAY1 = (
         'title': 'Azure OpenAI for Python developers in enterprise organizations',
     },
     {
-        'time': '16:00 - 16:40',
-        'title': 'Simulate, Analyze, Learn: Python\'s Physics Simulation',
-    },
-    {
-        'time': '16:55 - 17:25',
+        'time': '16:00 - 16:45',
         'title': 'Python Quiz',
         'avatar': '/static/img/speakers/python.svg',
         'speaker_url': '',
     },
     {
-        'time': '17:30 - 18:00',
+        'time': '17:00 - 18:00',
         'title': 'Lightning talks',
         'avatar': '/static/img/speakers/lightning.png',
         'speaker_url': '',
@@ -155,6 +151,10 @@ SATURDAY1 = (
 )
 
 SATURDAY2 = (
+    {
+        'time': '9:30 - 10:10',
+        'title': 'Tackling Malaria with Python and distributed computing',
+    },
     {
         'time': '10:15 - 10:55',
         'title': 'Innovative data science education: The story of Data Science Academy',
@@ -183,10 +183,6 @@ SATURDAY2 = (
     {
         'time': '15:15 - 15:55',
         'title': 'Python pre DevOps',
-    },
-    {
-        'time': '16:00 - 16:40',
-        'title': 'Tackling Malaria with Python and distributed computing',
     },
 )
 
@@ -287,6 +283,7 @@ SUNDAY_F = (
         'avatar': '/static/img/speakers/female.png',
         'external_url': 'https://djangogirls.org/en/bratislava_sk/',
         'desc': 'Registration via djangogirls.org',
+        'tag': 'Beginners'
     },
     {
         'time': '13:00 - 14:00',
@@ -299,5 +296,6 @@ SUNDAY_F = (
         'avatar': '/static/img/speakers/female.png',
         'external_url': 'https://djangogirls.org/en/bratislava_sk/',
         'desc': 'Registration via djangogirls.org',
+        'tag': 'Beginners'
     },
 )
