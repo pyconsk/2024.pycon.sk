@@ -211,6 +211,36 @@ def talks():
     return render_template('talk_list.html', **variables)
 
 
+@app.route('/<lang_code>/virtual-swag.html')
+def swag():
+    virtual_swag = [
+        {
+            "title": "TITANS",
+            "img": "swag_titans.png",
+            "link": "https://join.titans.eu/en/?utm_source=banner&utm_medium=virtual+swag&utm_campaign=PyCon&utm_id=07032024&utm_term=homepage&utm_content=jointhetitans",
+        },
+        {
+            "title": "ALITER",
+            "img": "swag_aliter.jpg",
+            "link": "https://www.aliter.com/sk/kariera",
+        },
+        {
+            "title": "GOPAS",
+            "img": "swag_gopas.png",
+            "link": "https://www.gopas.sk/GopasAdvancedSearch/Search?q=python&AuthorizationVendor=0",
+        },
+        {
+            "title": "IBL Software Engineering",
+            "img_double": [
+                "swag_ibl_1.png",
+                "swag_ibl_2.png",
+            ],
+            "link": "https://www.iblsoft.com/",
+        },
+    ]
+    variables = _get_template_variables(li_swag='active', background='bkg-speaker', swag=virtual_swag)
+    return render_template('swag.html', **variables)
+
 @app.route('/<lang_code>/speakers/<name>.html')
 def profile(name):
     variables = _get_template_variables(li_speakers='active', background='bkg-speaker')
