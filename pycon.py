@@ -9,7 +9,7 @@ from flask_babel import Babel, gettext, lazy_gettext
 from schedule import (
     FRIDAY1, FRIDAY2,
     SATURDAY1, SATURDAY2,
-    SUNDAY_A, SUNDAY_B, SUNDAY_C, SUNDAY_D, SUNDAY_E, SUNDAY_F
+    SUNDAY_A, SUNDAY_B, SUNDAY_C, SUNDAY_D, SUNDAY_E, SUNDAY_F, SUNDAY_G
 )
 from utils import get_news, get_speakers, get_talks, get_sponsors, encode_name, decode_name, get_jobs
 
@@ -360,6 +360,11 @@ def sunday():
             "title": "Room F",
             "slug": "workshop_f",
             "talks": _get_schedule_details(SUNDAY_F),
+        },
+        {
+            "title": "Room G",
+            "slug": "workshop_g",
+            "talks": _get_schedule_details(SUNDAY_G),
         },
     ]
     context = _get_template_variables(

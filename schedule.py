@@ -299,3 +299,10 @@ SUNDAY_F = (
         'tag': 'Beginners'
     },
 )
+
+SUNDAY_G = (
+    {
+        'time': '14:00 - 16:00',
+        'title': 'BBC micro:bit workshop pre mladých ľudí od 9 do 15 rokov',
+    },
+)

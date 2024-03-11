@@ -418,5 +418,15 @@
     "lang": "sk",
     "title": "CoderDojo workshop pre mladých ľudí od 7 do 17 rokov",
     "text": "Kluby CoderDojo sú neformálne stretnutia, kde majú deti možnosť rozvíjať svoje zručnosti v priateľskej komunite svojich rovesníkov a technických mentorov (spravidla profesionálnych programátorov).\n\nStretnutia majú formát hackerspaceov: téma je voľná a deti motivujeme k práci na vlastných projektoch a nápadoch.\n\nNa CoderDojo na PyCone môžete prihlásiť potomka aj bez toho, aby mal kúpený lístok."
+  },
+  {
+    "speakers": [
+      "Tomáš Božik"
+    ],
+    "type": "Workshop",
+    "tag": "Kids",
+    "lang": "sk",
+    "title": "BBC micro:bit workshop pre mladých ľudí od 9 do 15 rokov",
+    "text": "Na workshope pre deti vo veku od 9 do 12 rokov si pomocou programovateľného zariadenia BBC micro:bit vytvoríme jednoduchého papierového robotíka. Deti sa naučia ako rozblikať diódy, prehrať hudbu a pochopia základy blokového programovania na platforme MakeCode. Okrem práce s micro:bitom budeme strihať, kresliť a lepiť."
   }
 ]

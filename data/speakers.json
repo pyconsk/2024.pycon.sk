@@ -340,5 +340,14 @@
         "links": {
             "globe": "https://bratislava.coderdojo.sk/"
         }
+    },
+    {
+        "name": "Tomáš Božik",
+        "bio": "Tomáš sa oblasti celoživotného vzdelávania v IT venuje už viac ako 20 rokov. Viedol neziskovú organizáciu „IT v kurze“. Neskôr ho táto skúsenosť priviedla do regionálneho školstva, keď viedol OpenLab, o.z. a pôsobil na SPŠE Hálova so zameraním na IT. Je zakladateľom Akadémie digitálnych zručností. V Učíme s Hardvérom ma na starosti inovačné vzdelávanie pre učiteľov.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/tomas_bozik.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/tomasbozik"
+        }
     }
 ]
