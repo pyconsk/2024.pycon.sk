@@ -27,15 +27,19 @@
       <p>{{_('Enjoy virtual swag from our partners!')}}</p>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row d-flex justify-content-center">
       <div class="col-xl-9 align-self-center text-center mt-4">
         {% for item in swag %}
         <div>
           <h2>{{ item.title }}</h2>
             {% if item.img %}
-            <a href="{{ item.link }}" target="_blank">
-              <img class="img-responsive" src="{{ url_for('static', filename='img/swag/'+item.img) }}" alt="img">
-            </a>
+            <div class="row d-flex justify-content-center">
+              <div class="{{ item.css_tags }}">
+                <a href="{{ item.link }}" target="_blank">
+                  <img class="img-responsive" src="{{ url_for('static', filename='img/swag/'+item.img) }}" alt="img">
+                </a>
+              </div>
+            </div>
             {% elif item.img_double %}
               <div class="row justify-content-center">
                 <div class="col-8 col-md-6 mt-3">
@@ -50,6 +54,7 @@
                 </div>
               </div>
             {% endif %}
+            <br>
             <a href="{{ item.link }}" target="_blank" class="mt-4">
               {{_('More details')}}
               <svg width="20px" height="20px" viewBox="0 0 24 24" style="cursor:pointer"><g stroke-width="2.1" stroke="#666" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline><path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path></g></svg>

@@ -237,6 +237,12 @@ def swag():
             ],
             "link": "https://www.iblsoft.com/",
         },
+        {
+            "title": "Blueprint Power",
+            "img": "swag_blueprintpower.png",
+            "css_tags": "col-10 col-sm-6 col-md-5",
+            "link": "https://www.blueprintpower.com/",
+        },
     ]
     variables = _get_template_variables(li_swag='active', background='bkg-speaker', swag=virtual_swag)
     return render_template('swag.html', **variables)
