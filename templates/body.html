@@ -139,6 +139,18 @@
                                                     </li>
                                                   </ul>
                                                 </li>
+                                                <li class="dropdown {% if li_livestream1 or li_livestream2 %} current{% endif %}">
+                                                  <a href="#" class="dropdown-toggle">{{ _('LIVE') }}
+                                                  </a>
+                                                  <ul class="rt-dropdown-menu" role="menu">
+                                                    <li {% if li_livestream1 %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('livestream_blue_room', lang_code=lang_code) }}">{{ _('Blue room') }}</a>
+                                                    </li>
+                                                    <li {% if li_livestream2 %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('livestream_yellow_room', lang_code=lang_code) }}">{{ _('Yellow room') }}</a>
+                                                    </li>
+                                                  </ul>
+                                                </li>
                                                 <li {% if li_sponsors %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
                                                 </li>
@@ -204,6 +216,18 @@
                                                     </li>
                                                     <li {% if li_talks %} class="menu-justify current"{% endif %}>
                                                       <a href="{{ url_for('talks', lang_code=lang_code) }}">{{ _('Talks and workshops') }}</a>
+                                                    </li>
+                                                  </ul>
+                                                </li>
+                                                <li class="dropdown {% if li_livestream1 or li_livestream2 %} current{% endif %}">
+                                                  <a href="#">{{ _('LIVE') }}
+                                                  </a>
+                                                  <ul class="rt-dropdown-menu" role="menu">
+                                                    <li {% if li_livestream1 %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('livestream_blue_room', lang_code=lang_code) }}">{{ _('Blue room') }}</a>
+                                                    </li>
+                                                    <li {% if li_livestream2 %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('livestream_yellow_room', lang_code=lang_code) }}">{{ _('Yellow room') }}</a>
                                                     </li>
                                                   </ul>
                                                 </li>

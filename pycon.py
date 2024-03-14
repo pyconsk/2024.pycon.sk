@@ -401,16 +401,28 @@ def sunday():
 #     return render_template('jobs.html', **template_vars)
 
 
-# @app.route('/<lang_code>/livestream-titans-room.html')
-# def livestream_titans_room():
-#     template_vars = _get_template_variables(
-#         li_livestream1='active',
-#         background='bkg-speaker',
-#         room_name='Titans room',
-#         youtube_stream='1d83b19GIdM',
-#         slido_link='https://app.sli.do/event/cEPd2DTRrEKybtAK6nget8/live/questions?section=a550b24c-5361-4dfd-af63-01f811f53da5',
-#     )
-#     return render_template('livestream.html', **template_vars)
+@app.route('/<lang_code>/livestream-blue-room.html')
+def livestream_blue_room():
+    template_vars = _get_template_variables(
+        li_livestream1='active',
+        background='bkg-speaker',
+        room_name='Blue room',
+        youtube_stream='RTr3cWEiJ24',
+        slido_link='https://app.sli.do/event/mV6iVEoabpt1d4xN9F7YSS/live/questions',
+    )
+    return render_template('livestream.html', **template_vars)
+
+
+@app.route('/<lang_code>/livestream-yellow-room.html')
+def livestream_yellow_room():
+    template_vars = _get_template_variables(
+        li_livestream2='active',
+        background='bkg-speaker',
+        room_name='Yellow room',
+        youtube_stream='EC4KK_Lh7GM',
+        slido_link='https://app.sli.do/event/mV6iVEoabpt1d4xN9F7YSS/live/questions',
+    )
+    return render_template('livestream.html', **template_vars)
 
 
 def get_speaker_url():
