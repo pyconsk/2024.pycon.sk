@@ -39,7 +39,7 @@
 			
 	        setTimeout(function() {
 	            location.reload();
-	        }, 5*60*1000); // HARD RELOAD AFTER 5 minutes
+	        }, 10*60*1000); // HARD RELOAD AFTER 10 minutes
 
 			Reveal.initialize({
 				hash: true,
@@ -55,7 +55,7 @@
 			Reveal.addEventListener( 'first_slide', function() {
 				loop_count++;
 				console.log(loop_count);
-			    if (loop_count === 2) {
+			    if (loop_count === 3) {
 			        location.reload();
 			    }
 			} );
