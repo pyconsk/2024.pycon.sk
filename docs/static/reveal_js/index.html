@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>PyCon SK 2024</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			<div class="slides">
+				<section data-autoslide="10000" data-state="first_slide" data-background="pycon_assets/1.png"></section>
+				<section data-autoslide="10000" data-background="pycon_assets/2.png"></section>
+				<section data-autoslide="10000" data-background="pycon_assets/3.png"></section>
+				<section data-autoslide="10000" data-background="pycon_assets/4.png"></section>
+				<section data-autoslide="10000" data-background="pycon_assets/5.png"></section>
+				<section  data-autoslide="100000" data-background-video="pycon_assets/video.mp4" data-background-video-loop data-background-video-muted></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+
+			var loop_count = 0;
+			
+	        setTimeout(function() {
+	            location.reload();
+	        }, 5*60*1000); // HARD RELOAD AFTER 5 minutes
+
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+				loop: true,
+				controls: false,
+				progress: false,
+
+
+			});
+			Reveal.addEventListener( 'first_slide', function() {
+				loop_count++;
+				console.log(loop_count);
+			    if (loop_count === 2) {
+			        location.reload();
+			    }
+			} );
+		</script>
+	</body>
+</html>
