@@ -407,7 +407,7 @@ def livestream_blue_room():
         li_livestream1='active',
         background='bkg-speaker',
         room_name='Blue room',
-        youtube_stream='RTr3cWEiJ24',
+        youtube_stream='MdDTcYm4OOc',
         slido_link='https://app.sli.do/event/mV6iVEoabpt1d4xN9F7YSS/live/questions',
     )
     return render_template('livestream.html', **template_vars)
@@ -419,7 +419,7 @@ def livestream_yellow_room():
         li_livestream2='active',
         background='bkg-speaker',
         room_name='Yellow room',
-        youtube_stream='EC4KK_Lh7GM',
+        youtube_stream='eha09PySP0g',
         slido_link='https://app.sli.do/event/mV6iVEoabpt1d4xN9F7YSS/live/questions',
     )
     return render_template('livestream.html', **template_vars)
